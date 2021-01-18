@@ -9,13 +9,21 @@ Kickoff Meeting
 
 #### Present
 Uposhanto Bhattacharya 
+
 Trevor Tsai 
+
 Ryan Bui 
+
 Qingyuan Zhang
+
 Farheen Ansari 
+
 Yueqi Wang
+
 Elaine Ha
+
 Miguel Serrano
+
 Anoushka Dave 
 
 #### Absent 
