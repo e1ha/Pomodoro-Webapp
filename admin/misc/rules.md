@@ -46,7 +46,7 @@ And the team members will:
 - Respond promptly to team leader communications about scheduled meetings
 - Let team leaders know promptly about any conflicts or inabilities to make the meeting
 - Make a good effort to come to and actively participate in the meetings
-- 
+
 **Our weekly meetings will be Saturday’s at 3:00PM PST.**
 
 ### Team Signatures
