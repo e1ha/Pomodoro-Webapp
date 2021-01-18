@@ -45,6 +45,7 @@ This was our first meeting for the quarter, so there is no unresolved business.
 
 ### Decisions & Reasoning
 - decided team name - created a list of possible names & discussed our favorites to pick the name
+- decided how to create our video
 
 ### Meeting End Time
-11:00AM PST
+11:30AM PST
