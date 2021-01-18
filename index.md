@@ -53,3 +53,5 @@ Quality with Simplicity.
 ### Yueqi Wang
 ### Miguel Serrano
 ### Qingyuan Zhang
+- I'm a third year CE major in Sixth College, and cooking is one of my hobbies. I have three years of programming experience, and I look forward to gain more software developmennt experience from this class.
+Personal Website: https://gtz05050708.github.io/
