@@ -48,6 +48,8 @@ Quality with Simplicity.
 ### Uposhanto Bhattacharya
 ### Ryan Bui
 ### Elaine Ha
+- Personal Website: https://haelaine.github.io/Github-Page/
+- Hey guys! I’m Elaine and I’m a third year computer science major. A fun fact about myself is that I love to bake but most of my creations don’t end up as they should be sadly. My favorite Pokemon is Snorlax. I have around two years of programming experience and I hope to learn more about what being a software engineer consists of and getting practical experience from this course! 
 ### Farheen Ansari
 ### Anoushka Dave
 ### Yueqi Wang
