@@ -3,7 +3,7 @@
 ## Team 7: Ash Ketchup
 
 ### Type of Meeting
-Kickoff Meeting
+Kickoff Meeting - Ad Hoc
 
 ### Members
 
