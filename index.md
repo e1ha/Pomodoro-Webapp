@@ -1,5 +1,5 @@
 <h1>Team Ash Ketchup</h1>
-<img src="logo.png" alt="pikachu" width="150"/>
+<img src="images/logo.png" alt="pikachu" width="150"/>
 
 ## Values
 - Quality.
