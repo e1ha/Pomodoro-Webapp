@@ -35,12 +35,13 @@ This was our first meeting for the quarter, so there is no unresolved business.
 - created Team Contract, placed as /admin/misc/rules.md
 - each member signed & created their own copy of the Team Contract, placed as /admin/misc/rules-studentname.pdf
 - created team name
-- created group page
+- started talking about interest in different roles
 - created group video
 
 #### Anything Not Discussed
 - must invite TA (Sasya) to GitHub repository
-- must discuss roles in project
+- created group page
+- must finalize roles in project
 
 ### Decisions & Reasoning
 - decided team name - created a list of possible names & discussed our favorites to pick the name
