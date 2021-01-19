@@ -53,6 +53,8 @@ Quality with Simplicity.
 ### Farheen Ansari
 ### Anoushka Dave
 ### Yueqi Wang
+- Personal Website: https://yuw006.github.io/
+- Hello, I am Yueqi, and I am in my 4th year of Computer Engineering. My favorite pokemon is Gengar. I have been programming for about 3 years now, and I generally use python or C++. I haven't done projects from scratch in a while (been doing Leetcode), so I am excited to work on a large-scale web app.
 ### Miguel Serrano
 ### Qingyuan Zhang
 - I'm a third year CE major in Sixth College, and cooking is one of my hobbies. I have three years of programming experience, and I look forward to gain more software developmennt experience from this class.
