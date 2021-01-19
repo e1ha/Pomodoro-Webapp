@@ -50,8 +50,9 @@ Quality with Simplicity.
 ### Uposhanto Bhattacharya
 - Personal Website: https://thehiddenlayer.github.io
 - Hey I'm Uposhanto: a 2nd year computer science major! One of my hobbies is going on hikes around San Diego and watching sunsets at Torrey Pines beach! Our team name is pokemon-themed, and i.m.o. pokemon is Squirtle. I program in C++, Python, & TypeScript. This is gonna be an awesome quarter!
-
 ### Ryan Bui
+- Personal Website: https://ryanbuui.github.io/Github-Page/
+- Hey! I'm Ryan, a second year computer science major. A fun fact about me is that I have an identical twin who goes to the same college as me. In my free time I really enjoy playing basketball or going surfing. My favorite pokemon has to be Chimchar. In regards to programming, I have experience with Java, C/C++, python, and a bit of Javascript. I'm hoping to polish my web development in this class and I'm also excited to be working with a team this quarter!   
 ### Elaine Ha
 - Personal Website: https://haelaine.github.io/Github-Page/
 - Hey guys! I’m Elaine and I’m a third year computer science major. A fun fact about myself is that I love to bake but most of my creations don’t end up as they should be sadly. My favorite Pokemon is Snorlax. I have around two years of programming experience and I hope to learn more about what being a software engineer consists of and getting practical experience from this course! 
