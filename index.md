@@ -48,6 +48,9 @@ Quality with Simplicity.
 - Personal website: https://thedestroyer4312.github.io/GitHub-Pages-Project/
 - Hello! My name is Trevor, and I am a second year computer science major. A fun fact about me is that my favorite subject is English! It's not as contradictory as it may initially appear to be, don't worry. My favorite Pokemon is Pikachu because I'm basic, and I have around 2 or 3 years of experience programming in Java, C++, and some Javascript. I am looking forward to working on a large project in this class!
 ### Uposhanto Bhattacharya
+- Personal Website: https://thehiddenlayer.github.io
+- Hey I'm Uposhanto: a 2nd year computer science major! One of my hobbies is going on hikes around San Diego and watching sunsets at Torrey Pines beach! Our team name is pokemon-themed, and i.m.o. pokemon is Squirtle. I program in C++, Python, & TypeScript. This is gonna be an awesome quarter!
+
 ### Ryan Bui
 ### Elaine Ha
 - Personal Website: https://haelaine.github.io/Github-Page/
