@@ -45,11 +45,21 @@ Quality with Simplicity.
 - (random overview) Year, Major, fun fact, favorite pokemon, years of programming experience, what you're looking forward to getting out of the class.
 
 ### Trevor Tsai
+- Personal website: https://thedestroyer4312.github.io/GitHub-Pages-Project/
+- Hello! My name is Trevor, and I am a second year computer science major. A fun fact about me is that my favorite subject is English! It's not as contradictory as it may initially appear to be, don't worry. My favorite Pokemon is Pikachu because I'm basic, and I have around 2 or 3 years of experience programming in Java, C++, and some Javascript. I am looking forward to working on a large project in this class!
 ### Uposhanto Bhattacharya
 ### Ryan Bui
 ### Elaine Ha
+- Personal Website: https://haelaine.github.io/Github-Page/
+- Hey guys! I’m Elaine and I’m a third year computer science major. A fun fact about myself is that I love to bake but most of my creations don’t end up as they should be sadly. My favorite Pokemon is Snorlax. I have around two years of programming experience and I hope to learn more about what being a software engineer consists of and getting practical experience from this course! 
 ### Farheen Ansari
 ### Anoushka Dave
+- Personal Website: https://anoushkadave.github.io/
+- Hey! My name is Anoushka & I am a second year Computer Science major. A fun fact about me is that I have been acting for 7 years! I love theatre & I also currently have a minor in Theatre at UCSD. My favorite Pokemon is Pikachu. I have been programming for 5 years. I primarily code in Java, C, C++, or Python. I am looking forward to developing my knowledge of JavaScript and Software Engineering through this class! I am also really excited to get to know my teammates and work in a group!
 ### Yueqi Wang
+- Personal Website: https://yuw006.github.io/
+- Hello, I am Yueqi, and I am in my 4th year of Computer Engineering. My favorite pokemon is Gengar. I have been programming for about 3 years now, and I generally use python or C++. I haven't done projects from scratch in a while (been doing Leetcode), so I am excited to work on a large-scale web app.
 ### Miguel Serrano
 ### Qingyuan Zhang
+- I'm a third year CE major in Sixth College, and cooking is one of my hobbies. I have three years of programming experience, and I look forward to gain more software developmennt experience from this class.
+Personal Website: https://gtz05050708.github.io/
