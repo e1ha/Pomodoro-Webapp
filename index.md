@@ -1,7 +1,7 @@
 <h1>Team Ash Ketchup</h1>
 <img src="images/logo.png" alt="pikachu" width="150"/>
 
-## `Values`
+## `Our Values 💯`
 - Quality.
 - Be passionate.
 - Customer obsession.
@@ -9,7 +9,8 @@
 - Ambition.
 - Faith in each other.
 
-## `Culture`
+## `Our Culture 🤝`
+```
 Prepare for productivity!
 
 And make it pomodoro!
@@ -33,11 +34,11 @@ Surrender now, or prepare to fail!
 **POMODORO!**
 
 That's right!
+```
+## `The Mission & Mantra 💟`
+### *Quality with Simplicity.*
 
-## `Mission & Mantra`
-Quality with Simplicity.
-
-## `Our Team!`
+## `Meet Our Team! 😁`
 
 ### [Trevor Tsai](https://thedestroyer4312.github.io/GitHub-Pages-Project/)
 Hello! My name is Trevor, and I am a second year computer science major. A fun fact about me is that my favorite subject is English! It's not as contradictory as it may initially appear to be, don't worry. My favorite Pokemon is Pikachu because I'm basic, and I have around 2 or 3 years of experience programming in Java, C++, and some Javascript. I am looking forward to working on a large project in this class!
