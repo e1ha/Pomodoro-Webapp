@@ -64,6 +64,8 @@ Quality with Simplicity.
 - Personal Website: https://yuw006.github.io/
 - Hello, I am Yueqi, and I am in my 4th year of Computer Engineering. My favorite pokemon is Gengar. I have been programming for about 3 years now, and I generally use python or C++. I haven't done projects from scratch in a while (been doing Leetcode), so I am excited to work on a large-scale web app.
 ### Miguel Serrano
+- Personal Website: https://serranomiguel.github.io/
+- Hey everyone! I'm Miguel, a 3rd year computer science major and business minor here in Warren! In my free time, if any, I like to walk around or listen to music. Given that our theme is in Pokemon, I would say that my favorite Pokemon would be Bulbasaur. I started learning programming my senior year of high school, so 4 years ago. From this class, I'm looking forward to getting that "true" software development experience!
 ### Qingyuan Zhang
 - I'm a third year CE major in Sixth College, and cooking is one of my hobbies. I have three years of programming experience, and I look forward to gain more software developmennt experience from this class.
 Personal Website: https://gtz05050708.github.io/
