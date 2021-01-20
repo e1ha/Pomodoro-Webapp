@@ -37,13 +37,7 @@ That's right!
 ## Mission & Mantra
 Quality with Simplicity.
 
-## Bios
-
-#### TEMPLATE
-### Name
-- Personal website (html or markdown github page, just post your lab1/2 link)
-- (random overview) Year, Major, fun fact, favorite pokemon, years of programming experience, what you're looking forward to getting out of the class.
-
+## Our Team
 ### Trevor Tsai
 - Personal website: https://thedestroyer4312.github.io/GitHub-Pages-Project/
 - Hello! My name is Trevor, and I am a second year computer science major. A fun fact about me is that my favorite subject is English! It's not as contradictory as it may initially appear to be, don't worry. My favorite Pokemon is Pikachu because I'm basic, and I have around 2 or 3 years of experience programming in Java, C++, and some Javascript. I am looking forward to working on a large project in this class!
