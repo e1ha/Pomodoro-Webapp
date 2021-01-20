@@ -57,6 +57,9 @@ Quality with Simplicity.
 - Personal Website: https://haelaine.github.io/Github-Page/
 - Hey guys! I’m Elaine and I’m a third year computer science major. A fun fact about myself is that I love to bake but most of my creations don’t end up as they should be sadly. My favorite Pokemon is Snorlax. I have around two years of programming experience and I hope to learn more about what being a software engineer consists of and getting practical experience from this course! 
 ### Farheen Ansari
+- Personal Webstie: https://fansari18.github.io/
+- Hi Yall! My name is Farheen and I'm a fourth year Math-CS major. Some of my hobbies include running and baking/cooking. I love spending time with my friends, exploring outdoors, and fashion! Also my favorite pokemon is Charamander. I have about 3 years of progamming experience and have had a few tech internships. Most of time time I code in Java, but I'm actaully really looking forward to using jacascript this quarter. Can't wait to get started!
+
 ### Anoushka Dave
 - Personal Website: https://anoushkadave.github.io/
 - Hey! My name is Anoushka & I am a second year Computer Science major. A fun fact about me is that I have been acting for 7 years! I love theatre & I also currently have a minor in Theatre at UCSD. My favorite Pokemon is Pikachu. I have been programming for 5 years. I primarily code in Java, C, C++, or Python. I am looking forward to developing my knowledge of JavaScript and Software Engineering through this class! I am also really excited to get to know my teammates and work in a group!
