@@ -23,7 +23,7 @@
 - After around 4-5 pomodoros, take a break for 15-20 minutes
 
 ## Excluded Features
-- No pause button, no skip button
+- No pause or skip buttons
 - No distracting UI/UX design
 
 ## Enhancements
