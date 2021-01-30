@@ -39,3 +39,4 @@
   - Format: Activity Done | amount of cycles needed to complete it
 - Notification suppression
 - If have time stick to theme and add something to do with pokemon 
+- Motivational quotes in the background during breaks and before start (not during the work time)
