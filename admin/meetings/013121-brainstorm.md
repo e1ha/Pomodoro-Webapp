@@ -38,6 +38,7 @@ Remote, Synchronous - Zoom.us
 - **Miguel:** Button Event Handling
 - **Anoushka:** Make weekly discussion slides, Tasks Page (Remaining Page)
 - **Qingyuan:** Logic for Timer
+- frequently update all progress on standup Slack channel
 
 ## Branches
 - buttons branch (sub branchs): Elaine, Miguel, Yueqi
