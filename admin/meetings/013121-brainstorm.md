@@ -17,33 +17,13 @@ Remote, Synchronous - Zoom.us
 01/31/2021, 02:00PM PST
 
 ### Summary of Brainstorm
-- discussed individual participation/attendance
-  - Farheen & Trevor will attend and participate actively
-- discussed Weekly discussions
-  - have summary slide, get time to ask questions
-  - Anoushka will make the slides for this week
-  - send video recording in advance
-- completed Wireframes - worked on Home Page, Instructions Page, Work Timer, Long Break, and Short Break Timer Pages
-- completed initial Brianstorming assignment for this week
-- created weekly discussion video
-- assigned simple tasks for this week
-
-### Individual Tasks
-- **Upo:** Create Repository structure for all files, Some CSS for layouts of pages
-- **Trevor:** Attend lecture live, send weekly discussion recording to TA (Sasya), Short Break Timer Page
-- **Ryan:** Tasks Page (Tasks Component)
-- **Farheen:** Attend lecture live, Instructions Page
-- **Yueqi:** Button Event Handling
-- **Elaine:** Button Event Handling
-- **Miguel:** Button Event Handling
-- **Anoushka:** Make weekly discussion slides, Tasks Page (Remaining Page)
-- **Qingyuan:** Logic for Timer
-- frequently update all progress on standup Slack channel
-
-## Branches
-- buttons branch (sub branchs): Elaine, Miguel, Yueqi
-- pages branch (sub branches): Anoushka, Ryan, Trevor, Farheen
-- styling branch: Upo
+- completed Wireframes for all pages in our app. One team member shared their screen and the whole group collaborated on Zoom to create the following designs. All of these designs can be found in ./../specs/pages
+  - Home Page
+  - Instructions Page
+  - Work Timer Page
+  - Long Break Time Page
+  - Short Break Timer Page
+- completed initial Brianstorming assignment for this week (did not do the listed items at the bottom - we will finish this as we progress)
 
 ### Meeting End Time
 04:00PM PST
