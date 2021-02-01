@@ -46,16 +46,17 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-- no progress for task yesterday, just got assigned in group
+- No progress for my task yesterday. I just got assigned in the group meeting.
 
 ### What are your blockers?
-- no blockers
+- No blockers.
 
 ### What will you work on today?
-- get branch, issue, ticket, and file set up for Tasks Page with Ryan
+- Short call with Ryan to get our branch, issue, ticket, and file set up for the Tasks Page.
+- Will begin working on my task itself for the Tasks Page if there is time.
 
 ### How close are we to hitting our sprint goals?
-- just starting still 
+- I am just starting out, but if we complete the full setup today, I am doing good on time.
 
 ## <span style="color: red;">Elaine H.</span>
 
