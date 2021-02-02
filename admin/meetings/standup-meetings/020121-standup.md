@@ -77,16 +77,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing much, mostly a team meeting regarding our roles within the team and assigning tasks.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have not run into blockers yet.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I spent today working on classwork for the other classes I am taking this quarter.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- By knocking out work for other classes, meeting sprint goals should be manageable. 
 
 ## <span style="color: red;">Trevor T.</span>
 
