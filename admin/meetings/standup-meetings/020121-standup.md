@@ -130,4 +130,4 @@
 *Continue researching the timer.
 
 ### How close are we to hitting our sprint goals?
-*I think I can finish it in Thursday.
+*I think I can finish it on Thursday.
