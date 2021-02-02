@@ -91,16 +91,17 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- As of yesterday, our tasks were just assigned, so work has yet to be completed.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers as of yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Attending lecture live and coordinating our group attendance with Saysa
+- Begin preliminary work on the timer break pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- With a reasonable pace of work, we should be on track to hitting our sprint goals this week
 
 ## <span style="color: red;">Yueqi W.</span>
 
