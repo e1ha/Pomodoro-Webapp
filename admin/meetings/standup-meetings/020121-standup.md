@@ -106,16 +106,17 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I looked up the method window.location for javascript
+- created a javascript file for exploratory programming
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Nothing yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Other work
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- If I spend part of Tuesday/Wednesday on my task I'd say I'm almost there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
