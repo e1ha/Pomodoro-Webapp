@@ -116,13 +116,14 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+* Resarched timer.
+* Javascript file setup in VSCode.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+* Nothing yet.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+* Implement Timer prototype.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+* On the right track to finish on time.
