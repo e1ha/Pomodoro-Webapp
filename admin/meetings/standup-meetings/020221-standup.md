@@ -1,5 +1,5 @@
 # Standup Notes
-*Daily Updates for Weekly Sprint - 02/01/2021*
+*Daily Updates for Weekly Sprint - 02/02/2021*
 
 ## <span style="color: red;">Farheen A.</span> 
 
