@@ -32,16 +32,18 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Did not work on anything yesterday as we were just assigned tasks.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers currently.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Meet up with Anoushka to set up our branch and implement boilerplate code for our assigned page.
+- Create an issue for the frontend of the tasks page.
+- Start working on my task.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- After setting up the basic requirements for our task, we will be on track to finish by the deadline.
 
 ## <span style="color: red;">Anoushka D.</span>
 
