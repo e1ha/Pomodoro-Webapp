@@ -103,16 +103,17 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I asked wether we needed a delete task feature
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Nothing yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Homework for another class and lab for 110
+- I will also ask about Timer start function
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- 20% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
