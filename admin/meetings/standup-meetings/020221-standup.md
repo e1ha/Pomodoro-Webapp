@@ -32,16 +32,17 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Met up with Anoushka to set up our branch and implement boilerplate code for our assigned page.
+- Created an issue for the frontend of the tasks page.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Set up the basic html layout for my assigned component
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- If I'm able to set up the html layout today, I'll be making good pace.
 
 ## <span style="color: red;">Anoushka D.</span>
 
