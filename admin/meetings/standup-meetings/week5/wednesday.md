@@ -33,16 +33,16 @@
 <h1><span style="color: red;">Ryan B.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+I was a bit busy yesterday, I set up a basic html layout for my task component.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Start adding html and css to complete my component.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+I should be able to finish my task by tomorrow, so we're still on track.
 
 <h1><span style="color: red;">Anoushka D.</span></h1>
 
