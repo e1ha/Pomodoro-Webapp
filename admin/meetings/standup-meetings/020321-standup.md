@@ -18,13 +18,14 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+Yesterday I created the repo structure for our team and fixed any logistical issues.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Today I will work on understanding the best practices on global CSS and how to route different checks in CircleCI.
+
 
 ### How close are we to hitting our sprint goals?
 *[INSERT]*
