@@ -104,16 +104,17 @@
 <h1><span style="color: red;">Yueqi W.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- other projects
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- nothing yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- ask David/Qingyuan about his start timer method so that I can include it in my function
+- other projects
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- about 30% there
 
 <h1><span style="color: red;">Qingyuan Z.</span></h1>
 
