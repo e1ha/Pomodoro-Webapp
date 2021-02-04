@@ -76,16 +76,16 @@
 <h1><span style="color: red;">Miguel S.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- N/A
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Did some research on Pomodoro timers and what the good, bad, and ugly with them.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is still feasible.
 
 <h1><span style="color: red;">Trevor T.</span></h1>
 
