@@ -18,13 +18,13 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-Yesterday I created the repo structure for our team and fixed any logistical issues.
+- Yesterday I created the repo structure for our team and fixed any logistical issues.
 
 ### What are your blockers?
-I have no blockers.
+- I have no blockers.
 
 ### What will you work on today?
-Today I will work on understanding the best practices on global CSS and how to route different checks in CircleCI.
+- Today I will work on understanding the best practices on global CSS and how to route different checks in CircleCI.
 
 
 ### How close are we to hitting our sprint goals?

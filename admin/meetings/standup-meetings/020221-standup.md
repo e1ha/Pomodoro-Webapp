@@ -18,13 +18,13 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Yesterday I continued to add on to our wireframes with the rest of the team.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Today I'll research creative VanillaJS coding design because we want to get a lot done without external frameworks.
 
 ### How close are we to hitting our sprint goals?
 *[INSERT]*
