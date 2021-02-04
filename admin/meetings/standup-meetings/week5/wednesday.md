@@ -119,13 +119,13 @@ I should be able to finish my task by tomorrow, so we're still on track.
 <h1><span style="color: red;">Qingyuan Z.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+*nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+*not yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+*Finish timer prototype
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+*Close
