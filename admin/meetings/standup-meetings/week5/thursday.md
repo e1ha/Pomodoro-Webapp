@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Some outside research
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- All other classes taking too much time
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Jotting down notes on logistics of the timer and its features
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It will get done.
 
 ## <span style="color: red;">Trevor T.</span>
 
