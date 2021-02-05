@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I am waiting for Ryan to complete his portion to help fix the padding and margins for the Tasks Page.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I cannot do anything more until Ryan completes his portion.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I am done with my task for this week. Fixing the margins & padding should not be too difficult, so we will definitely hit our sprint goals.
 
 ## <span style="color: red;">Elaine H.</span>
 
