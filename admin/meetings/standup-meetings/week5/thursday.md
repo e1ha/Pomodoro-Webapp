@@ -88,16 +88,16 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I worked on the timer page on my local machine
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Lots of assignments for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Continue work on timer page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It should be still feasible
 
 ## <span style="color: red;">Yueqi W.</span>
 

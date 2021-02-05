@@ -90,16 +90,16 @@ I should be able to finish my task by tomorrow, so we're still on track.
 <h1><span style="color: red;">Trevor T.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I began to do some HTML on my local machine to prep for the timer page
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Assignments and exams for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Continue work on the timer page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It should still be feasible
 
 <h1><span style="color: red;">Yueqi W.</span></h1>
 

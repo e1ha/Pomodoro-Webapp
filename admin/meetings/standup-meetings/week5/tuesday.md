@@ -89,16 +89,16 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I worked on sketching out the diagram for the timer page.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Lot of assignments for other classes getting in the way of 110 work
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Possibly trying to start work on the timer page, go to lecture if possible
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It should still be feasible
 
 ## <span style="color: red;">Yueqi W.</span>
 
