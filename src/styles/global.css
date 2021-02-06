@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-.background {
-    /* color: find out the color */
+.workingBackground {
+    color: #ff6767
+}
+
+.longBreakBackground {
+    color: #47de88
+}
+
+.shortBreakBackground {
+    color: #36a1ff
 }
