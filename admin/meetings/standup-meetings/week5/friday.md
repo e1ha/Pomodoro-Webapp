@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will have a short call with Ryan to finalize the tasks page.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- After our call, we should have hit our sprint goals.
 
 ## <span style="color: red;">Elaine H.</span>
 
