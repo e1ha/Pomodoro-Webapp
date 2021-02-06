@@ -18,13 +18,13 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+Yesterday I came up with a better file structure for our project but it may not be worth implementing because I have now decided that it might be better to merge a few of our scripts once those are complete. 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+There are no blockers as of this moment.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Today I'll rewatch the lecture where the project was introducted to us (Jan 25th/Jan29th) to get a better understanding of the final requirements for the project (especially in terms of whether we're shooting for a finished product or just a polished engineering process). 
 
 ### How close are we to hitting our sprint goals?
 *[INSERT]*
