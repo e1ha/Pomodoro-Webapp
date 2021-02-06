@@ -88,16 +88,17 @@ Today I'll rewatch the lecture where the project was introducted to us (Jan 25th
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I did not manage to do much work yesterday
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Assignments for other classes
+- Poor time management
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Start and finish one of the break timer pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is still feasible but we may end up needing to readjust
 
 ## <span style="color: red;">Yueqi W.</span>
 
