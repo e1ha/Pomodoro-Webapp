@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-Did not work on anything yet
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-I will work on the index.html file
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will be finished by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
