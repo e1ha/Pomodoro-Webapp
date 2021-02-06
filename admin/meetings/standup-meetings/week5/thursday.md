@@ -32,16 +32,16 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Set up the html portion of my component.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Styling my elements and possibly adding some more elements.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost done with my task, so its looking very good.
 
 ## <span style="color: red;">Anoushka D.</span>
 
