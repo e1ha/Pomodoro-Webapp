@@ -4,13 +4,13 @@
 <h1><span style="color: red;">Farheen A.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-Busy with other class did not start on index.html file yet
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-wont be working on anything today. Will start tomorrow
 
 ### How close are we to hitting our sprint goals?
 *[INSERT]*
