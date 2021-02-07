@@ -103,16 +103,18 @@ Today I'll rewatch the lecture where the project was introducted to us (Jan 25th
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- finished my CSE 167 project
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- a lot of stuff to do
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- take a test
+- do the lab
+- write up some code for classes including this one
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- should have it done before the meeting
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
