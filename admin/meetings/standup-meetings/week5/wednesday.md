@@ -62,16 +62,16 @@ I should be able to finish my task by tomorrow, so we're still on track.
 <h1><span style="color: red;">Elaine H.</span></h1>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- No progress has been made. 
 
 <h1><span style="color: red;">Miguel S.</span></h1>
 
