@@ -60,16 +60,16 @@ Today I'll rewatch the lecture where the project was introducted to us (Jan 25th
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I was unsure about what clicking the ? button would lead to.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I did some of the code for the ? button. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Very close. 
 
 ## <span style="color: red;">Miguel S.</span>
 
