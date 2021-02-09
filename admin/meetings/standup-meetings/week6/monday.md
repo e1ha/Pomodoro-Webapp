@@ -18,16 +18,16 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+I researched the code tools.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+My committments for other classes right now.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Today I'll work on trying to set up a few configurations.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+We may or may not be able to finish our sprint goals.
 
 ## <span style="color: red;">Ryan B.</span>
 
