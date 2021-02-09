@@ -1,9 +1,7 @@
+/*eslint-env es6*/
 const { test } = require("@jest/globals");
+const functions = require('./sample');
 
-const functions = {
-    returnNull: () => null
-};
-
-test('Sample test: ', () => {
-    expect(functions.returnNull()).toBe(null)
+test('Adds 2 and 2 to equal 4', () => {
+    expect(functions.addNums(2,2)).toBe(4);
 });
