@@ -1,0 +1,26 @@
+{
+  "name": "cse110-wi21-group7",
+  "version": "1.0.0",
+  "description": "A timer that follows the Pomodoro Technique for increased productivity",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse110-wi21-group7/cse110-wi21-group7.git"
+  },
+  "keywords": [
+    "Web Development"
+  ],
+  "author": "Team 7 Members",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse110-wi21-group7/cse110-wi21-group7/issues"
+  },
+  "homepage": "https://github.com/cse110-wi21-group7/cse110-wi21-group7/index.md"
+}
