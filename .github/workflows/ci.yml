@@ -20,7 +20,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it          
-      - name: Build
+      - name: Clone
+        uses: actions/checkout@v2
+      - name: Lint
+        working-directory: src
+        run: npm run lint
+      - name: Run Unit Tests
+        run: npm run test
+      - name: Generating Documentation
         uses: andstor/jsdoc-action@v1
         with:
           source_dir: ../../src/
