@@ -8,14 +8,16 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^26.6.3",
-    "prettier": "2.2.1"
+    "jsdoc": "^3.6.6"
   },
   "dependencies": {
+    "prettier": "2.2.1",
     "eslint": "^7.19.0"
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint . --ext .js --ignore-pattern node_modules/"
+    "lint": "eslint . --ext .js --ignore-pattern node_modules/",
+    "docs": "jsdoc ./src/scripts -r -d docs"
   },
   "repository": {
     "type": "git",
