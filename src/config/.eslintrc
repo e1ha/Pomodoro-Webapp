@@ -5,13 +5,21 @@
       "prettier/prettier": "error"
     },
     
-    "extends": ["plugin:prettier/recommended"],
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
     
     "parserOptions": {
-      "ecmaVersion": 2017
+      "ecmaVersion": 12,
+      "sourceType": "module"
     },
 
     "env": {
-        "es6": true
-    }
+      "browser": true,
+      "es2021": true
+    },
+
+    "ignorePatterns": ["docs/", "node_modules/"]
 }
+
+
