@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-worked on the lab assignment and started to html.index file
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- had some blockers with choosing the font in html, but changed the font to Georgia
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- will finish up writing the index.html file
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost done with the index.html file.
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
@@ -60,58 +60,61 @@ Today I'll rewatch the lecture where the project was introducted to us (Jan 25th
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I was unsure about what clicking the ? button would lead to.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I did some of the code for the ? button. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Very close. 
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Not much coding
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes and work
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Getting more details on button functionality
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Feasible
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I did not manage to do much work yesterday
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Assignments for other classes
+- Poor time management
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Start and finish one of the break timer pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is still feasible but we may end up needing to readjust
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- finished my CSE 167 project
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- a lot of stuff to do
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- take a test
+- do the lab
+- write up some code for classes including this one
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- should have it done before the meeting
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
