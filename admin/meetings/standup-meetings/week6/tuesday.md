@@ -32,30 +32,32 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Made small updates to tasks page.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Review over jest and start writing some basic tests for the tasks page.
+- Help other members with their task if needed.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I have, for the most part, completed my spring goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will complete the CI/CD Pipeline Phase 1 write up discussing the tools in our pipeline.
+- I will support my team members with their tasks if necessary.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We have met our sprint goals for my task for this sprint.
 
 ## <span style="color: red;">Elaine H.</span>
 

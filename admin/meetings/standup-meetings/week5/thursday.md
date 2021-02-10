@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-Did not work on anything yet
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-I will work on the index.html file
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will be finished by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
@@ -60,16 +60,16 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- No progress has been made. 
 
 ## <span style="color: red;">Miguel S.</span>
 
@@ -102,16 +102,16 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I finished some homework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- not really sure what to put for certain values
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- finish my CSE 167 project 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- a bit behind but not much
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
