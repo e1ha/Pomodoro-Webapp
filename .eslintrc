@@ -3,7 +3,7 @@
 
   "plugins": ["prettier"],
 
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["eslint:recommended", "prettier", "plugin:jest/recommended"],
 
   "rules": {
     "no-console": 1, // Means warning
@@ -16,6 +16,7 @@
   },
 
   "env": {
+    "jest/globals": true,
     "browser": true,
     "es2021": true,
     // "jest": true,
