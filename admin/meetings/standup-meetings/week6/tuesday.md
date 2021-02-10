@@ -98,19 +98,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Looking up implementations on bubble messages.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Other classes in the most dense part of the quarter
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Work for other classes with closer deadlines.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We will get there.
 
 ## <span style="color: red;">Trevor T.</span>
 

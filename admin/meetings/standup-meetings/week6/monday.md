@@ -75,16 +75,16 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Midterm season
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Seeing other examples of pop up messages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We are getting there.
 
 ## <span style="color: red;">Trevor T.</span>
 
