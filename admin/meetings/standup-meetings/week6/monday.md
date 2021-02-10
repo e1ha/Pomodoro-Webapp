@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-did not work 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-discussed with Qingyuan about splitting tasks for timer page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+-will be done by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
