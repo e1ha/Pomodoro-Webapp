@@ -12,10 +12,10 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "test": "jest",
-    "format": "prettier --config src/config/.prettierrc 'src/**/*.js' --write",
     "lint": "eslint src/scripts --ext .js",
-    "docs": "jsdoc ./src/scripts -r -d docs"
+    "test": "jest",
+    "format": "prettier 'src/**/*.js' --write",
+    "docs": "jsdoc src/ -r -d docs"
   },
   "repository": {
     "type": "git",
