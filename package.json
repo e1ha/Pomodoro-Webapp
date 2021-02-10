@@ -6,20 +6,15 @@
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.2.1",
     "jest": "^26.6.3",
-    "jsdoc": "^3.6.6"
-  },
-  "dependencies": {
-    "prettier": "2.2.1"
+    "jsdoc": "^3.6.6",
+    "prettier": "^2.2.1"
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint -c src/config/.eslintrc . --ext .js",
+    "format": "prettier --config src/config/.prettierrc 'src/**/*.js' --write",
+    "lint": "eslint src/scripts --ext .js",
     "docs": "jsdoc ./src/scripts -r -d docs"
   },
   "repository": {

@@ -1,0 +1,29 @@
+{
+  "root": true,
+
+  "plugins": [
+    "prettier"
+  ],
+
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+
+  "rules": {
+    "no-console": 1,       // Means warning
+    "prettier/prettier": 2 // Means error
+  },
+
+  // "parserOptions": {
+  //   "ecmaVersion": 12,
+  //   "sourceType": "module"
+  // },
+
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+
+  "ignorePatterns": ["docs/", "node_modules/"]
+}
