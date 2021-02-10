@@ -32,7 +32,7 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-- I finished a all, or atleast most, of my tasks over the weekend (Backend for Tasks-Page).
+- I finished all, or atleast most, of my tasks over the weekend (Backend for Tasks-Page).
 
 ### What are your blockers?
 - I had no blockers.
