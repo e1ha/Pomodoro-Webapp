@@ -74,16 +74,16 @@ Today I'll rewatch the lecture where the project was introducted to us (Jan 25th
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Not much coding
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes and work
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Getting more details on button functionality
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Feasible
 
 ## <span style="color: red;">Trevor T.</span>
 
