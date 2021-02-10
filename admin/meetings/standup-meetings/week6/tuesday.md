@@ -76,16 +76,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Looking up implementations on bubble messages.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes in the most dense part of the quarter
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Work for other classes with closer deadlines.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We will get there.
 
 ## <span style="color: red;">Trevor T.</span>
 
