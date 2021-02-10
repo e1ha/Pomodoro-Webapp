@@ -1,8 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build Pipeline 
+name: Build Pipeline
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -21,7 +21,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it          
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Clone
         uses: actions/checkout@v2
 
@@ -34,10 +34,9 @@ jobs:
       - name: Run Unit Tests
         run: npm run test
 
-      # - name: Generating Documentation
-      #   uses: andstor/jsdoc-action@v1
-      #   with:
-      #     source_dir: src
-      #     recurse: true
-      #     output_dir: ../docs
-      
+      - name: Generating Documentation
+        uses: andstor/jsdoc-action@v1
+        with:
+          source_dir: src
+          recurse: true
+          output_dir: docs
