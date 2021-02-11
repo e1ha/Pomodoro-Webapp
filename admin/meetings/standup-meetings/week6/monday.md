@@ -103,16 +103,16 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- other work
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- nothing as of yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- other homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- decently close
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
