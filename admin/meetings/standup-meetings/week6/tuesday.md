@@ -134,19 +134,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- nothing
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- I will put in more effort tomorrow
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
