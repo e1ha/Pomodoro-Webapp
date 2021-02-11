@@ -1,19 +1,18 @@
 # Standup Notes
 *Daily Updates for Weekly Sprint - Wednesday, 02/10/2021*
-
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- having trouble figuring out how to center white box in instructions page
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- work on css for instructions page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- will be done by end of sprint
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
