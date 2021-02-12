@@ -152,16 +152,16 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- met with Farheen and discussed tasks for timer page
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- none
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- no time today
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- should be on time.
