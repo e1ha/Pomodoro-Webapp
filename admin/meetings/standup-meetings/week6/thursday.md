@@ -59,22 +59,6 @@ _[INSERT]_
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
-
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - Nothing.
 
 ### What are your blockers?
@@ -85,7 +69,6 @@ _[INSERT]_
 
 ### How close are we to hitting our sprint goals?
 - We have met our sprint goals for my task for this sprint.
->>>>>>> b0f06cf1befb634fc0085a234805ccdc1200dbf1
 
 ## <span style="color: red;">Elaine H.</span>
 
