@@ -143,16 +143,16 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- lab assignment
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- waiting for Farheen I guess?
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- too busy today
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- on time
