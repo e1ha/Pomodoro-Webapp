@@ -6,19 +6,19 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-met with Qingyuan and discussed tasks for timer page
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+-none 
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+-Wont have time to start working today
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- will be done by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span>
 
@@ -134,19 +134,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- nothing
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- I will put in more effort tomorrow
 
 ## <span style="color: red;">Qingyuan Z.</span>
 

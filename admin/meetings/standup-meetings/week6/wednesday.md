@@ -6,17 +6,19 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/10/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-nothing
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- having trouble figuring out how to center white box in instructions page
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- work on css for instructions page
 
 ### How close are we to hitting our sprint goals?
+
+- will be done by end of sprint
 
 _[INSERT]_
 
@@ -60,19 +62,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- I completed the CI/CD Pipeline Phase 1 write up portion discussing the tools in our pipeline.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- No blockers.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We have met our sprint goals for my task for this sprint.
 
 ## <span style="color: red;">Elaine H.</span>
 
@@ -132,19 +134,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- nothing
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- finish start button
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- hard to say, depends on what happens today
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
