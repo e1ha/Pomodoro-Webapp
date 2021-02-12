@@ -6,18 +6,15 @@ _Daily Updates for Weekly Sprint - Thursday, 02/11/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
-
+-css for instructions page
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
-
+-had trouble centering css block
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
-
+-worked on html for timer page
 ### How close are we to hitting our sprint goals?
-
+-will be done by sprint deadline
 _[INSERT]_
 
 ## <span style="color: red;">Uposhanto B.</span>
