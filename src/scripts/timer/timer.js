@@ -26,7 +26,7 @@ class Timer {
       }
       // Math Magic :)
       //let hours = (difference / 3600) | 0;
-      difference = difference % 3600 | 0;
+      //difference = difference % 3600 | 0;
       let minutes = (difference / 60) | 0;
       let seconds = difference % 60 | 0;
       // these lines format the number to have a minimum of 2 digits
