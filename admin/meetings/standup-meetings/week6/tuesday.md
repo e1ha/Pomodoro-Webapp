@@ -116,19 +116,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Nothing related to this class
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Work for other classes, stress
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Brush up on Javascript, language conventions
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- It is still within the realm of feasibilty
 
 ## <span style="color: red;">Yueqi W.</span>
 

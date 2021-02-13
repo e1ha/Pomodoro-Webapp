@@ -89,16 +89,16 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Did not work on anything related to CSE 110
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exams, assignments for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Assignments for other classes
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is still within the realm of possibility
 
 ## <span style="color: red;">Yueqi W.</span>
 
