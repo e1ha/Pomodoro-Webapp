@@ -39,19 +39,19 @@ We can probably finish.
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- I did not work on anything.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- I had no blockers.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+I will see if any one needs help.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+I hit my sprint goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
