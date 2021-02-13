@@ -151,7 +151,7 @@ _[INSERT]_
 
 ### What will you work on today?
 
-- too busy today
+- make my timer functions into a class
 
 ### How close are we to hitting our sprint goals?
 
