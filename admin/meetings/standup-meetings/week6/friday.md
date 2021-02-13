@@ -116,7 +116,7 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-- nothing
+- made timer functions into a class
 
 ### What are your blockers?
 - none
