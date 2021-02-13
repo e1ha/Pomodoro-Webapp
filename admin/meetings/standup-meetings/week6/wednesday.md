@@ -44,19 +44,19 @@ I'll finish my sprint goal and I think others also will.
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- I did not work on much, just messed around with my tasks component to make there wasn't any problems.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- I had no blockers.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- See if any one needs help with their tasks.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+I have achieved my spring goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
