@@ -60,16 +60,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other course work. 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I plan to finish the button event handling for the View Tasks Button. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- If I complete it by today, I will finish my sprint goals. 
 
 ## <span style="color: red;">Miguel S.</span>
 
