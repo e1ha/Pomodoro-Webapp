@@ -79,20 +79,16 @@ We're ahead of schedule.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### What are your blockers?
-
-_[INSERT BULLETED LIST]_
+- Busy with other courses.
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-
-_[INSERT]_
+- No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>
 
