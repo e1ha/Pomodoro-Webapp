@@ -61,16 +61,16 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I finished setting up the event handling for the ? button. 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- No progress has been made for this sprint. 
 
 ## <span style="color: red;">Miguel S.</span>
 
