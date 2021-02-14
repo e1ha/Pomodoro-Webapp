@@ -1,128 +1,193 @@
 # Standup Notes
-*Daily Updates for Weekly Sprint - Tuesday, 02/09/2021*
 
-## <span style="color: red;">Farheen A.</span> 
+_Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
-### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
-
-### What are your blockers?
-*[INSERT BULLETED LIST]*
-
-### What will you work on today?
-*[INSERT BULLETED LIST]*
-
-### How close are we to hitting our sprint goals?
-*[INSERT]*
-
-## <span style="color: red;">Uposhanto B.</span> 
+## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
+
+## <span style="color: red;">Uposhanto B.</span>
+
+### What did you work on yesterday?
+
+_[INSERT BULLETED LIST]_
+
+### What are your blockers?
+
+_[INSERT BULLETED LIST]_
+
+### What will you work on today?
+
+_[INSERT BULLETED LIST]_
+
+### How close are we to hitting our sprint goals?
+
+_[INSERT]_
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Made small updates to tasks page.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Review over jest and start writing some basic tests for the tasks page.
+- Help other members with their task if needed.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- I have, for the most part, completed my spring goals.
+  _[INSERT BULLETED LIST]_
+
+### What are your blockers?
+
+_[INSERT BULLETED LIST]_
+
+### What will you work on today?
+
+_[INSERT BULLETED LIST]_
+
+### How close are we to hitting our sprint goals?
+
+_[INSERT]_
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will complete the CI/CD Pipeline Phase 1 write up discussing the tools in our pipeline.
+- I will support my team members with their tasks if necessary.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- We have met our sprint goals for my task for this sprint.
+  _[INSERT BULLETED LIST]_
+
+### What are your blockers?
+
+_[INSERT BULLETED LIST]_
+
+### What will you work on today?
+
+_[INSERT BULLETED LIST]_
+
+### How close are we to hitting our sprint goals?
+
+_[INSERT]_
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+_[INSERT BULLETED LIST]_
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+_[INSERT]_
