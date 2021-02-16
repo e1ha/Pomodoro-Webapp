@@ -121,19 +121,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- homework for other classes
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- nothing yet
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- improve start button
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- halfway there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
