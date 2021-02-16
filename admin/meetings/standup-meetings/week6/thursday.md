@@ -85,19 +85,19 @@ I hit my sprint goal.
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Not much
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Other classes really ramping up workload
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Other school work
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Eh
 
 ## <span style="color: red;">Trevor T.</span>
 
