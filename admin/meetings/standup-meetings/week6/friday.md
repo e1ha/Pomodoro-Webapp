@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing for this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes really ramping up workload
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- More button logic + messaging for end confirmation
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It will be done.
 
 ## <span style="color: red;">Trevor T.</span>
 
