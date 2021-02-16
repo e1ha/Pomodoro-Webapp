@@ -32,44 +32,44 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I hit my sprint goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We have met our sprint goals for my task for this sprint.
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other course work. 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I plan to finish the button event handling for the View Tasks Button. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- If I complete it by today, I will finish my sprint goals. 
 
 ## <span style="color: red;">Miguel S.</span>
 
@@ -88,16 +88,16 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Commitments for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Organizing/designing the timer page (now combined from break pages, etc.)
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is still possible
 
 ## <span style="color: red;">Yueqi W.</span>
 
@@ -116,13 +116,13 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- made timer functions into a class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- incorporate the timer functions into the timer page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- should be done by tonight
