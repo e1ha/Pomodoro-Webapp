@@ -102,16 +102,16 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- writing the decrement pomo function
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- not sure how to use prettier
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- cleaning up the code and testing
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- almost done
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
