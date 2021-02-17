@@ -46,16 +46,17 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I set up the branch for our task. 
+- I worked with Uposhanto to merge the changes following the build pipeline.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will get started on my task for this sprint.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I plan to work today, Thursday, and Friday. With this, I think we will hit our sprint goals for my task for this sprint.
 
 ## <span style="color: red;">Elaine H.</span>
 
