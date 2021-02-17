@@ -32,16 +32,15 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I was busy yesterday so I didn't work on my task.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
-
+- Will try to start working on my task.
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- My task is not too bad, so as long as I finish before the next meeting we will hit our sprint goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
