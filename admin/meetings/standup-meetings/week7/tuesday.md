@@ -32,16 +32,16 @@ We'll probably make our goals because we're meeting again this week.
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Yesterday was a holiday so nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Start setting up and looking into my task for the week.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I am on pace to hit my sprint goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
