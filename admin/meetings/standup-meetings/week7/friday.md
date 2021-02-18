@@ -18,16 +18,16 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I have none because I finished early this week.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Nothing in particular but I'll try to help others catch up if they're behind.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+We're close enough.
 
 ## <span style="color: red;">Ryan B.</span>
 
