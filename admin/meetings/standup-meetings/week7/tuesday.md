@@ -88,16 +88,16 @@ We'll probably make our goals because we're meeting again this week.
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Tasks were just assigned over the weekend, so I have not begun work yet
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exams this week for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Work not related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It should still be well within our reach
 
 ## <span style="color: red;">Yueqi W.</span>
 
