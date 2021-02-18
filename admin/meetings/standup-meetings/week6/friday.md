@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing for this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes really ramping up workload
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- More button logic + messaging for end confirmation
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It will be done.
 
 ## <span style="color: red;">Trevor T.</span>
 
@@ -102,16 +102,16 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- writing the decrement pomo function
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- not sure how to use prettier
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- cleaning up the code and testing
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- almost done
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
