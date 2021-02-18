@@ -18,16 +18,16 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+I worked on fixing some ESLint configurations and cleaning the repo. 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I have no blockers, just trying to help others when I can. Some blockers may come up later this week however.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Today I won't have much time to work on anything.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+I think we should be pretty close to hitting our goals for the week.
 
 ## <span style="color: red;">Ryan B.</span>
 
