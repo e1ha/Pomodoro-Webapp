@@ -19,8 +19,9 @@
     "jest/globals": true,
     "browser": true,
     "es2021": true,
-    // "jest": true,
+    "node": true,
     "es6": true
+    // "jest": true,
   },
 
   "ignorePatterns": ["docs/", "node_modules/"]
