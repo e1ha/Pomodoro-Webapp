@@ -74,16 +74,16 @@ I think we should be pretty close to hitting our goals for the week.
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Other coursework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other coursework
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Working on a "confirm end" button
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Goal will be met
 
 ## <span style="color: red;">Trevor T.</span>
 
