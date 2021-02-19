@@ -102,16 +102,17 @@ I think we should be pretty close to hitting our goals for the week.
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- finished some homework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- trying to get the pipeline to work when I push
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- looking into the go back button
+- lab
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will do most of my work in the coming days
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
