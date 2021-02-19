@@ -102,16 +102,17 @@ I think we can make it. We're pretty close.
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- lab
+- looking into some functions
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- have to resolve some merge conflicts that are a bit messy
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- meet with Trevor and Qingyuan about connecting pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- after connecting we'll be 30% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
