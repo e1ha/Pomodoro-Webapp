@@ -46,16 +46,16 @@ We're close enough.
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I was not able to get anything done yesterday.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Work for other classes, but I should be able to get my task done today.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will complete the CSS for the Tasks List for the Timer Page.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Once I complete my task today, we will hit our sprint goals.
 
 ## <span style="color: red;">Elaine H.</span>
 
