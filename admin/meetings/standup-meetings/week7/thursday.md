@@ -46,16 +46,16 @@ I think we can make it. We're pretty close.
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I was not able to get anything done today.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Work for other classes.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will get work done for other classes today so that I can focus on my task tomorrow.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will work on my task tomorrow. Once it is complete, we will hit out sprint goals for my task.
 
 ## <span style="color: red;">Elaine H.</span>
 
