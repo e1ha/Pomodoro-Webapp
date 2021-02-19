@@ -102,16 +102,16 @@ We'll probably make our goals because we're meeting again this week.
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- worked on other things
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- nothing yet
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- finishing some homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- fairly close
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
