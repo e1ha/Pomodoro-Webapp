@@ -74,16 +74,16 @@ I think we can make it. We're pretty close.
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Working on a confirm end window
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other coursework + those deadlines + work
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- More "confirm end" window
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Approaching it
 
 ## <span style="color: red;">Trevor T.</span>
 
