@@ -60,7 +60,7 @@ We'll probably make our goals because we're meeting again this week.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-- Nothing.
+- I discussed with Farheen and Anoushka how to divide up the tasks for the timer page.
 
 ### What are your blockers?
 - None.
@@ -69,7 +69,7 @@ We'll probably make our goals because we're meeting again this week.
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
-- No progress has been made on my part.
+- Not much progress has been made.
 
 ## <span style="color: red;">Miguel S.</span>
 
