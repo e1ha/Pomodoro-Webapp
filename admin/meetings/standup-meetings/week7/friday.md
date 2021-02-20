@@ -60,16 +60,16 @@ We're close enough.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will implement event handling for the continue button and do the style for the timer.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will finish before the meeting tomorrow.
 
 ## <span style="color: red;">Miguel S.</span>
 
