@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+nothing, it was a holiday
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+no
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+discuss with anoushka and elaine about splitting responsiblities
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+will finish in time
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
