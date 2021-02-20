@@ -116,13 +116,13 @@ I think we can make it. We're pretty close.
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Homework.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing yet
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- On time
