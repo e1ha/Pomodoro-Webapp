@@ -4,30 +4,29 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+did not work on anything
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
-
+will not work on anything today
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+will finish by saturday
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+I wasn't able to work on anything.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Today I'll work on talking to the TA and syncing up with PM.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+I think we can make it. We're pretty close.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -46,83 +45,84 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I was not able to get anything done today.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Work for other classes.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will get work done for other classes today so that I can focus on my task tomorrow.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will work on my task tomorrow. Once it is complete, we will hit out sprint goals for my task.
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- No progress has been made on my part.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Working on a confirm end window
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other coursework + those deadlines + work
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- More "confirm end" window
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Approaching it
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exams for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Meet with David and Yueqi to link up all of the pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We should be good
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- lab
+- looking into some functions
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- have to resolve some merge conflicts that are a bit messy
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- meet with Trevor and Qingyuan about connecting pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- after connecting we'll be 30% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Homework.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing yet
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- On time
