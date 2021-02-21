@@ -16,8 +16,6 @@ _Daily Updates for Weekly Sprint - Monday, 02/08/2021_
 ### How close are we to hitting our sprint goals?
 -will be done by the end of the sprint
 
-_[INSERT]_
-
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
