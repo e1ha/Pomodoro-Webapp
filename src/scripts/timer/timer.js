@@ -1,4 +1,4 @@
-/*eslint disable*/
+/*eslint-disable*/
 class Timer {
   constructor(duration, elementID) {
     this.running = false;
