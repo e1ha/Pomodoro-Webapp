@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "eslint . --ext .js",
     "test": "jest",
-    "format": "prettier 'src/**/*.js' --write",
+    "format": "prettier src/**/*.js --write",
     "docs": "jsdoc src/ -r -d docs"
   },
   "repository": {
