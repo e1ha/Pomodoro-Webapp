@@ -1,3 +1,4 @@
+/*eslint disable*/
 class Timer {
   constructor(duration, elementID) {
     this.running = false;
@@ -52,5 +53,3 @@ class Timer {
     }, 500);
   }
 }
-
-timer = new Timer(10, 'timer');
