@@ -52,3 +52,5 @@ class Timer {
     }, 500);
   }
 }
+
+timer = new Timer(10, 'timer');
