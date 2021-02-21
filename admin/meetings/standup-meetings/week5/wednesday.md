@@ -1,5 +1,4 @@
 # Standup Notes
-
 _Daily Updates for Weekly Sprint - Wednesday, 02/03/2021_
 
 <h1><span style="color: red;">Farheen A.</span></h1>
@@ -59,7 +58,6 @@ I should be able to finish my task by tomorrow, so we're still on track.
 <h1><span style="color: red;">Anoushka D.</span></h1>
 
 ### What did you work on yesterday?
-
 - Yesterday, I was able to fully complete my part of the Tasks Page.
 - I added the headers, start button, and question mark button.
 
@@ -145,23 +143,22 @@ I should be able to finish my task by tomorrow, so we're still on track.
 - other projects
 
 ### How close are we to hitting our sprint goals?
-
 - about 30% there
 
 <h1><span style="color: red;">Qingyuan Z.</span></h1>
 
 ### What did you work on yesterday?
 
-\*nothing
+- nothing
 
 ### What are your blockers?
 
-\*not yet
+- not yet
 
 ### What will you work on today?
 
-\*Finish timer prototype
+- Finish timer prototype
 
 ### How close are we to hitting our sprint goals?
 
-\*Close
+- Close

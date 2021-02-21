@@ -4,125 +4,125 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+worked on css for timer page for end button and background. Also created pull request for instructions page
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+done!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+I have none because I finished early this week.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+Nothing in particular but I'll try to help others catch up if they're behind.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+We're close enough.
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Going to wait till next meeting to merge and connect pages.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Ahead in terms of sprint goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I was not able to get anything done yesterday.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Work for other classes, but I should be able to get my task done today.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will complete the CSS for the Tasks List for the Timer Page.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Once I complete my task today, we will hit our sprint goals.
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will implement event handling for the continue button and do the style for the timer.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I will finish before the meeting tomorrow.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Laptop not available right now
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing because I have no computer
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We can do it
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Connected the various pages and buttons
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exam for another class today
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing much related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We have pretty much done it
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I changed the variables to match task
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- my pushes do not get checked by the pipeline
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- attend the meeting
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I finished the tasks
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Homework.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Connecting pages with Yueqi and Trevor
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- On time

@@ -1,7 +1,6 @@
 * {
     font-family: "Comfortaa", sans-serif;
   }
-
   body {
     background-color: #ff6767;
     width: 100%;
@@ -35,7 +34,6 @@
     align-items: center;
     padding-top: 1.5em;
   }
-
   #continueButton {
     color: white;
     background-color: #ff6767;

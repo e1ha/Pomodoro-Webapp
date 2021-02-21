@@ -6,37 +6,37 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-met with Qingyuan and discussed tasks for timer page
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+-none 
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+-Wont have time to start working today
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- will be done by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+Yesterday I figured out how to write detailed unit tests and use npx to write our own packages.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+Other school committments, but it shouldn't be too bad.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+Today I'll work on getting the build pipeline set up.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+We're ahead of schedule.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -56,19 +56,6 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - I have, for the most part, completed my spring goals.
-  _[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
 
 ## <span style="color: red;">Anoushka D.</span>
 
@@ -88,106 +75,89 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - We have met our sprint goals for my task for this sprint.
-  _[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### What are your blockers?
-
-_[INSERT BULLETED LIST]_
+- Busy with other courses.
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-
-_[INSERT]_
+- No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Looking up implementations on bubble messages.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Other classes in the most dense part of the quarter
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Work for other classes with closer deadlines.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We will get there.
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Nothing related to this class
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Work for other classes, stress
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Brush up on Javascript, language conventions
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- It is still within the realm of feasibilty
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- nothing
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- other work
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- I will put in more effort tomorrow
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- met with Farheen and discussed tasks for timer page
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- none
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- no time today
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- should be on time.
