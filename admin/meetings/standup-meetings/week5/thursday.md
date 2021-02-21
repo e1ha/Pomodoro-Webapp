@@ -6,15 +6,15 @@ _Daily Updates for Weekly Sprint - Thursday, 02/04/2021_
 
 ### What did you work on yesterday?
 
--Did not work on anything yet
+- Did not work on anything yet
 
 ### What are your blockers?
 
--no blockers
+- no blockers
 
 ### What will you work on today?
 
--I will work on the index.html file
+- I will work on the index.html file
 
 ### How close are we to hitting our sprint goals?
 
@@ -24,19 +24,19 @@ _Daily Updates for Weekly Sprint - Thursday, 02/04/2021_
 
 ### What did you work on yesterday?
 
-I understood how to create a basic pipeline with CircleCI
+- I understood how to create a basic pipeline with CircleCI
 
 ### What are your blockers?
 
-I have no blockers right now, but I've been checking up on the rest of the team to make sure everyone's feeling good about making their sprint.
+- I have no blockers right now, but I've been checking up on the rest of the team to make sure everyone's feeling good about making their sprint.
 
 ### What will you work on today?
 
-I'm not sure on what to help others with, so I'll devote my time to coming up with a better structure for our project.
+- I'm not sure on what to help others with, so I'll devote my time to coming up with a better structure for our project.
 
 ### How close are we to hitting our sprint goals?
 
-Depending on how much our team works tomorrow to make up for lost time, we may or may not get in everything that we wanted to this sprint.
+- Depending on how much our team works tomorrow to make up for lost time, we may or may not get in everything that we wanted to this sprint.
 
 ## <span style="color: red;">Ryan B.</span>
 

@@ -4,7 +4,6 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/03/2021_
 <h1><span style="color: red;">Farheen A.</span></h1>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 -Busy with other class did not start on index.html file yet
 
@@ -14,14 +13,6 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/03/2021_
 
 ### What will you work on today?
 
-=======
--Busy with other class did not start on index.html file yet
-
-### What are your blockers?
--no blockers
-
-### What will you work on today?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 -wont be working on anything today. Will start tomorrow
 
 ### How close are we to hitting our sprint goals?
@@ -85,7 +76,6 @@ I should be able to finish my task by tomorrow, so we're still on track.
 <h1><span style="color: red;">Elaine H.</span></h1>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - Nothing
 
@@ -100,18 +90,6 @@ I should be able to finish my task by tomorrow, so we're still on track.
 ### How close are we to hitting our sprint goals?
 
 - No progress has been made.
-=======
-- Nothing
-
-### What are your blockers?
-- None 
-
-### What will you work on today?
-- Nothing
-
-### How close are we to hitting our sprint goals?
-- No progress has been made. 
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 <h1><span style="color: red;">Miguel S.</span></h1>
 
@@ -171,16 +149,16 @@ I should be able to finish my task by tomorrow, so we're still on track.
 
 ### What did you work on yesterday?
 
-\*nothing
+- nothing
 
 ### What are your blockers?
 
-\*not yet
+- not yet
 
 ### What will you work on today?
 
-\*Finish timer prototype
+- Finish timer prototype
 
 ### How close are we to hitting our sprint goals?
 
-\*Close
+- Close
