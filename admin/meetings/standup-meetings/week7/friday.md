@@ -88,16 +88,16 @@ We're close enough.
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Connected the various pages and buttons
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exam for another class today
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing much related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We have pretty much done it
 
 ## <span style="color: red;">Yueqi W.</span>
 

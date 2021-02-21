@@ -87,16 +87,16 @@ I think we can make it. We're pretty close.
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Exams for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Meet with David and Yueqi to link up all of the pages
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We should be good
 
 ## <span style="color: red;">Yueqi W.</span>
 
