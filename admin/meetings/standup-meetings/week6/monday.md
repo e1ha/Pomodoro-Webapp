@@ -120,13 +120,17 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
+
 - Discuss with Farheen on our tasks for timer page
 
 ### What are your blockers?
+
 - None so far
 
 ### What will you work on today?
+
 - Look into html and CSS
 
 ### How close are we to hitting our sprint goals?
+
 - On time

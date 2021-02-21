@@ -32,16 +32,16 @@ We're close enough.
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Going to wait till next meeting to merge and connect pages.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Ahead in terms of sprint goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
@@ -74,16 +74,16 @@ We're close enough.
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Laptop not available right now
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing because I have no computer
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We can do it
 
 ## <span style="color: red;">Trevor T.</span>
 
