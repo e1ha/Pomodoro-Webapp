@@ -9,7 +9,6 @@ class Timer {
 
   stopTimer() {
     this.running = false;
-    var element = document.getElementById(this.elementID);
     clearInterval(this.timerID);
   }
 
