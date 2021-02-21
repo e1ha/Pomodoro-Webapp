@@ -102,16 +102,16 @@ We're close enough.
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I changed the variables to match task
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- my pushes do not get checked by the pipeline
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- attend the meeting
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I finished the tasks
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
