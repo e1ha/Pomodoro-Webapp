@@ -1,3 +1,28 @@
-.background {
-    /* color: find out the color */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.coreFont {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* WORKING CORE STYLES */
+.workPageBackground {
+    color: #ff6767;
+}
+.workTimerBackground {
+    color: #ffb5b5;
+}
+
+/* BREAK CORE STYLES */
+.longBreakPageBackground {
+    color: #47de88;
+}
+.longBreakTimerBackground {
+    color: #adffd1;
+}
+
+.shortBreakBackground {
+    color: #36a1ff
+}
+.shortBreakTimerBackground {
+    color: #6ea3ff;
 }

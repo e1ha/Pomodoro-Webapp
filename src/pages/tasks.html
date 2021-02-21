@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--External Stylesheet-->
+    <link href="../styles/tasks.css" rel="stylesheet" />
+
+    <!--Comfortaa Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      Welcome to the Pomodoro <br />
+      Technique!
+    </div>
+    <div class="subtitle">What do you have to get done today?</div>
+    <div class="tasksListContainer">
+      <form action="/action_page.php">
+        <ul class="tasksList" id="tasksList">
+          <li>
+            <input
+              type="text"
+              name="task"
+              class="pTask animation-create-task"
+              placeholder="Study for exam..."
+              disabled="true"
+            />
+            <input
+              type="text"
+              name="time"
+              class="pTaskTime animation-create-time"
+              placeholder="60"
+              disabled="true"
+            />
+            <button class="delete" disabled="true">X</button>
+          </li>
+          <li>
+            <input
+              type="text"
+              name="task"
+              class="pTask animation-create-task"
+              placeholder="Write down lecture notes..."
+              disabled="true"
+            />
+            <input
+              type="text"
+              name="time"
+              class="pTaskTime animation-create-time"
+              placeholder="45"
+              disabled="true"
+            />
+            <button class="delete" disabled="true">X</button>
+          </li>
+          <li>
+            <input
+              type="text"
+              name="task"
+              class="pTask animation-create-task"
+              placeholder="Do math homework..."
+              disabled="true"
+            />
+            <input
+              type="text"
+              name="time"
+              class="pTaskTime animation-create-time"
+              placeholder="20"
+              disabled="true"
+            />
+            <button class="delete" disabled="true">X</button>
+          </li>
+          <li>
+            <input
+              type="text"
+              name="task"
+              class="pTask animation-create-task"
+              placeholder="Start on group project..."
+              disabled="true"
+            />
+            <input
+              type="text"
+              name="time"
+              class="pTaskTime animation-create-time"
+              placeholder="30"
+              disabled="true"
+            />
+            <button class="delete" disabled="true">X</button>
+          </li>
+        </ul>
+        <input
+          type="button"
+          name="add"
+          value="Add Task"
+          id="addTaskBtn"
+          class="animation-highlight"
+        />
+      </form>
+    </div>
+    <div class="centerStartButton">
+      <button id="startButton">Start</button>
+    </div>
+    <footer class="centerQuestionButton">
+      <button id="questionButton">?</button>
+    </footer>
+
+    <script src="../scripts/tasksList/tasksList.js"></script>
+  </body>
+</html>

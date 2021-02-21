@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> 7c2f8d3d73efce46d6f3c13e0c227addb401d77f
+=======
+>>>>>>> origin/pages
+=======
+>>>>>>> master
