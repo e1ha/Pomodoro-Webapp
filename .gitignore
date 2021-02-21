@@ -17,10 +17,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,3 +33,8 @@ yarn-error.log*
 >>>>>>> master
 =======
 >>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
+=======
+.DS_Store
+
+
+>>>>>>> 2afac84ec9e638b2fa5da57d8f472c0cd992b01a

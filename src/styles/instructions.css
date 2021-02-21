@@ -14,29 +14,26 @@
     padding-top: 1em;
     font-size: 50px;
   }
+
   .boxed {
-    margin: auto;
-    border: none;
-    border-radius: 0.5em;
-    background-color: #f3f3f3ff;
-    text-align: center;
-    justify-content: center;
-    color: #666666;
-    box-shadow: 1px 2px 2px #696969c5;
-    height: 29em;
-    width: 55em;
+  margin: 0 auto;
+  border: none;
+  border-radius: 1em;
+  background-color: #f3f3f3ff;
+  text-align: center;
+  justify-content: center;
+  color: #666666;
+  box-shadow: 1px 2px 2px #696969c5;
+  height: 30em;
+  width: 55em;
  }
 
-  
-  
-
-  .centerContinueButton {
+ .centerContinueButton {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 1.5em;
   }
-  
   #continueButton {
     color: white;
     background-color: #ff6767;
