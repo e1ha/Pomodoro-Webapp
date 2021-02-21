@@ -6,21 +6,6 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 -met with Qingyuan and discussed tasks for timer page
 
 ### What are your blockers?
@@ -34,27 +19,11 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - will be done by the end of the sprint
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 Yesterday I figured out how to write detailed unit tests and use npx to write our own packages.
 
 ### What are your blockers?
@@ -68,14 +37,12 @@ Today I'll work on getting the build pipeline set up.
 ### How close are we to hitting our sprint goals?
 
 We're ahead of schedule.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
 
 - Made small updates to tasks page.
-<<<<<<< HEAD
 
 ### What are your blockers?
 
@@ -89,34 +56,6 @@ We're ahead of schedule.
 ### How close are we to hitting our sprint goals?
 
 - I have, for the most part, completed my spring goals.
-  _[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
-
-### What are your blockers?
-
-- I had no blockers.
-
-### What will you work on today?
-
-- Review over jest and start writing some basic tests for the tasks page.
-- Help other members with their task if needed.
-
-### How close are we to hitting our sprint goals?
-
-- I have, for the most part, completed my spring goals.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Anoushka D.</span>
 
@@ -136,42 +75,10 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - We have met our sprint goals for my task for this sprint.
-<<<<<<< HEAD
-  _[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
-
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - Nothing.
 
 ### What are your blockers?
@@ -182,27 +89,11 @@ _[INSERT]_
 
 ### How close are we to hitting our sprint goals?
 - No progess has been made.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - Looking up implementations on bubble messages.
 
 ### What are your blockers?
@@ -216,27 +107,11 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - We will get there.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - Nothing related to this class
 
 ### What are your blockers?
@@ -250,27 +125,11 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - It is still within the realm of feasibilty
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - other work
 
 ### What are your blockers?
@@ -284,27 +143,11 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - I will put in more effort tomorrow
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
 
-<<<<<<< HEAD
-_[INSERT BULLETED LIST]_
-
-### What are your blockers?
-
-_[INSERT BULLETED LIST]_
-
-### What will you work on today?
-
-_[INSERT BULLETED LIST]_
-
-### How close are we to hitting our sprint goals?
-
-_[INSERT]_
-=======
 - met with Farheen and discussed tasks for timer page
 
 ### What are your blockers?
@@ -318,4 +161,3 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - should be on time.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275

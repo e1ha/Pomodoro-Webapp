@@ -5,7 +5,6 @@ _Daily Updates for Weekly Sprint - Thursday, 02/04/2021_
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 -Did not work on anything yet
 
@@ -18,18 +17,6 @@ _Daily Updates for Weekly Sprint - Thursday, 02/04/2021_
 -I will work on the index.html file
 
 ### How close are we to hitting our sprint goals?
-=======
--Did not work on anything yet
-
-### What are your blockers?
--no blockers
-
-### What will you work on today?
--I will work on the index.html file
-
-### How close are we to hitting our sprint goals?
-- I will be finished by the end of the sprint
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 - I will be finished by the end of the sprint
 
@@ -90,7 +77,6 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - Nothing
 
@@ -105,18 +91,6 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 ### How close are we to hitting our sprint goals?
 
 - No progress has been made.
-=======
-- Nothing
-
-### What are your blockers?
-- None
-
-### What will you work on today?
-- Nothing
-
-### How close are we to hitting our sprint goals?
-- No progress has been made. 
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Miguel S.</span>
 
@@ -157,7 +131,6 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - I finished some homework
 
@@ -171,33 +144,22 @@ Depending on how much our team works tomorrow to make up for lost time, we may o
 
 ### How close are we to hitting our sprint goals?
 
-=======
-- I finished some homework
-
-### What are your blockers?
-- not really sure what to put for certain values
-
-### What will you work on today?
-- finish my CSE 167 project 
-
-### How close are we to hitting our sprint goals?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - a bit behind but not much
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
 
-\*I finished the timer functions and pushed to github.
+- I finished the timer functions and pushed to github.
 
 ### What are your blockers?
 
-\*N/A
+- N/A
 
 ### What will you work on today?
 
-\*Maybe improve the timer interface a little bit.
+- Maybe improve the timer interface a little bit.
 
 ### How close are we to hitting our sprint goals?
 
-\*Done
+- Done
