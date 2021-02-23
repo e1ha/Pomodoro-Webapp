@@ -52,6 +52,7 @@
 - No blockers.
 
 ### What will you work on today?
+- I will submit my part of our Team Status video to Farheen.
 - I will complete my work for other classes so that I can complete my current task for this project either tomorrow or Wednesday.
 
 ### How close are we to hitting our sprint goals?
