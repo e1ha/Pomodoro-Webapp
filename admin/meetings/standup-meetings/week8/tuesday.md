@@ -46,16 +46,17 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I sent my part of the Team Status video to Farheen.
+- I completed work for other classes to be able to work on my task today.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I am going to try to finish my task for this week for this sprint today.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Once I complete my task today, we will hit our sprint goals for my task.
 
 ## <span style="color: red;">Elaine H.</span>
 
