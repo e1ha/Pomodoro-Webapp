@@ -88,16 +88,16 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- CSE 167 PA until the wee hours in the morning
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Work for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Preparing and sending my part of the Agile team status video
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Looks good for us
 
 ## <span style="color: red;">Yueqi W.</span>
 
