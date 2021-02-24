@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I completed a part of the CSS for the Timer Page.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will complete the remaining CSS for the Timer Page to make it responsive.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Once I make the Timer Page responsive, we will hit our sprint goals for my task.
 
 ## <span style="color: red;">Elaine H.</span>
 
