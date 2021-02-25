@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I had some work come up for other classes, so I was not able to make any progress on my task.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will do my best to complete my task for this week for the sprint today.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Once I complete my task, I believe we will hit our sprint goals!
 
 ## <span style="color: red;">Elaine H.</span>
 
