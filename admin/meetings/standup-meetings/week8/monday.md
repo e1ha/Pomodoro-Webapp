@@ -103,16 +103,16 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I tried to to resolve some of the merge conflicts
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- merge conflicts
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- making my branch viable for being merged to main
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- 25% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
