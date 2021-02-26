@@ -52,7 +52,7 @@
 - No blockers.
 
 ### What will you work on today?
-- I will do my best to complete my task for this week for the sprint today.
+- I will be working on other homework so that I can complete my task tomorrow.
 
 ### How close are we to hitting our sprint goals?
 - Once I complete my task, I believe we will hit our sprint goals!
