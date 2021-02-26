@@ -4,16 +4,17 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-organized all videos into one file
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-the videos together exceeded 5 min
+-to solve the issues I speeded up the whole video by 1.3x
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-stiched together the status video
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+-done!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
