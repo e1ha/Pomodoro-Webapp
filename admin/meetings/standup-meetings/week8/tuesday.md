@@ -103,16 +103,19 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- cleaned up code
+- made code more user friendly
+- added updating local storage feature
+- resolved build errors merge conflicts
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- other homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- 75% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
