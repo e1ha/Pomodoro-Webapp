@@ -75,16 +75,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- My part of the video
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Other classes/deadlines
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Getting the pomos to change after the end session is confirmed
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 
