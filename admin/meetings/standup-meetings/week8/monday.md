@@ -75,16 +75,16 @@ n/a
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Apple taking forever to fix my laptop
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing - no laptop
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It will happen if Apple can fix my laptop and have it ready
 
 ## <span style="color: red;">Trevor T.</span>
 
