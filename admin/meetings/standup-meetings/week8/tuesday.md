@@ -75,16 +75,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Taking time to restore everything on my hard drive
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Restoring my hard drive and getting my part of the video done
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 
