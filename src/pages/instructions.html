@@ -1,38 +1,62 @@
 <!DOCTYPE html>
-<html lang=en>
-    <head>
-        <title> "Instruction Page" </title>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <title>"Instruction Page"</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--External Stylesheet-->
-        <link href="../styles/instructions.css" rel="stylesheet">
+    <!--External Stylesheet-->
+    <link href="../styles/instructions.css" rel="stylesheet" />
 
-<!--Comfortaa Font-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-</head>   
-<body>
-        <div class="title">Welcome to the Pomodoro Technique!</div>
-        <div class="boxed">
-           <div class="text">
-            <h1 class="subtitle"> History </h1>
-            <p> The Pomodoro Technique is a time management method that uses a timer to break down work into intervals,
-             traditionally 25 minutes in length and separated by short breaks.
-             Each interval is known as a pomodoro, from the Italian word for 'tomato'! </p>
-             <h2> It’s as easy as 1, 2, 3! </h2>
-             <h3>Step 1</h3>
-             <p>Take some time to think about the time each of your tasks are going to require.</p>
-             <h3>Step 2</h3>
-             <p>After you press “Show Timer”, you’ll be asked to input the amount of time that you decided earlier and we’ll break down your work
-             sessions into the appropriate pomodoro intervals! </p>
-             <h3>Step 3</h3>
-             <p>After you’re done with one full task you’ll see a
-              popup that asks you to enter the amount of pomodoro intervals that task actually ended up taking!</p>
-           </div>
+    <!--Comfortaa Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">Welcome to the Pomodoro Technique!</div>
+    <div class="boxed">
+      <div class="text">
+        <h1 class="subtitle">History</h1>
+        <p>
+          The Pomodoro Technique is a time management method that uses a timer
+          to break down work into intervals, traditionally 25 minutes in length
+          and separated by short breaks. Each interval is known as a pomodoro,
+          from the Italian word for 'tomato'!
+        </p>
+        <h2>It’s as easy as 1, 2, 3!</h2>
+        <h3>Step 1</h3>
+        <p>
+          Take some time to think about the time each of your tasks are going to
+          require.
+        </p>
+        <h3>Step 2</h3>
+        <p>
+          After you press “Show Timer”, you’ll be asked to input the amount of
+          time that you decided earlier and we’ll break down your work sessions
+          into the appropriate pomodoro intervals!
+        </p>
+        <h3>Step 3</h3>
+        <p>
+          After you’re done with one full task you’ll see a popup that asks you
+          to enter the amount of pomodoro intervals that task actually ended up
+          taking!
+        </p>
+      </div>
+    </div>
+    <div class="centerContinueButton">
+      <button id="continueButton">Continue</button>
+    </div>
+    <!-- <script src="../scripts/buttons/continueButton.js"> -->
+    <script>
+      var continueButton = document.getElementById('continueButton');
+      continueButton.addEventListener('click', redirectToTasksPage);
 
-            </div>
- <div class="centerContinueButton">
-        <button id="continueButton">Continue</button>
- </div>
+      function redirectToTasksPage() {
+        window.location.href = './tasks.html';
+      }
+    </script>
   </body>
+</html>
