@@ -60,16 +60,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will work on the smooth progression of the timer from working timer to short break timer to long break timer with Qingyuan today. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We will finish them by today. 
 
 ## <span style="color: red;">Miguel S.</span>
 
