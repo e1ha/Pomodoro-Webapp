@@ -13,19 +13,27 @@
     text-align: center;
     padding-top: 1em;
     font-size: 50px;
+    padding-bottom: .75em;
+  }
+
+  .text {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .boxed {
-  margin: 0 auto;
-  border: none;
-  border-radius: 1em;
-  background-color: #f3f3f3ff;
-  text-align: center;
-  justify-content: center;
-  color: #666666;
-  box-shadow: 1px 2px 2px #696969c5;
-  height: 30em;
-  width: 55em;
+    margin-top: 10px;
+    margin: 00 auto;
+    border: none;
+    border-radius: 1em;
+    padding-top: .5em;
+    background-color: #f3f3f3ff;
+    text-align: center;
+    justify-content: center;
+    color: #666666;
+    box-shadow: 1px 2px 2px #696969c5;
+    height: 30em;
+    width: 55em;
  }
 
  .centerContinueButton {
