@@ -88,16 +88,17 @@
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Merging together the branches
+- Cleaning up the remote repository
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Deadline crunch, week 9 and 10 grind
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will go to lecture for the group
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- It is time to push
 
 ## <span style="color: red;">Yueqi W.</span>
 
