@@ -46,16 +46,17 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I completed the CSS for the Timer Page on Friday.
+- I got really sick this weekend, so I was not able to make any other progress.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I am still somewhat sick, but I am doing my best to get work done and support my team.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will begin writing our formal ADRs.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We should be on track to hit our sprint goals!
 
 ## <span style="color: red;">Elaine H.</span>
 
