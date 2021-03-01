@@ -116,13 +116,14 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- CSE 110 Lab
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Write scripts make the timer interact with the timer page with Elaine
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- On time
+
