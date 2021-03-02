@@ -6,6 +6,9 @@ let placeholders = true;
  * and add those tasks
  */
 window.onload = () => {
+  if (localStorage.getItem('done')) {
+    localStorage.clear();
+  }
   let storedTasks = JSON.parse(localStorage.getItem('tasks'));
   if (storedTasks.length > 0) {
     placeholders = false;

@@ -88,7 +88,7 @@ function sessionFinish(prevDuration, taskIndex) {
           alert(
             'Congratulations! You have finished all your tasks! Exiting timer.'
           );
-          myStorage.clear();
+          myStorage.setItem('done', '1');
           window.location.href = './../pages/tasks.html';
         }
         newDuration = workingTime;
@@ -121,7 +121,7 @@ function sessionFinish(prevDuration, taskIndex) {
         alert(
           'Congratulations! You have finished all your tasks! Exiting timer.'
         );
-        myStorage.clear();
+        myStorage.setItem('done', '1');
         window.location.href = './../pages/tasks.html';
       }
       newDuration = workingTime;
