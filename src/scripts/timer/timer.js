@@ -2,7 +2,7 @@ const workingTime = 5;
 const shortBreakTime = 2;
 const longBreakTime = 4;
 const pomob4break = 4;
-
+let TASKS = [];
 /* Function to count down the current timer
  *
  * @param {int} start time in milliseconds
@@ -73,12 +73,12 @@ function sessionFinish(prevDuration, numWork) {
 
   if (prevDuration == workingTime && numWork == pomob4break - 1) {
     newDuration = longBreakTime;
-    pomos.innerHTML = parseInt(pomos.innerHTML) - 1;
+    pomos.innerHTML = `${parseInt(pomos.innerHTML) - 1} pomos to go`;
     newnumWork = 0;
   } else if (prevDuration == workingTime) {
     newDuration = shortBreakTime;
     newnumWork = numWork + 1;
-    pomos.innerHTML = parseInt(pomos.innerHTML) - 1;
+    pomos.innerHTML = `${parseInt(pomos.innerHTML) - 1} pomos to go`;
   } else {
     newDuration = workingTime;
   }
@@ -107,28 +107,28 @@ function sessionFinish(prevDuration, numWork) {
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
 
-    for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
+    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
       tasksList[taskNum].style.backgroundColor = '#47de88';
-    }
+    }*/
   } else if (newDuration == shortBreakTime) {
     //short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
 
-    for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
+    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
       tasksList[taskNum].style.backgroundColor = '#36a1ff';
-    }
+    }*/
   } else if (newDuration == workingTime) {
     //work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
-    tasksList[0].style.backgroundColor = '#ff6767';
-
-    for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
+    
+    //tasksList[0].style.backgroundColor = '#ff6767';
+    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
       tasksList[taskNum].style.backgroundColor = '#ff6767';
-    }
+    }*/
   }
 
   // start the next session timer
@@ -141,6 +141,23 @@ var myStorage = window.localStorage;
 myStorage.setItem('pomos', '5');
 window.onload = function () {
   let pomos = myStorage.getItem('pomos');
-  document.getElementById('pomosleft').innerHTML = pomos;
+  document.getElementById('pomosleft').innerHTML = "5 pomos to go";
   startTimer(5, 0, sessionFinish);
+  TASKS = JSON.parse(localStorage.getItem('tasks'));
+  TASKS.forEach(task => {
+    let taskElement = `<input type="text" name="task" class="task" value="${task.taskName}"/>`
+    document.getElementById('tasks').insertAdjacentHTML('beforeend', taskElement)
+  });
 };
+
+
+function displayTasks() {
+  let height = document.getElementById('tasks').style.height;
+  if (height == "0vh") {
+    document.getElementById('tasks').style.height = "30vh";
+    document.getElementById('showTasks').innerHTML = "-";
+  } else {
+    document.getElementById('tasks').style.height = "0vh";
+    document.getElementById('showTasks').innerHTML = "+";
+  }
+}

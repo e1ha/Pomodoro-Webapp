@@ -1,6 +1,25 @@
 let TASKS = [];
 let placeholders = true;
 
+/**
+ * On page load, check if there are tasks in local storage
+ * and add those tasks
+ */
+window.onload = () => {
+  let storedTasks = JSON.parse(localStorage.getItem('tasks'));
+  if (storedTasks.length > 0) {
+    placeholders = false;
+    document.getElementById('tasksList').innerHTML = '';
+    document.getElementById('addTaskBtn').className = '';
+    storedTasks.forEach(task => {
+      TASKS.push(task);
+      addTask(task.id);
+      document.getElementById(`name-${task.id}`).value = task.taskName;
+      document.getElementById(`min-${task.id}`).value = task.min;
+    });
+  }
+}
+
 // Unique random int generator (1-10000)
 function uniqueInt() {
   let randInt = Math.floor(Math.random() * 10000) + 1;
@@ -145,21 +164,7 @@ function minToPomos(min) {
 
 /******Start */
 var startButton = document.getElementById('startButton');
-// var addTaskBtn = document.getElementById('addTaskBtn');
 startButton.addEventListener('click', startSession, false);
-//addTaskBtn.addEventListener('click', updateTimes, false);
-
-//var taskTime = [];
-//var taskName = [];
-//var tasks = [];
-
-//updates the arrays for new input values
-// function updateTimes() {
-//   taskTime = document.getElementsByClassName('taskTime animation-create-time');
-//   taskName = document.getElementsByClassName('task animation-create-task');
-// }
-
-//var ring = document.getElementById('ring');
 
 //loops through task list and calculates total time
 function calculateTotalTime() {
@@ -172,15 +177,6 @@ function calculateTotalTime() {
     let minPerTask = TASKS[i].min;
 
     minPerTask = parseInt(minPerTask); //covert input to number
-
-    //task object for storage
-    // let task = {
-    //   id: taskName[i].parentElement.id,
-    //   name: taskName[i].value,
-    //   time: minPerTask
-    // };
-
-    // tasks.push(task);
 
     //check if input is number
     if (isNaN(minPerTask)) {
@@ -218,13 +214,6 @@ var questionButton = document.getElementById('questionButton');
 questionButton.addEventListener('click', redirectToInstructionsPage);
 
 function redirectToInstructionsPage() {
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
   window.location.href = '../pages/instructions.html';
 }
-
-/******Continue */
-// var continueButton = document.getElementById('continueButton');
-// continueButton.addEventListener('click', redirectToTasksPage);
-
-// function redirectToTasksPage() {
-//   window.location.href = '/cse110-wi21-group7/src/pages/tasks.html';
-// }
