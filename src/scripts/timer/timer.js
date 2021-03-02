@@ -70,7 +70,7 @@ function sessionFinish(prevDuration, taskIndex) {
   if (prevDuration === workingTime) {
     TASKS[taskIndex].pomosLeft = parseInt(TASKS[taskIndex].pomosLeft) - 1;
     document.getElementById('pomosleft').innerHTML =
-    TASKS[nextTask].pomosLeft + ' pomos to go';
+      TASKS[nextTask].pomosLeft + ' pomos to go';
   }
 
   if (TASKS[taskIndex].pomosLeft == 0) {
@@ -82,37 +82,36 @@ function sessionFinish(prevDuration, taskIndex) {
 
       if (addTime == null) {
         TASKS[taskIndex].done = true;
-        // go ro next task
         nextTask = taskIndex + 1;
         if (nextTask >= TASKS.length) {
           document.getElementById('pomosleft').innerHTML = '0 pomos to go';
           alert(
             'Congratulations! You have finished all your tasks! Exiting timer.'
           );
-          myStorage.removeItem('tasks');
+          myStorage.clear();
           window.location.href = './../pages/tasks.html';
         }
+        newDuration = workingTime;
+      } else {
+        addTime = parseInt(addTime);
+        let addPomos = Math.floor(addTime / workingTime);
+        addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
+
+        // update min
+        TASKS[taskIndex].min =
+          parseInt(TASKS[taskIndex].min) + parseInt(addTime);
+        // update pomos
+        TASKS[taskIndex].pomos = parseInt(TASKS[taskIndex].pomos) + addPomos;
+        // update pomos left
+        TASKS[taskIndex].pomosLeft = addPomos;
+
+        // calculate whether the next break is a short break or long break
+        let pomosDone =
+          parseInt(TASKS[taskIndex].pomos) -
+          parseInt(TASKS[taskIndex].pomosLeft);
+        newDuration =
+          pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
       }
-
-      addTime = parseInt(addTime);
-      let addPomos = Math.floor(addTime / workingTime);
-      addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
-
-      // update min
-      TASKS[taskIndex].min =
-        parseInt(TASKS[taskIndex].min) + parseInt(addTime);
-      // update pomos
-      TASKS[taskIndex].pomos =
-        parseInt(TASKS[taskIndex].pomos) + addPomos;
-      // update pomos left
-      TASKS[taskIndex].pomosLeft = addPomos;
-
-      // calculate whether the next break is a short break or long break
-      let pomosDone =
-        parseInt(TASKS[taskIndex].pomos) -
-        parseInt(TASKS[taskIndex].pomosLeft);
-      newDuration =
-        pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
     } else {
       // go to next task
       TASKS[taskIndex].done = true;
@@ -122,7 +121,7 @@ function sessionFinish(prevDuration, taskIndex) {
         alert(
           'Congratulations! You have finished all your tasks! Exiting timer.'
         );
-        myStorage.removeItem('tasks');
+        myStorage.clear();
         window.location.href = './../pages/tasks.html';
       }
       newDuration = workingTime;
@@ -139,7 +138,7 @@ function sessionFinish(prevDuration, taskIndex) {
 
   myStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
-  TASKS[nextTask].pomosLeft + ' pomos to go';
+    TASKS[nextTask].pomosLeft + ' pomos to go';
 
   // change the page background based on the next timer session type
   let workTimerBackground = document.getElementsByClassName(
@@ -149,9 +148,8 @@ function sessionFinish(prevDuration, taskIndex) {
 
   let EndSessionButton = document.getElementById('EndSessionButton');
 
-
   if (newDuration == longBreakTime) {
-    document.getElementById('timerdescription').innerHTML = 'Short Break';
+    document.getElementById('timerdescription').innerHTML = 'Long Break';
     //long break timer background
     workTimerBackground.style.backgroundColor = '#adffd1';
     //long break page background
@@ -177,7 +175,7 @@ function sessionFinish(prevDuration, taskIndex) {
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
-    
+
     //tasksList[0].style.backgroundColor = '#ff6767';
     /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
       tasksList[taskNum].style.backgroundColor = '#ff6767';
@@ -187,15 +185,14 @@ function sessionFinish(prevDuration, taskIndex) {
   startTimer(newDuration, nextTask);
 }
 
-
 function displayTasks() {
   let height = document.getElementById('tasks').style.height;
-  if (height == "0vh") {
-    document.getElementById('tasks').style.height = "30vh";
-    document.getElementById('showTasks').innerHTML = "-";
+  if (height == '0vh') {
+    document.getElementById('tasks').style.height = '30vh';
+    document.getElementById('showTasks').innerHTML = '-';
   } else {
-    document.getElementById('tasks').style.height = "0vh";
-    document.getElementById('showTasks').innerHTML = "+";
+    document.getElementById('tasks').style.height = '0vh';
+    document.getElementById('showTasks').innerHTML = '+';
   }
 }
 
@@ -203,15 +200,17 @@ function displayTasks() {
 // TODO: Get the pomos for the first task from localStorage
 window.onload = function () {
   TASKS = JSON.parse(myStorage.getItem('tasks'));
-  TASKS.forEach(task => {
+  TASKS.forEach((task) => {
     let taskElement = `<input type="text" name="task" class="task" value="${task.taskName}"/>`;
-    document.getElementById('tasks').insertAdjacentHTML('beforeend', taskElement);
+    document
+      .getElementById('tasks')
+      .insertAdjacentHTML('beforeend', taskElement);
     task.pomosLeft = task.pomos;
+    task.done = false;
   });
   document.getElementById('pomosleft').innerHTML =
-  TASKS[0].pomosLeft + ' pomos to go';
+    TASKS[0].pomosLeft + ' pomos to go';
   document.getElementById('timerdescription').innerHTML = 'Work Session';
   myStorage.setItem('tasks', JSON.stringify(TASKS));
   startTimer(workingTime, 0);
 };
-
