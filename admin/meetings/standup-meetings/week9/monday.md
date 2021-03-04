@@ -32,16 +32,16 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Update the tasks list on the timer page and modify local storage functionality.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Looking good.
 
 ## <span style="color: red;">Anoushka D.</span>
 
