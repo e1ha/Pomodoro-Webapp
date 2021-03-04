@@ -33,16 +33,16 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I recorded and submitted my video clip to Fahreen for our sprint video.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Look over the code and see if anything needs to be updated.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Looking good.
 
 ## <span style="color: red;">Anoushka D.</span>
 
