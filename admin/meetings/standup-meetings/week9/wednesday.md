@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Finalized a few ADRs.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I am really sick. I am getting a bunch of tests done and so I have been running around a lot too.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing. It's really hard to work ):
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Pretty close!
 
 ## <span style="color: red;">Elaine H.</span>
 
