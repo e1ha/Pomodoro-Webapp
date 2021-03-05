@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Still sick - not sure if I have COVID or a stomach bacteria ): 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing again unfortunately.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I hope we make it! 
 
 ## <span style="color: red;">Elaine H.</span>
 
