@@ -83,7 +83,7 @@
 - Other coursework & quiz prep
 
 ### How close are we to hitting our sprint goals?
--Almost
+- Almost
 
 ## <span style="color: red;">Trevor T.</span>
 
