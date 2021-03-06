@@ -102,16 +102,19 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- homework
+- research
+- wrote some tests
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- had to install an older version of node for my other project, worried if I configure prettier globally things would get messed up
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- test
+- homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- a little behind but I'll be free soon
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
