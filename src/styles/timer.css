@@ -98,18 +98,16 @@ footer {
   width: 50%;
   text-decoration: none;
   border: none;
-  background-color: white;
-  border: 3px solid #535353;
+  background-color: #82df89;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   height: 5vh;
   font-style: bold;
   font-size: 20px;
-  opacity: 0.5;
+  opacity: 1;
   transition-duration: 0.5s;
   transition-property: opacity;
-}
-
-#showTasks:hover {
-  opacity: 1;
 }
 
 #showTasks:focus {
@@ -152,6 +150,23 @@ footer {
   border-bottom: 1px solid black;
   height: 5vh;
   text-align: center;
+}
+
+.task-done {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: auto;
+  border-bottom: 1px solid black;
+  height: 5vh;
+  text-align: center;
+  text-decoration: line-through;
+  background-color: #ffdcdc;
+}
+
+.task,
+.task-done {
+  outline: none;
 }
 
 .pomos {

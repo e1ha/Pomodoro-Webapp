@@ -31,11 +31,9 @@
   </body>
   <footer>
     <div class="tasksListContainer">
-      <button id="showTasks" onclick="displayTasks()">+</button>
+      <button id="showTasks" onclick="displayTasks()" onmouseover="taskPeak()" onmouseout="taskUnpeak()">+</button>
       <div class="tasksContainer">
         <ul class="tasks" id="tasks">
-          <li>
-          </li>
         </ul>
       </div> 
     </div>

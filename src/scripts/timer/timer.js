@@ -114,8 +114,10 @@ function sessionFinish(prevDuration, taskIndex) {
       }
     } else {
       // go to next task
+      
       TASKS[taskIndex].done = true;
       nextTask = taskIndex + 1;
+      document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
       if (nextTask >= TASKS.length) {
         document.getElementById('pomosleft').innerHTML = '0 pomos to go';
         alert(
@@ -125,6 +127,7 @@ function sessionFinish(prevDuration, taskIndex) {
         window.location.href = './../pages/tasks.html';
       }
       newDuration = workingTime;
+      refreshTasksList();
     }
   } else {
     if (prevDuration == workingTime) {
@@ -187,12 +190,44 @@ function sessionFinish(prevDuration, taskIndex) {
 
 function displayTasks() {
   let height = document.getElementById('tasks').style.height;
-  if (height == '0vh') {
+  if (height != '30vh') {
     document.getElementById('tasks').style.height = '30vh';
-    document.getElementById('showTasks').innerHTML = '-';
   } else {
     document.getElementById('tasks').style.height = '0vh';
-    document.getElementById('showTasks').innerHTML = '+';
+  }
+}
+
+function refreshTasksList() {
+  document.getElementById('tasks').innerHTML = '';
+  TASKS.forEach((task) => {
+    if (!task.done) {
+      let taskElement = `<li><input type="text" name="task" class="task" value="${task.taskName}"/></li>`;
+    document
+      .getElementById('tasks')
+      .insertAdjacentHTML('beforeend', taskElement);
+    }
+  });
+  TASKS.forEach((task) => {
+    if (task.done) {
+      let taskElement = `<li><input type="text" name="task" class="task-done" value="${task.taskName}"/></li>`;
+    document
+      .getElementById('tasks')
+      .insertAdjacentHTML('beforeend', taskElement);
+    }
+  });
+}
+
+function taskPeak() {
+  let height = document.getElementById('tasks').style.height;
+  if (height == "0vh" || height == "") {
+    document.getElementById('tasks').style.height = '2vh';
+  }
+}
+
+function taskUnpeak() {
+  let height = document.getElementById('tasks').style.height;
+  if (height == "2vh") {
+    document.getElementById('tasks').style.height = '0vh';
   }
 }
 
@@ -201,13 +236,11 @@ function displayTasks() {
 window.onload = function () {
   TASKS = JSON.parse(myStorage.getItem('tasks'));
   TASKS.forEach((task) => {
-    let taskElement = `<input type="text" name="task" class="task" value="${task.taskName}"/>`;
-    document
-      .getElementById('tasks')
-      .insertAdjacentHTML('beforeend', taskElement);
     task.pomosLeft = task.pomos;
     task.done = false;
   });
+  refreshTasksList();
+  document.getElementById('showTasks').innerHTML = `Active : ${TASKS[0].taskName}`;
   document.getElementById('pomosleft').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
   document.getElementById('timerdescription').innerHTML = 'Work Session';
