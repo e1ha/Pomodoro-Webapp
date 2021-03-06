@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-created discussion slides
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-not sure if group has to attend discussion, contacted sasya and she said no
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-Attended disucssion for group
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We need to write a lot more tests!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
