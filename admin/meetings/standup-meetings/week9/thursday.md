@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Page redirection
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Again, the big 3: school, work, and life
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Other coursework & quiz prep
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+-Almost
 
 ## <span style="color: red;">Trevor T.</span>
 
