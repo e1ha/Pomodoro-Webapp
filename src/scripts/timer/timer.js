@@ -87,6 +87,7 @@ function sessionFinish(prevDuration, taskIndex) {
       if (
         window.confirm('Would you like to add addtional time for this task?')
       ) {
+        let addTime = '';
         do {
           addTime = window.prompt(
             'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
@@ -215,6 +216,7 @@ function sessionFinish(prevDuration, taskIndex) {
   startTimer(newDuration, nextTask);
 }
 
+// eslint-disable-next-line no-unused-vars
 function displayTasks() {
   let height = document.getElementById('tasks').style.height;
   if (height != '30vh') {
@@ -244,6 +246,7 @@ function refreshTasksList() {
   });
 }
 
+// eslint-disable-next-line no-unused-vars
 function taskPeak() {
   let height = document.getElementById('tasks').style.height;
   if (height == '0vh' || height == '') {
@@ -251,6 +254,7 @@ function taskPeak() {
   }
 }
 
+// eslint-disable-next-line no-unused-vars
 function taskUnpeak() {
   let height = document.getElementById('tasks').style.height;
   if (height == '2vh') {
