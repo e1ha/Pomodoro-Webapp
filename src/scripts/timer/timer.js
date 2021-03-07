@@ -116,6 +116,22 @@ function sessionFinish(prevDuration, taskIndex) {
         else {
           // add additional time to the timer
           addTime = parseInt(addTime);
+          if (addTime == 0) {
+            TASKS[taskIndex].done = true;
+            nextTask = taskIndex + 1;
+            if (nextTask >= TASKS.length) {
+              document.getElementById('pomosleft').innerHTML = '0 pomos to go';
+              alert(
+                'Congratulations! You have finished all your tasks! Exiting timer.'
+              );
+              myStorage.setItem('done', '1');
+              window.location.href = './../pages/tasks.html';
+            }
+            //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+            nextTask -= 1;
+            let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
+            newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+          }
           let addPomos = Math.floor(addTime / workingTime);
           addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
 
