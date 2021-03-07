@@ -221,31 +221,31 @@ function refreshTasksList() {
   TASKS.forEach((task) => {
     if (!task.done) {
       let taskElement = `<li><input type="text" name="task" class="task" value="${task.taskName}"/></li>`;
-    document
-      .getElementById('tasks')
-      .insertAdjacentHTML('beforeend', taskElement);
+      document
+        .getElementById('tasks')
+        .insertAdjacentHTML('beforeend', taskElement);
     }
   });
   TASKS.forEach((task) => {
     if (task.done) {
       let taskElement = `<li><input type="text" name="task" class="task-done" value="${task.taskName}"/></li>`;
-    document
-      .getElementById('tasks')
-      .insertAdjacentHTML('beforeend', taskElement);
+      document
+        .getElementById('tasks')
+        .insertAdjacentHTML('beforeend', taskElement);
     }
   });
 }
 
 function taskPeak() {
   let height = document.getElementById('tasks').style.height;
-  if (height == "0vh" || height == "") {
+  if (height == '0vh' || height == '') {
     document.getElementById('tasks').style.height = '2vh';
   }
 }
 
 function taskUnpeak() {
   let height = document.getElementById('tasks').style.height;
-  if (height == "2vh") {
+  if (height == '2vh') {
     document.getElementById('tasks').style.height = '0vh';
   }
 }
@@ -259,7 +259,9 @@ window.onload = () => {
     task.done = false;
   });
   refreshTasksList();
-  document.getElementById('showTasks').innerHTML = `Active : ${TASKS[0].taskName}`;
+  document.getElementById(
+    'showTasks'
+  ).innerHTML = `Active : ${TASKS[0].taskName}`;
   document.getElementById('pomosleft').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
   document.getElementById('timerdescription').innerHTML = 'Work Session';

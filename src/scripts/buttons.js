@@ -14,14 +14,14 @@ window.onload = () => {
     placeholders = false;
     document.getElementById('tasksList').innerHTML = '';
     document.getElementById('addTaskBtn').className = '';
-    storedTasks.forEach(task => {
+    storedTasks.forEach((task) => {
       TASKS.push(task);
       addTask(task.id);
       document.getElementById(`name-${task.id}`).value = task.taskName;
       document.getElementById(`min-${task.id}`).value = task.min;
     });
   }
-}
+};
 
 // Unique random int generator (1-10000)
 function uniqueInt() {
@@ -131,26 +131,6 @@ function deleteTask(id) {
   }
 }
 
-// Add click event for addTaskBtn
-document.getElementById('addTaskBtn').addEventListener('click', (event) => {
-  event.preventDefault();
-
-  // Remove placeholders when adding a task
-  if (placeholders) {
-    placeholders = false;
-    document.getElementById('tasksList').innerHTML = '';
-    document.getElementById('addTaskBtn').className = '';
-  }
-
-  // Limit 1000 tasks
-  if (TASKS.length >= 1000) {
-    confirm('You are unable to create any more tasks.');
-  } else {
-    // Create new empty task and push it to TASKS
-    TASKS.push(addTask(uniqueInt()));
-  }
-});
-
 /* Function to convert minutes into pomos
  *
  * @param {int} min is the amount of minutes being converted
@@ -164,10 +144,6 @@ function minToPomos(min) {
 
   return pomos;
 }
-
-/******Start */
-var startButton = document.getElementById('startButton');
-startButton.addEventListener('click', startSession, false);
 
 //loops through task list and calculates total time
 function calculateTotalTime() {
@@ -212,11 +188,39 @@ function startSession(e) {
   e.preventDefault();
 }
 
-/*****Question */
-var questionButton = document.getElementById('questionButton');
-questionButton.addEventListener('click', redirectToInstructionsPage);
-
 function redirectToInstructionsPage() {
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   window.location.href = '../pages/instructions.html';
 }
+
+window.onload = () => {
+  // Add click event for addTaskBtn
+  document.getElementById('addTaskBtn').addEventListener('click', (event) => {
+    event.preventDefault();
+
+    // Remove placeholders when adding a task
+    if (placeholders) {
+      placeholders = false;
+      document.getElementById('tasksList').innerHTML = '';
+      document.getElementById('addTaskBtn').className = '';
+    }
+
+    // Limit 1000 tasks
+    if (TASKS.length >= 1000) {
+      confirm('You are unable to create any more tasks.');
+    } else {
+      // Create new empty task and push it to TASKS
+      TASKS.push(addTask(uniqueInt()));
+    }
+  });
+
+  /*****Start */
+  var startButton = document.getElementById('startButton');
+  startButton.addEventListener('click', startSession, false);
+
+  /*****Question */
+  var questionButton = document.getElementById('questionButton');
+  questionButton.addEventListener('click', redirectToInstructionsPage);
+};
+
+module.exports = addTask;
