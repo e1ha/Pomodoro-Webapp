@@ -67,6 +67,7 @@ function startTimer(duration, taskIndex) {
  */
 function sessionFinish(prevDuration, taskIndex) {
   let nextTask = taskIndex;
+  let newDuration = 0;
   if (prevDuration === workingTime) {
     TASKS[taskIndex].pomosLeft = parseInt(TASKS[taskIndex].pomosLeft) - 1;
     document.getElementById('pomosleft').innerHTML =
@@ -74,15 +75,72 @@ function sessionFinish(prevDuration, taskIndex) {
   }
 
   if (TASKS[taskIndex].pomosLeft == 0) {
-    if (window.confirm('Would you like to add addtional time for this task?')) {
-      let addTime = window.prompt(
-        'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
-        '0'
-      );
 
-      if (addTime == null) {
+    if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
+      //TASKS[taskIndex].done = true;
+      nextTask = taskIndex + 1;
+      newDuration = workingTime;
+      document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+      refreshTasksList();
+    }
+
+    else {
+      if (window.confirm('Would you like to add addtional time for this task?')) {
+        do {
+          addTime = window.prompt(
+            'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
+            '0'
+          );
+        }
+        while (isNaN(parseInt(addTime)));
+
+        // go to break if no time added
+        if (addTime == null) {
+          TASKS[taskIndex].done = true;
+          nextTask = taskIndex + 1;
+          if (nextTask >= TASKS.length) {
+            document.getElementById('pomosleft').innerHTML = '0 pomos to go';
+            alert(
+              'Congratulations! You have finished all your tasks! Exiting timer.'
+            );
+            myStorage.setItem('done', '1');
+            window.location.href = './../pages/tasks.html';
+          }
+          //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+          nextTask -= 1;
+          let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
+          newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+          //refreshTasksList();
+        } 
+        
+        else {
+          // add additional time to the timer
+          addTime = parseInt(addTime);
+          let addPomos = Math.floor(addTime / workingTime);
+          addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
+
+          // update min
+          TASKS[taskIndex].min =
+            parseInt(TASKS[taskIndex].min) + parseInt(addTime);
+          // update pomos
+          TASKS[taskIndex].pomos = parseInt(TASKS[taskIndex].pomos) + addPomos;
+          // update pomos left
+          TASKS[taskIndex].pomosLeft = addPomos;
+
+          // calculate whether the next break is a short break or long break
+          let pomosDone =
+            parseInt(TASKS[taskIndex].pomos) -
+            parseInt(TASKS[taskIndex].pomosLeft);
+          newDuration =
+            pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+        }
+      } 
+      
+      else {
+        // mark current task as done, active one extra break 
         TASKS[taskIndex].done = true;
         nextTask = taskIndex + 1;
+        // if next task dones't exist exit
         if (nextTask >= TASKS.length) {
           document.getElementById('pomosleft').innerHTML = '0 pomos to go';
           alert(
@@ -91,45 +149,15 @@ function sessionFinish(prevDuration, taskIndex) {
           myStorage.setItem('done', '1');
           window.location.href = './../pages/tasks.html';
         }
-        newDuration = workingTime;
-      } else {
-        addTime = parseInt(addTime);
-        let addPomos = Math.floor(addTime / workingTime);
-        addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
-
-        // update min
-        TASKS[taskIndex].min =
-          parseInt(TASKS[taskIndex].min) + parseInt(addTime);
-        // update pomos
-        TASKS[taskIndex].pomos = parseInt(TASKS[taskIndex].pomos) + addPomos;
-        // update pomos left
-        TASKS[taskIndex].pomosLeft = addPomos;
-
-        // calculate whether the next break is a short break or long break
-        let pomosDone =
-          parseInt(TASKS[taskIndex].pomos) -
-          parseInt(TASKS[taskIndex].pomosLeft);
-        newDuration =
-          pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+        nextTask -= 1;
+        let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
+        newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
       }
-    } else {
-      // go to next task
-      
-      TASKS[taskIndex].done = true;
-      nextTask = taskIndex + 1;
-      document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
-      if (nextTask >= TASKS.length) {
-        document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-        alert(
-          'Congratulations! You have finished all your tasks! Exiting timer.'
-        );
-        myStorage.setItem('done', '1');
-        window.location.href = './../pages/tasks.html';
-      }
-      newDuration = workingTime;
-      refreshTasksList();
-    }
-  } else {
+
+    } 
+  }
+
+  else {
     if (prevDuration == workingTime) {
       let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
       newDuration =
@@ -138,6 +166,7 @@ function sessionFinish(prevDuration, taskIndex) {
       newDuration = workingTime;
     }
   }
+
 
   myStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
@@ -159,9 +188,6 @@ function sessionFinish(prevDuration, taskIndex) {
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
 
-    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
-      tasksList[taskNum].style.backgroundColor = '#47de88';
-    }*/
   } else if (newDuration == shortBreakTime) {
     document.getElementById('timerdescription').innerHTML = 'Short Break';
     //short break timer background
@@ -169,9 +195,6 @@ function sessionFinish(prevDuration, taskIndex) {
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
 
-    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
-      tasksList[taskNum].style.backgroundColor = '#36a1ff';
-    }*/
   } else if (newDuration == workingTime) {
     document.getElementById('timerdescription').innerHTML = 'Work Session';
     //work break timer background
@@ -179,10 +202,6 @@ function sessionFinish(prevDuration, taskIndex) {
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
 
-    //tasksList[0].style.backgroundColor = '#ff6767';
-    /*for (let taskNum = 0; taskNum < tasksList.length; taskNum++) {
-      tasksList[taskNum].style.backgroundColor = '#ff6767';
-    }*/
   }
   // start the next session timer
   startTimer(newDuration, nextTask);
@@ -231,9 +250,9 @@ function taskUnpeak() {
   }
 }
 
-// placeholder code for activating the timer
-// TODO: Get the pomos for the first task from localStorage
-window.onload = function () {
+
+// load the tasks and current active task, then start timer
+window.onload = () => {
   TASKS = JSON.parse(myStorage.getItem('tasks'));
   TASKS.forEach((task) => {
     task.pomosLeft = task.pomos;
