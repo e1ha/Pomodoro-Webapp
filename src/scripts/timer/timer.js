@@ -75,24 +75,24 @@ function sessionFinish(prevDuration, taskIndex) {
   }
 
   if (TASKS[taskIndex].pomosLeft == 0) {
-
     if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
       //TASKS[taskIndex].done = true;
       nextTask = taskIndex + 1;
       newDuration = workingTime;
-      document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+      document.getElementById(
+        'showTasks'
+      ).innerHTML = `Active : ${TASKS[nextTask].taskName}`;
       refreshTasksList();
-    }
-
-    else {
-      if (window.confirm('Would you like to add addtional time for this task?')) {
+    } else {
+      if (
+        window.confirm('Would you like to add addtional time for this task?')
+      ) {
         do {
           addTime = window.prompt(
             'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
             '0'
           );
-        }
-        while (isNaN(parseInt(addTime)));
+        } while (isNaN(parseInt(addTime)));
 
         // go to break if no time added
         if (addTime == null) {
@@ -109,11 +109,10 @@ function sessionFinish(prevDuration, taskIndex) {
           //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
           nextTask -= 1;
           let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
-          newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+          newDuration =
+            pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
           //refreshTasksList();
-        } 
-        
-        else {
+        } else {
           // add additional time to the timer
           addTime = parseInt(addTime);
           if (addTime == 0) {
@@ -130,7 +129,8 @@ function sessionFinish(prevDuration, taskIndex) {
             //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
             nextTask -= 1;
             let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
-            newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+            newDuration =
+              pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
           }
           let addPomos = Math.floor(addTime / workingTime);
           addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
@@ -150,10 +150,8 @@ function sessionFinish(prevDuration, taskIndex) {
           newDuration =
             pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
         }
-      } 
-      
-      else {
-        // mark current task as done, active one extra break 
+      } else {
+        // mark current task as done, active one extra break
         TASKS[taskIndex].done = true;
         nextTask = taskIndex + 1;
         // if next task dones't exist exit
@@ -167,13 +165,11 @@ function sessionFinish(prevDuration, taskIndex) {
         }
         nextTask -= 1;
         let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
-        newDuration = pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
+        newDuration =
+          pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
       }
-
-    } 
-  }
-
-  else {
+    }
+  } else {
     if (prevDuration == workingTime) {
       let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
       newDuration =
@@ -182,7 +178,6 @@ function sessionFinish(prevDuration, taskIndex) {
       newDuration = workingTime;
     }
   }
-
 
   myStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
@@ -203,21 +198,18 @@ function sessionFinish(prevDuration, taskIndex) {
     //long break page background
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
-
   } else if (newDuration == shortBreakTime) {
     document.getElementById('timerdescription').innerHTML = 'Short Break';
     //short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
-
   } else if (newDuration == workingTime) {
     document.getElementById('timerdescription').innerHTML = 'Work Session';
     //work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
-
   }
   // start the next session timer
   startTimer(newDuration, nextTask);
@@ -265,7 +257,6 @@ function taskUnpeak() {
     document.getElementById('tasks').style.height = '0vh';
   }
 }
-
 
 // load the tasks and current active task, then start timer
 window.onload = () => {
