@@ -1,6 +1,6 @@
 # Timer Pages Structure
 
-* Status: Accepted
+* Status: Superceded [here](020621-Timer-Pages-Structure.md)
 * Deciders: Uposhanto Bhattacharya, Trevor Tsai, Ryan Bui, Qingyuan Zhang, Farheen Ansari, Yueqi Wang, Elaine Ha, Anoushka Dave, Miguel Serrano
 * Date: 01/31/2021
 
