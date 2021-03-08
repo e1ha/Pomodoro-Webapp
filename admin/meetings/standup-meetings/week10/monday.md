@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I finalized all of our Architectural Decision Records (format, superceding ADRs, etc.) and pushed them from my local computer to the remote repository.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I am still sick, but I am doing much better than last week!
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I completed my tasks for this week.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We are good to go!
 
 ## <span style="color: red;">Elaine H.</span>
 
