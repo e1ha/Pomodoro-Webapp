@@ -1,4 +1,4 @@
-const {addTask} = require('../src/scripts/buttons.js');
+const { addTask } = require('../src/scripts/buttons.js');
 
 test('Check if addTask adds to TASK list', () => {
   document.body.innerHTML = `

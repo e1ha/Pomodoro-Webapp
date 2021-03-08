@@ -227,4 +227,3 @@ module.exports = {
   addTask: addTask,
   redirectToInstructionsPage: redirectToInstructionsPage
 };
-
