@@ -223,4 +223,8 @@ window.onload = () => {
   questionButton.addEventListener('click', redirectToInstructionsPage);
 };
 
-module.exports = addTask;
+module.exports = {
+  addTask: addTask,
+  redirectToInstructionsPage: redirectToInstructionsPage
+};
+
