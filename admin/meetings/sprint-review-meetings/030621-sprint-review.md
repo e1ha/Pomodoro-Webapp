@@ -53,7 +53,9 @@ Remote, Synchronous - Zoom.us
   - End Session Button Unit Tests
 
 #### Key Achievements of Pomo App
-- 
+- Key integration of new timer workflow
+- Core JavaScript functionality complete 
+- Emphasis on unit testing
 
 ### Meeting End Time
 03:30PM PST
