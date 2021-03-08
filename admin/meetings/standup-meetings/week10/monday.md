@@ -52,7 +52,7 @@
 - I am still sick, but I am doing much better than last week!
 
 ### What will you work on today?
-- I completed my tasks for this week.
+- I completed my tasks for this week; I will not be working on anything.
 
 ### How close are we to hitting our sprint goals?
 - We are good to go!
