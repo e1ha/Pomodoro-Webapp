@@ -61,16 +61,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I noticed there was a task that we missed, so I will discuss with Upo about it to see who will be doing it.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- No progess has been made. 
 
 ## <span style="color: red;">Miguel S.</span>
 
