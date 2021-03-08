@@ -1,6 +1,7 @@
 # JavaScript Source Code Organization 
 
-* Status: Accepted
+* Status: Superceded by [this ADR](022821-JS-Source-Code-Organization.md) on 02/28/2021
+* Reason for change: We had more reasons (better code organization) to switch to Option 2. The reasoning is in the document linked above.
 * Deciders: Uposhanto Bhattacharya, Trevor Tsai, Ryan Bui, Qingyuan Zhang, Farheen Ansari, Yueqi Wang, Elaine Ha, Anoushka Dave, Miguel Serrano
 * Date: 01/30/2021
 
