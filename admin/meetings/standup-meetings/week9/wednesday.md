@@ -60,16 +60,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I finished coding the I'm Done button code but didn't finish testing it. 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- My work for other courses. 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost done. 
 
 ## <span style="color: red;">Miguel S.</span>
 
