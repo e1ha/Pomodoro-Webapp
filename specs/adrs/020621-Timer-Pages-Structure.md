@@ -1,6 +1,6 @@
 # Timer Pages Structure
 
-* Status: Accepted, Supercedes [this ADR](013121-Timer-Pages-Structure.md)
+* Status: Accepted, Supercedes [this ADR](013121-Timer-Pages-Structure.md) from 01/31/2021
 * Deciders: Uposhanto Bhattacharya, Trevor Tsai, Ryan Bui, Qingyuan Zhang, Farheen Ansari, Yueqi Wang, Elaine Ha, Anoushka Dave, Miguel Serrano
 * Date: 02/06/2021
 
