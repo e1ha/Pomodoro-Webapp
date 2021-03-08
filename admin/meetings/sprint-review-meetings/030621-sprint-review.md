@@ -15,6 +15,7 @@ None
 
 ### When & Where 
 Remote, Synchronous - Zoom.us
+
 03/06/2021, 03:00PM PST
 
 ### Sprint Review
