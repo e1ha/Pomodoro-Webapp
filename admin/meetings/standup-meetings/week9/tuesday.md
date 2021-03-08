@@ -60,16 +60,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I got on a Zoom call with Upo to discuss who will be doing the I'm Done button. 
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- We're uncertain about how to format the task bar when the user is done with the task. 
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will work on the I'm Done button. 
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- I should get a big chunk of it done today. 
 
 ## <span style="color: red;">Miguel S.</span>
 
