@@ -2,8 +2,6 @@ const workingTime = 5;
 const shortBreakTime = 2;
 const longBreakTime = 4;
 const pomob4break = 4;
-let TASKS = [];
-let myStorage = window.localStorage;
 /* Function to count down the current timer
  *
  * @param {int} start time in milliseconds
@@ -11,7 +9,7 @@ let myStorage = window.localStorage;
  * @param {int} ID returned by setInterval, used by clearInterval
  * @param {int} the index of the current task in TASKS
  */
-function countDown(start, duration, timerID, taskIndex) {
+function countDown(start, duration, timerID, taskIndex, TASKS) {
   // get the timer HTML element
   let element = document.getElementById('timer');
   // calculate the difference between current time
@@ -23,7 +21,7 @@ function countDown(start, duration, timerID, taskIndex) {
       clearInterval(timerID);
     }
     element.innerHTML = '00:00';
-    sessionFinish(duration, taskIndex);
+    sessionFinish(duration, taskIndex, TASKS);
     return;
   }
   // converts the differnece in seconds to minutes and seconds
@@ -48,14 +46,14 @@ function countDown(start, duration, timerID, taskIndex) {
  * @param {numWork} number of work sessions done
  * @param {function} callback function to use when timer hits zero
  */
-function startTimer(duration, taskIndex) {
+function startTimer(duration, taskIndex, TASKS) {
   const start = Date.now();
   // call countDown first for initialization
-  countDown(start, duration, null, taskIndex);
+  countDown(start, duration, null, taskIndex, TASKS);
   // timer ID is used to clear the interval once the timer hits zero
   // call countDown for every 500 milliseconds
   var timerID = setInterval(function () {
-    countDown(start, duration, timerID, taskIndex);
+    countDown(start, duration, timerID, taskIndex, TASKS);
   }, 500);
 }
 
@@ -65,7 +63,7 @@ function startTimer(duration, taskIndex) {
  * @param {int} the duration of the timer that hits zero
  * @param {numWork} number of work sessions done
  */
-function sessionFinish(prevDuration, taskIndex) {
+function sessionFinish(prevDuration, taskIndex, TASKS) {
   let nextTask = taskIndex;
   let newDuration = 0;
   if (prevDuration === workingTime) {
@@ -82,7 +80,7 @@ function sessionFinish(prevDuration, taskIndex) {
       document.getElementById(
         'showTasks'
       ).innerHTML = `Active : ${TASKS[nextTask].taskName}`;
-      refreshTasksList();
+      refreshTasksList(TASKS);
     } else {
       if (
         window.confirm('Would you like to add addtional time for this task?')
@@ -104,7 +102,7 @@ function sessionFinish(prevDuration, taskIndex) {
             alert(
               'Congratulations! You have finished all your tasks! Exiting timer.'
             );
-            myStorage.setItem('done', '1');
+            localStorage.setItem('done', '1');
             window.location.href = './../pages/tasks.html';
           }
           //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
@@ -124,7 +122,7 @@ function sessionFinish(prevDuration, taskIndex) {
               alert(
                 'Congratulations! You have finished all your tasks! Exiting timer.'
               );
-              myStorage.setItem('done', '1');
+              localStorage.setItem('done', '1');
               window.location.href = './../pages/tasks.html';
             }
             //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
@@ -161,7 +159,7 @@ function sessionFinish(prevDuration, taskIndex) {
           alert(
             'Congratulations! You have finished all your tasks! Exiting timer.'
           );
-          myStorage.setItem('done', '1');
+          localStorage.setItem('done', '1');
           window.location.href = './../pages/tasks.html';
         }
         nextTask -= 1;
@@ -180,7 +178,7 @@ function sessionFinish(prevDuration, taskIndex) {
     }
   }
 
-  myStorage.setItem('tasks', JSON.stringify(TASKS));
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
     TASKS[nextTask].pomosLeft + ' pomos to go';
 
@@ -213,7 +211,7 @@ function sessionFinish(prevDuration, taskIndex) {
     EndSessionButton.style.backgroundColor = '#ff6767';
   }
   // start the next session timer
-  startTimer(newDuration, nextTask);
+  startTimer(newDuration, nextTask, TASKS);
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -226,7 +224,7 @@ function displayTasks() {
   }
 }
 
-function refreshTasksList() {
+function refreshTasksList(TASKS) {
   document.getElementById('tasks').innerHTML = '';
   TASKS.forEach((task) => {
     if (!task.done) {
@@ -264,20 +262,20 @@ function taskUnpeak() {
 
 // load the tasks and current active task, then start timer
 window.onload = () => {
-  TASKS = JSON.parse(myStorage.getItem('tasks'));
+  var TASKS = JSON.parse(localStorage.getItem('tasks'));
   TASKS.forEach((task) => {
     task.pomosLeft = task.pomos;
     task.done = false;
   });
-  refreshTasksList();
+  refreshTasksList(TASKS);
   document.getElementById(
     'showTasks'
   ).innerHTML = `Active : ${TASKS[0].taskName}`;
   document.getElementById('pomosleft').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
   document.getElementById('timerdescription').innerHTML = 'Work Session';
-  myStorage.setItem('tasks', JSON.stringify(TASKS));
-  startTimer(workingTime, 0);
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
+  startTimer(workingTime, 0, TASKS);
 };
 
 module.exports = { startTimer, countDown, sessionFinish };
