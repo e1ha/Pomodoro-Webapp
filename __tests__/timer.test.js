@@ -30,16 +30,15 @@ describe('startTimer tests', () => {
     let workingHTML = '25:00';
     let shortHTML = '05:00';
     let longHTML = '15:00';
-    let durationTests = [25*60, 5*60, 15*60];
-    let durationString = [workingHTML, shortHTML, longHTML]
-    
+    let durationTests = [25 * 60, 5 * 60, 15 * 60];
+    let durationString = [workingHTML, shortHTML, longHTML];
+
     for (let i = 0; i < durationString.length; i++) {
-        timer.startTimer(durationTests[i], 0);
-        expect(timerUI.innerHTML).toMatch(durationString[i]);
+      timer.startTimer(durationTests[i], 0);
+      expect(timerUI.innerHTML).toMatch(durationString[i]);
     }
   });
 });
-
 
 describe('sessionFinish tests', () => {
   test('Test behavior of final task working session ends with short break and no addtional time', () => {
@@ -84,12 +83,12 @@ describe('sessionFinish tests', () => {
   </body>
     `;
     const pomoUI = document.getElementById('pomosleft');
-    const desUI =  document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerdescription');
     const myworkTimerBackground = document.getElementsByClassName(
       'workTimerBackground'
     )[0];
     const mypageBackground = document.getElementsByTagName('BODY')[0];
-  
+
     const myEndSessionButton = document.getElementById('EndSessionButton');
     global.confirm = () => false;
     timer.sessionFinish(workingTime, 0, TASKS);
@@ -97,7 +96,6 @@ describe('sessionFinish tests', () => {
     expect(desUI.innerHTML).toMatch('Short Break');
     expect(TASKS[0].pomosLeft.toString()).toMatch('0');
   });
-
 
   test('Test behavior of final task working session ends with long break and no addtional time', () => {
     const workingTime = 5;
@@ -142,19 +140,18 @@ describe('sessionFinish tests', () => {
     `;
     global.confirm = () => false;
     const pomoUI = document.getElementById('pomosleft');
-    const desUI =  document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerdescription');
     const myworkTimerBackground = document.getElementsByClassName(
       'workTimerBackground'
     )[0];
     const mypageBackground = document.getElementsByTagName('BODY')[0];
-  
+
     const myEndSessionButton = document.getElementById('EndSessionButton');
     timer.sessionFinish(workingTime, 0, TASKS);
     expect(pomoUI.innerHTML).toMatch('1 pomos to go');
     expect(desUI.innerHTML).toMatch('Long Break');
     expect(TASKS[0].pomosLeft.toString()).toMatch('1');
   });
-
 
   test('Test break ends followed by working session', () => {
     const workingTime = 5;
@@ -210,12 +207,10 @@ describe('sessionFinish tests', () => {
     </div>
   </body>
     `;
-    const desUI =  document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerdescription');
     timer.sessionFinish(shortBreakTime, 0, TASKS);
     expect(desUI.innerHTML).toMatch('Work Session');
     timer.sessionFinish(shortBreakTime, 1, TASKS);
     expect(desUI.innerHTML).toMatch('Work Session');
-
   });
-
 });

@@ -91,7 +91,10 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
             'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
             '0'
           );
-        } while (addTime != null && isNaN(parseInt(addTime)) ||  addTime != null && parseInt(addTime) < 0);
+        } while (
+          (addTime != null && isNaN(parseInt(addTime))) ||
+          (addTime != null && parseInt(addTime) < 0)
+        );
 
         // go to break if no time added
         if (addTime == null) {
