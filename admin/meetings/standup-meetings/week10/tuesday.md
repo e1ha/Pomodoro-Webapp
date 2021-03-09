@@ -46,16 +46,17 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers! I feel better (:
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I completed my tasks for this week.
+- I want to look into breaking our Pomo application more to possibly make it better.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost there!
 
 ## <span style="color: red;">Elaine H.</span>
 
