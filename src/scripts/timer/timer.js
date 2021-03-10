@@ -2,6 +2,12 @@ const workingTime = 5;
 const shortBreakTime = 2;
 const longBreakTime = 4;
 const pomob4break = 4;
+let currTask = 0;
+let totalPomos = 0;
+let totalPomosLeft = 0;
+let progress = 0;
+let visible = true;
+
 /* Function to count down the current timer
  *
  * @param {int} start time in milliseconds
@@ -26,6 +32,7 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
     return;
   }
   // converts the differnece in seconds to minutes and seconds
+  updateProgressBar(TASKS);
   let minutes = Math.floor(difference / 60);
   let seconds = Math.floor(difference % 60);
   // take the absolute value of minutes and seconds for safe measures
@@ -85,6 +92,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       document.getElementById(
         'showTasks'
       ).innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+      currTask = TASKS[nextTask].id;
       refreshTasksList(TASKS);
     } else {
       // if the user just finishes the last working session
@@ -219,14 +227,43 @@ function displayTasks() {
   }
 }
 
+function updateProgressBar(list) {
+  totalPomos = 0;
+  totalPomosLeft = 0;
+  if (list) {
+    list.forEach((task) => {
+      totalPomos = totalPomos + task.pomos;
+      totalPomosLeft = totalPomosLeft + task.pomosLeft;
+    });
+  }
+  progress = Math.round(100 * ((totalPomos - totalPomosLeft) / totalPomos));
+  window.onload = () => {
+    document.getElementById('progressBar').style.width = `${progress}%`;
+  };
+}
+
 function refreshTasksList(TASKS) {
   document.getElementById('tasks').innerHTML = '';
   TASKS.forEach((task) => {
     if (!task.done) {
-      let taskElement = `<li><input type="text" name="task" class="task" value="${task.taskName}"/></li>`;
+      let taskElement = `<li>
+                           <p id="task-${task.id}" class="task">${task.taskName}</p>
+                         </li>`;
+      if (currTask == task.id) {
+        taskElement = `<li>
+        <p id="task-${task.id}" class="task active-task">${task.taskName}</p>
+                        </li>`;
+      }
       document
         .getElementById('tasks')
         .insertAdjacentHTML('beforeend', taskElement);
+      if (currTask == task.id) {
+        document
+          .getElementById(`task-${task.id}`)
+          .addEventListener('click', () => {
+            console.log(`Finished: ${task.id}`);
+          });
+      }
     }
   });
   TASKS.forEach((task) => {
@@ -262,6 +299,7 @@ window.onload = () => {
     task.pomosLeft = task.pomos;
     task.done = false;
   });
+  currTask = TASKS[0].id;
   refreshTasksList(TASKS);
   document.getElementById(
     'showTasks'

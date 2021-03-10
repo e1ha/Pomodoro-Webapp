@@ -61,6 +61,31 @@ body {
   overflow-x: hidden;
 }
 
+.progressBarContainer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.progressBarWrapper {
+  width: 60%;
+  border: 1px solid #cccaca;
+  height: 5vh;
+  padding: 0;
+  background-color: #f0eeee86;
+  border-radius: 15px;
+}
+
+#progressBar {
+  background: linear-gradient(to right, #e43a15, #e65245);
+  height: 100%;
+  width: 0%;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
 .centerEndSessionButton {
   display: flex;
   justify-content: center;
@@ -146,10 +171,17 @@ footer {
   width: 100%;
   border: none;
   padding: 0;
-  margin: auto;
-  border-bottom: 1px solid black;
+  margin: 0;
   height: 5vh;
   text-align: center;
+  border-bottom: 1px solid black;
+  transition-duration: 0.5s;
+  line-height: 2.5em;
+}
+
+.active-task:hover {
+  background-color: #9bd89b;
+  text-decoration: line-through;
 }
 
 .task-done {
@@ -161,7 +193,7 @@ footer {
   height: 5vh;
   text-align: center;
   text-decoration: line-through;
-  background-color: #ffdcdc;
+  background-color: #e0bba9;
 }
 
 .task,
