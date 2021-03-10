@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Other coursework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Stress, school, work, and life
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Other coursework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 
