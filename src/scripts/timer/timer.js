@@ -8,6 +8,7 @@ const pomob4break = 4;
  * @param {int} duration for this timer in milliseconds
  * @param {int} ID returned by setInterval, used by clearInterval
  * @param {int} the index of the current task in TASKS
+ * @param {array} the array containing all the task objects
  */
 function countDown(start, duration, timerID, taskIndex, TASKS) {
   // get the timer HTML element
@@ -45,6 +46,7 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
  * @param {int} duration for this timer in milliseconds
  * @param {numWork} number of work sessions done
  * @param {function} callback function to use when timer hits zero
+ * @param {array} the array containing all the task objects
  */
 function startTimer(duration, taskIndex, TASKS) {
   const start = Date.now();
@@ -62,6 +64,7 @@ function startTimer(duration, taskIndex, TASKS) {
  *
  * @param {int} the duration of the timer that hits zero
  * @param {numWork} number of work sessions done
+ * @param {array} the array containing all the task objects
  */
 function sessionFinish(prevDuration, taskIndex, TASKS) {
   let nextTask = taskIndex;
@@ -72,9 +75,11 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       TASKS[nextTask].pomosLeft + ' pomos to go';
   }
 
+  // if no more working sessions left for current task
   if (TASKS[taskIndex].pomosLeft == 0) {
+    // if the user has alreaday had the final break
     if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
-      //TASKS[taskIndex].done = true;
+      // move to next task, refresh the task list display as well
       nextTask = taskIndex + 1;
       newDuration = workingTime;
       document.getElementById(
@@ -82,24 +87,26 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       ).innerHTML = `Active : ${TASKS[nextTask].taskName}`;
       refreshTasksList(TASKS);
     } else {
+      // if the user just finishes the last working session
       if (
         window.confirm('Would you like to add addtional time for this task?')
       ) {
+        // ask the user to input valid addtional time
         let addTime = '';
         do {
           addTime = window.prompt(
-            'Please enter addtional SECONDS you need in whole numbers. ***For testing only***',
-            '0'
+            'Please enter addtional SECONDS you need in whole numbers. ***For testing only***'
           );
         } while (
           (addTime != null && isNaN(parseInt(addTime))) ||
           (addTime != null && parseInt(addTime) < 0)
         );
 
-        // go to break if no time added
-        if (addTime == null) {
+        // go to the final break if no additional time added
+        if (addTime == null || parseInt(addTime) == 0) {
           TASKS[taskIndex].done = true;
           nextTask = taskIndex + 1;
+          // if the finished task is the final task redirect the user back to landing page
           if (nextTask >= TASKS.length) {
             document.getElementById('pomosleft').innerHTML = '0 pomos to go';
             alert(
@@ -108,38 +115,19 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
             localStorage.setItem('done', '1');
             window.location.href = './../pages/tasks.html';
           }
-          //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
+          // calculate the final break duration
           nextTask -= 1;
           let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
           newDuration =
             pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
-          //refreshTasksList();
         } else {
-          // add additional time to the timer
-          addTime = parseInt(addTime);
-          if (addTime == 0) {
-            TASKS[taskIndex].done = true;
-            nextTask = taskIndex + 1;
-            if (nextTask >= TASKS.length) {
-              document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-              alert(
-                'Congratulations! You have finished all your tasks! Exiting timer.'
-              );
-              localStorage.setItem('done', '1');
-              window.location.href = './../pages/tasks.html';
-            }
-            //document.getElementById('showTasks').innerHTML = `Active : ${TASKS[nextTask].taskName}`;
-            nextTask -= 1;
-            let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
-            newDuration =
-              pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
-          }
-          let addPomos = Math.floor(addTime / workingTime);
-          addPomos = addTime % workingTime > 0 ? addPomos + 1 : addPomos;
+          // add additional time and pomos to the timer
+          let addedTime = parseInt(addTime);
+          let addPomos = Math.floor(addedTime / workingTime);
+          addPomos = addedTime % workingTime > 0 ? addPomos + 1 : addPomos;
 
           // update min
-          TASKS[taskIndex].min =
-            parseInt(TASKS[taskIndex].min) + parseInt(addTime);
+          TASKS[taskIndex].min = parseInt(TASKS[taskIndex].min) + addedTime;
           // update pomos
           TASKS[taskIndex].pomos = parseInt(TASKS[taskIndex].pomos) + addPomos;
           // update pomos left
@@ -153,10 +141,10 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
             pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
         }
       } else {
-        // mark current task as done, active one extra break
+        // if the user doesn't wish to add more time
         TASKS[taskIndex].done = true;
         nextTask = taskIndex + 1;
-        // if next task dones't exist exit
+        // if the finished task is the final task redirect the user back to landing page
         if (nextTask >= TASKS.length) {
           document.getElementById('pomosleft').innerHTML = '0 pomos to go';
           alert(
@@ -172,7 +160,9 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       }
     }
   } else {
+    // if there are more working sessions left for current task
     if (prevDuration == workingTime) {
+      // determine if it's a long break or a short break
       let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
       newDuration =
         pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
@@ -181,6 +171,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     }
   }
 
+  // update local storage
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
     TASKS[nextTask].pomosLeft + ' pomos to go';
@@ -213,6 +204,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
   }
+
   // start the next session timer
   startTimer(newDuration, nextTask, TASKS);
 }
