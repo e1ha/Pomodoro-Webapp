@@ -38,7 +38,7 @@
 - School work.
 
 ### What will you work on today?
-- Style done button and add progress bar.
+- Style done button, add progress bar, and update/fix tests.
 
 ### How close are we to hitting our sprint goals?
 - We are close.
