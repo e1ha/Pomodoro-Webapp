@@ -104,6 +104,7 @@ body {
   box-shadow: 1px 2px 2px #696969c5;
   width: 8.75em;
   height: 3.25em;
+  outline: none;
 }
 
 footer {

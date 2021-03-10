@@ -308,8 +308,15 @@ function taskUnpeak() {
   }
 }
 
+function endSession() {
+  alert('You have ended the session. Returning to the task page...');
+  window.location.href = '../pages/tasks.html';
+}
+
 // load the tasks and current active task, then start timer
 window.onload = () => {
+  var endButton = document.getElementById('EndSessionButton');
+  endButton.addEventListener('click', endSession);
   var TASKS = JSON.parse(localStorage.getItem('tasks'));
   TASKS.forEach((task) => {
     task.pomosLeft = task.pomos;
