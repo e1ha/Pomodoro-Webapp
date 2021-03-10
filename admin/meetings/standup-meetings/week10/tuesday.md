@@ -32,16 +32,16 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Was a bit busy, didn't get too much done.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- School work.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Style done button and add progress bar.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We are close.
 
 ## <span style="color: red;">Anoushka D.</span>
 
