@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers, I'm back to being healthy!!
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Nothing, I am done with my tasks for the week.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We should be good to go!
 
 ## <span style="color: red;">Elaine H.</span>
 
