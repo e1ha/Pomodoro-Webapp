@@ -1,8 +1,8 @@
 const endSession = require('../src/scripts/buttons/endSession.js');
-const endButton = require(endSession());
 
 beforeEach(() => {
   global.window = Object.create(window);
+  window.alert = jest.fn(() => true)
   Object.defineProperty(window, 'location', {
     value: {
       href: '/'

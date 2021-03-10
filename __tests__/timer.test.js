@@ -1,24 +1,36 @@
 const timer = require('../src/scripts/timer/timer');
 
+beforeEach(() => {
+  global.window = Object.create(window);
+  window.confirm = jest.fn(() => true)
+  window.prompt = jest.fn(() => 0)
+  window.alert = jest.fn(() => true)
+  Object.defineProperty(window, 'location', {
+    value: {
+      href: '/'
+    }
+  });
+});
+
 class localStorageMock {
   constructor() {
-    this.stoarge = {};
+    this.storage = {};
   }
 
   clear() {
-    this.stoarge = {};
+    this.storage = {};
   }
 
   getItem(key) {
-    return this.stoarge[key] || null;
+    return this.storage[key] || null;
   }
 
   setItem(key, value) {
-    this.stoarge[key] = String(value);
+    this.storage[key] = String(value);
   }
 
   removeItem(key) {
-    delete this.stoarge[key];
+    delete this.storage[key];
   }
 }
 

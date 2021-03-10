@@ -225,5 +225,6 @@ window.onload = () => {
 
 module.exports = {
   addTask: addTask,
-  redirectToInstructionsPage: redirectToInstructionsPage
+  redirectToInstructionsPage: redirectToInstructionsPage,
+  deleteTask: deleteTask
 };
