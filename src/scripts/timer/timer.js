@@ -23,6 +23,7 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
   // and start time in seconds
   let difference = duration - Math.floor((Date.now() - start) / 1000);
   // clearInterval and call sessionFinish once time is up
+  updateProgressBar(TASKS);
   if (difference < 0) {
     if (timerID != null) {
       clearInterval(timerID);
@@ -32,7 +33,6 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
     return;
   }
   // converts the differnece in seconds to minutes and seconds
-  updateProgressBar(TASKS);
   let minutes = Math.floor(difference / 60);
   let seconds = Math.floor(difference % 60);
   // take the absolute value of minutes and seconds for safe measures
@@ -84,7 +84,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
   // if no more working sessions left for current task
   if (TASKS[taskIndex].pomosLeft == 0) {
-    // if the user has alreaday had the final break
+    // if the user has already had the final break
     if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
       // move to next task, refresh the task list display as well
       nextTask = taskIndex + 1;
@@ -103,7 +103,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
         let addTime = '';
         do {
           addTime = window.prompt(
-            'Please enter addtional SECONDS you need in whole numbers. ***For testing only***'
+            'Please enter additional SECONDS you need in whole numbers. ***For testing only***'
           );
         } while (
           (addTime != null && isNaN(parseInt(addTime))) ||
@@ -237,9 +237,9 @@ function updateProgressBar(list) {
     });
   }
   progress = Math.round(100 * ((totalPomos - totalPomosLeft) / totalPomos));
-  window.onload = () => {
+  if (document.getElementById('progressBar')) {
     document.getElementById('progressBar').style.width = `${progress}%`;
-  };
+  }
 }
 
 function refreshTasksList(TASKS) {
