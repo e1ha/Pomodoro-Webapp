@@ -32,16 +32,16 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing, it was the weekend.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I have no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Update the tasks list to include done button.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We are close.
 
 ## <span style="color: red;">Anoushka D.</span>
 
