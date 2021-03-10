@@ -181,7 +181,6 @@ footer {
 
 .active-task:hover {
   background-color: #9bd89b;
-  text-decoration: line-through;
 }
 
 .task-done {

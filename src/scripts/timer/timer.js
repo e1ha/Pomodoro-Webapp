@@ -242,6 +242,18 @@ function updateProgressBar(list) {
   }
 }
 
+function showDone() {
+  document.querySelector('.active-task').innerHTML = 'Done';
+  document.querySelector('.active-task').style.color = 'white';
+  document.querySelector('.active-task').style.fontWeight = 'bold';
+}
+
+function hideDone(name) {
+  document.querySelector('.active-task').innerHTML = name;
+  document.querySelector('.active-task').style.color = 'black';
+  document.querySelector('.active-task').style.fontWeight = 'normal';
+}
+
 function refreshTasksList(TASKS) {
   document.getElementById('tasks').innerHTML = '';
   TASKS.forEach((task) => {
@@ -263,6 +275,10 @@ function refreshTasksList(TASKS) {
           .addEventListener('click', () => {
             console.log(`Finished: ${task.id}`);
           });
+        document.getElementById(`task-${task.id}`).addEventListener('mouseover', showDone, false);
+        document.getElementById(`task-${task.id}`).addEventListener('mouseout', function() {
+          hideDone(task.taskName);
+        }, false);
       }
     }
   });
