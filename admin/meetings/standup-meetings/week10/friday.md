@@ -116,13 +116,13 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- rework timer logic, and adding more tests
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- rework timer logic, and adding more tests
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- almost done
