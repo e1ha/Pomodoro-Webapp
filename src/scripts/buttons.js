@@ -146,28 +146,28 @@ function minToPomos(min) {
 }
 
 //loops through task list and calculates total time
-function calculateTotalTime() {
-  if (TASKS.length < 1) {
+function calculateTotalTime(Arr) {
+  if (Arr.length < 1) {
     alert('no tasks');
     return false;
   }
 
-  for (let i = 0; i < TASKS.length; ++i) {
-    let minPerTask = TASKS[i].min;
+  for (let i = 0; i < Arr.length; ++i) {
+    let minutes = Arr[i].min;
 
-    minPerTask = parseInt(minPerTask); //covert input to number
+    minPerTask = parseFloat(minutes); //covert input to number
 
     //check if input is number
-    if (isNaN(minPerTask)) {
-      alert('entry ' + TASKS[i].taskName + ' has invalid time input');
+    if (isNaN(minutes)||isNaN(minPerTask)) {
+      alert('entry ' + Arr[i].taskName + ' has invalid time input');
       //   tasks = [];
       return false;
     } else if (minPerTask > 180) {
-      alert('entry ' + TASKS[i].taskName + ' exceeds maximum limit');
+      alert('entry ' + Arr[i].taskName + ' exceeds maximum limit');
       //   tasks = [];
       return false;
     } else if (minPerTask < 1) {
-      alert('entry ' + TASKS[i].taskName + ' under minimum limit');
+      alert('entry ' + Arr[i].taskName + ' under minimum limit');
       //   tasks = [];
       return false;
     }
@@ -176,16 +176,14 @@ function calculateTotalTime() {
 }
 
 //starts timer and swithches to timer page
-function startSession(e) {
-  let inputValid = calculateTotalTime();
+function startSession() {
+  //let inputValid = calculateTotalTime(Arr);
 
-  if (inputValid) {
-    //ring.play();
-    //store tasks
+  //if (inputValid) {
     localStorage.setItem('tasks', JSON.stringify(TASKS));
     window.location.href = './../pages/timer.html';
-  }
-  e.preventDefault();
+  //}
+  //e.preventDefault();
 }
 
 function redirectToInstructionsPage() {
@@ -216,7 +214,13 @@ window.onload = () => {
 
   /*****Start */
   var startButton = document.getElementById('startButton');
-  startButton.addEventListener('click', startSession, false);
+  startButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    let inputValid = calculateTotalTime(TASKS);
+    if (inputValid) {
+      startSession();
+    }
+  }, false);
 
   /*****Question */
   var questionButton = document.getElementById('questionButton');
@@ -226,5 +230,7 @@ window.onload = () => {
 module.exports = {
   addTask: addTask,
   redirectToInstructionsPage: redirectToInstructionsPage,
-  deleteTask: deleteTask
+  deleteTask: deleteTask,
+  startSession: startSession,
+  calculateTotalTime: calculateTotalTime
 };
