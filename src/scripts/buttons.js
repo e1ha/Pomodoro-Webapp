@@ -158,7 +158,7 @@ function calculateTotalTime(Arr) {
     minPerTask = parseFloat(minutes); //covert input to number
 
     //check if input is number
-    if (isNaN(minutes)||isNaN(minPerTask)) {
+    if (isNaN(minutes) || isNaN(minPerTask)) {
       alert('entry ' + Arr[i].taskName + ' has invalid time input');
       //   tasks = [];
       return false;
@@ -180,8 +180,8 @@ function startSession() {
   //let inputValid = calculateTotalTime(Arr);
 
   //if (inputValid) {
-    localStorage.setItem('tasks', JSON.stringify(TASKS));
-    window.location.href = './../pages/timer.html';
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
+  window.location.href = './../pages/timer.html';
   //}
   //e.preventDefault();
 }
@@ -214,13 +214,17 @@ window.onload = () => {
 
   /*****Start */
   var startButton = document.getElementById('startButton');
-  startButton.addEventListener('click', (event) => {
-    event.preventDefault();
-    let inputValid = calculateTotalTime(TASKS);
-    if (inputValid) {
-      startSession();
-    }
-  }, false);
+  startButton.addEventListener(
+    'click',
+    (event) => {
+      event.preventDefault();
+      let inputValid = calculateTotalTime(TASKS);
+      if (inputValid) {
+        startSession();
+      }
+    },
+    false
+  );
 
   /*****Question */
   var questionButton = document.getElementById('questionButton');
