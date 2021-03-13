@@ -7,7 +7,6 @@ let totalPomos = 0;
 let totalPomosLeft = 0;
 let pomosFinished = 0;
 let progress = 0;
-let visible = true;
 let distractions = 0;
 let doneClicked = false;
 let skipAdd = false;
