@@ -155,7 +155,7 @@ function calculateTotalTime(Arr) {
   for (let i = 0; i < Arr.length; ++i) {
     let minutes = Arr[i].min;
 
-    minPerTask = parseFloat(minutes); //covert input to number
+    let minPerTask = parseFloat(minutes); //covert input to number
 
     //check if input is number
     if (isNaN(minutes) || isNaN(minPerTask)) {
