@@ -1,4 +1,5 @@
 const buttons = require('../src/scripts/buttons.js');
+const { redirectToInstructionsPage } = require('../src/scripts/buttons.js');
 
 beforeEach(() => {
   global.window = Object.create(window);
@@ -71,9 +72,9 @@ describe('Task Page Tests', () => {
   });
 }); //end of task page tests
 
-/*describe('onClickQuestionButton', () => {
+describe('Test for clicking question button', () => {
   test('redirectToInstructionsPage', () => {
     redirectToInstructionsPage();
     expect(window.location.href).toBe('../pages/instructions.html');
   });
-});*/
+});
