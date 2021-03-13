@@ -1,5 +1,7 @@
 * {
   font-family: 'Comfortaa', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .workTimerBackground {
@@ -59,11 +61,36 @@ body {
   overflow-x: hidden;
 }
 
+.progressBarContainer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.progressBarWrapper {
+  width: 60%;
+  border: 1px solid #cccaca;
+  height: 5vh;
+  padding: 0;
+  background-color: #f0eeee86;
+  border-radius: 15px;
+}
+
+#progressBar {
+  background: linear-gradient(to right, #e43a15, #e65245);
+  height: 100%;
+  width: 0%;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
 .centerEndSessionButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10em;
+  padding-top: 5em;
 }
 
 #EndSessionButton {
@@ -74,60 +101,207 @@ body {
   border-style: solid;
   border-radius: 0.5em;
   border-width: 0.15em;
-  box-shadow: 1px 2px 2px #696969c5;
   width: 8.75em;
   height: 3.25em;
+  outline: none;
+  transition-duration: 0.5s;
+  opacity: 0.9;
+}
+
+#EndSessionButton:hover {
+  box-shadow: 2px 4px 4px #696969c5;
+  opacity: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .tasksListContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2em;
+  position: sticky;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
 }
 
-.tasksList {
-  height: 12em;
-  overflow: scroll;
+#showTasks {
+  width: 50%;
+  text-decoration: none;
+  border: none;
+  background-color: #82df89;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 5vh;
+  font-style: bold;
+  font-size: 20px;
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity;
 }
 
-.taskContainer {
-  border-bottom: 0.15em solid #9e9e9e;
-  border-left: 0.15em solid #9e9e9e;
-  border-right: 0.15em solid #9e9e9e;
+#showTasks:focus {
+  outline: none;
 }
 
-.taskContainer:first-child {
-  border-top: 0.15em solid #9e9e9e;
+.tasks {
+  list-style-type: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 0vh;
+  padding: 0;
+  margin: auto;
+  background-color: white;
+  transition-duration: 1s;
+  transition-property: height;
+  width: 50%;
 }
 
-.taskContainer:last-child {
-  border-bottom: 0.15em solid #9e9e9e;
+.task li {
+  background-color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tasks::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tasks {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .task {
-  height: 2em;
-  width: 50em;
-  padding-left: 0.5em;
-  background-color: #ff6767;
-  color: white;
-  font-size: 24px;
-  letter-spacing: 0.01em;
+  width: 100%;
   border: none;
+  padding: 0;
+  margin: 0;
+  height: 5vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+  transition-duration: 0.5s;
+  line-height: 2.5em;
 }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
-  opacity: 1; /* Firefox */
+.active-task:hover {
+  background-color: #9bd89b;
 }
 
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: white;
+.task-done {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: auto;
+  border-bottom: 1px solid black;
+  height: 5vh;
+  text-align: center;
+  text-decoration: line-through;
+  background-color: #e0bba9;
 }
 
-::-ms-input-placeholder {
-  /* Microsoft Edge */
+.task,
+.task-done {
+  outline: none;
+}
+
+.pomos {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.distractionButtonContainer {
+  margin-right: 3em;
+  position: absolute;
+  bottom: 3em;
+  right: 0;
+}
+
+#distractionButton {
+  border: 2px white solid;
+  background-color: #65c5e2;
+  outline: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
   color: white;
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+#distractionButton:hover {
+  opacity: 1;
+  box-shadow: 1px 2px 2px #696969c5;
+}
+
+.analysisContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+}
+
+#analysis {
+  display: none;
+  text-align: center;
+  background-color: white;
+  padding: 4em;
+  padding-top: 3em;
+  border-radius: 15px;
+  height: auto;
+  box-shadow: 0 0 0 1600px rgba(0, 0, 0, 0.65);
+  width: auto;
+  color: #e65d5d;
+  animation: display-up 1s ease;
+}
+
+#analysis h1 {
+  margin-bottom: 0.5em;
+}
+
+#analysis h2 {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+#distractionsAnalysis {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#pomosEst {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#pomosAnalysis {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#finishButton {
+  border: none;
+  background-color: #ec5d5d;
+  outline: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+#finishButton:hover {
+  background-color: red;
+}
+
+@keyframes display-up {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

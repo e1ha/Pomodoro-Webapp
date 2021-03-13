@@ -1,6 +1,28 @@
 let TASKS = [];
 let placeholders = true;
 
+/**
+ * On page load, check if there are tasks in local storage
+ * and add those tasks
+ */
+window.onload = () => {
+  if (localStorage.getItem('done')) {
+    localStorage.clear();
+  }
+  let storedTasks = JSON.parse(localStorage.getItem('tasks'));
+  if (storedTasks) {
+    placeholders = false;
+    document.getElementById('tasksList').innerHTML = '';
+    document.getElementById('addTaskBtn').className = '';
+    storedTasks.forEach((task) => {
+      TASKS.push(task);
+      addTask(task.id);
+      document.getElementById(`name-${task.id}`).value = task.taskName;
+      document.getElementById(`min-${task.id}`).value = task.min;
+    });
+  }
+};
+
 // Unique random int generator (1-10000)
 function uniqueInt() {
   let randInt = Math.floor(Math.random() * 10000) + 1;
@@ -109,26 +131,6 @@ function deleteTask(id) {
   }
 }
 
-// Add click event for addTaskBtn
-document.getElementById('addTaskBtn').addEventListener('click', (event) => {
-  event.preventDefault();
-
-  // Remove placeholders when adding a task
-  if (placeholders) {
-    placeholders = false;
-    document.getElementById('tasksList').innerHTML = '';
-    document.getElementById('addTaskBtn').className = '';
-  }
-
-  // Limit 1000 tasks
-  if (TASKS.length >= 1000) {
-    confirm('You are unable to create any more tasks.');
-  } else {
-    // Create new empty task and push it to TASKS
-    TASKS.push(addTask(uniqueInt()));
-  }
-});
-
 /* Function to convert minutes into pomos
  *
  * @param {int} min is the amount of minutes being converted
@@ -143,24 +145,6 @@ function minToPomos(min) {
   return pomos;
 }
 
-/******Start */
-var startButton = document.getElementById('startButton');
-// var addTaskBtn = document.getElementById('addTaskBtn');
-startButton.addEventListener('click', startSession, false);
-//addTaskBtn.addEventListener('click', updateTimes, false);
-
-//var taskTime = [];
-//var taskName = [];
-//var tasks = [];
-
-//updates the arrays for new input values
-// function updateTimes() {
-//   taskTime = document.getElementsByClassName('taskTime animation-create-time');
-//   taskName = document.getElementsByClassName('task animation-create-task');
-// }
-
-//var ring = document.getElementById('ring');
-
 //loops through task list and calculates total time
 function calculateTotalTime() {
   if (TASKS.length < 1) {
@@ -172,15 +156,6 @@ function calculateTotalTime() {
     let minPerTask = TASKS[i].min;
 
     minPerTask = parseInt(minPerTask); //covert input to number
-
-    //task object for storage
-    // let task = {
-    //   id: taskName[i].parentElement.id,
-    //   name: taskName[i].value,
-    //   time: minPerTask
-    // };
-
-    // tasks.push(task);
 
     //check if input is number
     if (isNaN(minPerTask)) {
@@ -213,18 +188,39 @@ function startSession(e) {
   e.preventDefault();
 }
 
-/*****Question */
-var questionButton = document.getElementById('questionButton');
-questionButton.addEventListener('click', redirectToInstructionsPage);
-
 function redirectToInstructionsPage() {
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
   window.location.href = '../pages/instructions.html';
 }
 
-/******Continue */
-// var continueButton = document.getElementById('continueButton');
-// continueButton.addEventListener('click', redirectToTasksPage);
+window.onload = () => {
+  // Add click event for addTaskBtn
+  document.getElementById('addTaskBtn').addEventListener('click', (event) => {
+    event.preventDefault();
 
-// function redirectToTasksPage() {
-//   window.location.href = '/cse110-wi21-group7/src/pages/tasks.html';
-// }
+    // Remove placeholders when adding a task
+    if (placeholders) {
+      placeholders = false;
+      document.getElementById('tasksList').innerHTML = '';
+      document.getElementById('addTaskBtn').className = '';
+    }
+
+    // Limit 1000 tasks
+    if (TASKS.length >= 1000) {
+      confirm('You are unable to create any more tasks.');
+    } else {
+      // Create new empty task and push it to TASKS
+      TASKS.push(addTask(uniqueInt()));
+    }
+  });
+
+  /*****Start */
+  var startButton = document.getElementById('startButton');
+  startButton.addEventListener('click', startSession, false);
+
+  /*****Question */
+  var questionButton = document.getElementById('questionButton');
+  questionButton.addEventListener('click', redirectToInstructionsPage);
+};
+
+module.exports = { addTask, redirectToInstructionsPage, deleteTask };
