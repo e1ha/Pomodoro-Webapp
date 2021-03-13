@@ -4,17 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-finished end button test with miguel
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-build error, but fixed it by pushing end button js to test branch
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-attend lecture
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
-
+-done
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
