@@ -5,8 +5,12 @@ const pomob4break = 4;
 let currTask = 0;
 let totalPomos = 0;
 let totalPomosLeft = 0;
+let pomosFinished = 0;
 let progress = 0;
 let visible = true;
+let distractions = 0;
+let doneClicked = false;
+let skipAdd = false;
 
 /* Function to count down the current timer
  *
@@ -22,11 +26,19 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
   // calculate the difference between current time
   // and start time in seconds
   let difference = duration - Math.floor((Date.now() - start) / 1000);
+  if (doneClicked && duration == workingTime) {
+    doneClicked = false;
+    difference = -1;
+    TASKS[taskIndex].pomosLeft = 1;
+  }
   // clearInterval and call sessionFinish once time is up
   updateProgressBar(TASKS);
   if (difference < 0) {
     if (timerID != null) {
       clearInterval(timerID);
+    }
+    if (duration == workingTime) {
+      pomosFinished = pomosFinished + 1;
     }
     element.innerHTML = '00:00';
     sessionFinish(duration, taskIndex, TASKS);
@@ -97,6 +109,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     } else {
       // if the user just finishes the last working session
       if (
+        !skipAdd &&
         window.confirm('Would you like to add addtional time for this task?')
       ) {
         // ask the user to input valid addtional time
@@ -117,11 +130,10 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
           // if the finished task is the final task redirect the user back to landing page
           if (nextTask >= TASKS.length) {
             document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-            alert(
-              'Congratulations! You have finished all your tasks! Exiting timer.'
-            );
+            //alert('Congratulations! You have finished all your tasks! Exiting timer.');
             localStorage.setItem('done', '1');
-            window.location.href = './../pages/tasks.html';
+            //window.location.href = './../pages/tasks.html';
+            showAnalysis();
           }
           // calculate the final break duration
           nextTask -= 1;
@@ -150,16 +162,16 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
         }
       } else {
         // if the user doesn't wish to add more time
+        skipAdd = false;
         TASKS[taskIndex].done = true;
         nextTask = taskIndex + 1;
         // if the finished task is the final task redirect the user back to landing page
         if (nextTask >= TASKS.length) {
           document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-          alert(
-            'Congratulations! You have finished all your tasks! Exiting timer.'
-          );
+          //alert('Congratulations! You have finished all your tasks! Exiting timer.');
           localStorage.setItem('done', '1');
-          window.location.href = './../pages/tasks.html';
+          //window.location.href = './../pages/tasks.html';
+          showAnalysis();
         }
         nextTask -= 1;
         let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
@@ -214,6 +226,9 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
   }
 
   // start the next session timer
+  if (TASKS) {
+    refreshTasksList(TASKS);
+  }
   startTimer(newDuration, nextTask, TASKS);
 }
 
@@ -255,41 +270,50 @@ function hideDone(name) {
 }
 
 function refreshTasksList(TASKS) {
-  document.getElementById('tasks').innerHTML = '';
-  TASKS.forEach((task) => {
-    if (!task.done) {
-      let taskElement = `<li>
-                           <p id="task-${task.id}" class="task">${task.taskName}</p>
-                         </li>`;
-      if (currTask == task.id) {
-        taskElement = `<li>
-        <p id="task-${task.id}" class="task active-task">${task.taskName}</p>
-                        </li>`;
-      }
-      document
-        .getElementById('tasks')
-        .insertAdjacentHTML('beforeend', taskElement);
-      if (currTask == task.id) {
+  var tasksList = document.getElementById('tasks');
+  if (tasksList) {
+    document.getElementById('tasks').innerHTML = '';
+    TASKS.forEach((task) => {
+      if (!task.done) {
+        let taskElement = `<li>
+                            <p id="task-${task.id}" class="task">${task.taskName}</p>
+                          </li>`;
+        if (currTask == task.id) {
+          taskElement = `<li>
+          <p id="task-${task.id}" class="task active-task">${task.taskName}</p>
+                          </li>`;
+        }
         document
-          .getElementById(`task-${task.id}`)
-          .addEventListener('click', () => {
-            console.log(`Finished: ${task.id}`);
-          });
-        document.getElementById(`task-${task.id}`).addEventListener('mouseover', showDone, false);
-        document.getElementById(`task-${task.id}`).addEventListener('mouseout', function() {
-          hideDone(task.taskName);
-        }, false);
+          .getElementById('tasks')
+          .insertAdjacentHTML('beforeend', taskElement);
+        if (currTask == task.id) {
+          document
+            .getElementById(`task-${task.id}`)
+            .addEventListener('click', () => {
+              doneTask();
+            });
+          document
+            .getElementById(`task-${task.id}`)
+            .addEventListener('mouseover', showDone, false);
+          document.getElementById(`task-${task.id}`).addEventListener(
+            'mouseout',
+            function () {
+              hideDone(task.taskName);
+            },
+            false
+          );
+        }
       }
-    }
-  });
-  TASKS.forEach((task) => {
-    if (task.done) {
-      let taskElement = `<li><input type="text" name="task" class="task-done" value="${task.taskName}"/></li>`;
-      document
-        .getElementById('tasks')
-        .insertAdjacentHTML('beforeend', taskElement);
-    }
-  });
+    });
+    TASKS.forEach((task) => {
+      if (task.done) {
+        let taskElement = `<li><input type="text" name="task" class="task-done" value="${task.taskName}"/></li>`;
+        document
+          .getElementById('tasks')
+          .insertAdjacentHTML('beforeend', taskElement);
+      }
+    });
+  }
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -298,6 +322,11 @@ function taskPeak() {
   if (height == '0vh' || height == '') {
     document.getElementById('tasks').style.height = '2vh';
   }
+}
+
+function doneTask() {
+  doneClicked = true;
+  skipAdd = true;
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -309,12 +338,37 @@ function taskUnpeak() {
 }
 
 function endSession() {
-  alert('You have ended the session. Returning to the task page...');
+  //alert('You have ended the session. Returning to the task page...');
   window.location.href = '../pages/tasks.html';
+}
+
+function distractionButtonFunc() {
+  distractions = distractions + 1;
+}
+
+function showAnalysis() {
+  var analysis = document.getElementById('analysis');
+  if (analysis) {
+    analysis.style.display = 'block';
+    var distractElem = document.getElementById('distractionsAnalysis');
+    distractElem.innerHTML = `You were distracted a total of ${distractions} times.`;
+    var pomosEstElem = document.getElementById('pomosEst');
+    pomosEstElem.innerHTML = `You estimated that you would take ${totalPomos} pomos (${
+      totalPomos * workingTime
+    } mins).`;
+    var pomosDoneElem = document.getElementById('pomosAnalysis');
+    pomosDoneElem.innerHTML = `You actually took ${pomosFinished} pomos (${
+      pomosFinished * workingTime
+    } mins)!`;
+  }
 }
 
 // load the tasks and current active task, then start timer
 window.onload = () => {
+  var finishButton = document.getElementById('finishButton');
+  finishButton.addEventListener('click', endSession);
+  var distractionButton = document.getElementById('distractionButton');
+  distractionButton.addEventListener('click', distractionButtonFunc);
   var endButton = document.getElementById('EndSessionButton');
   endButton.addEventListener('click', endSession);
   var TASKS = JSON.parse(localStorage.getItem('tasks'));
