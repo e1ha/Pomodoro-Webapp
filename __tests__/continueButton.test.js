@@ -14,10 +14,6 @@ beforeEach(() => {
 
 describe('onClickContinueButton', () => {
   test('redirectToTasksPage', () => {
-    document.body.innerHTML = `
-        <button id="continueButton">Continue</button>
-    `;
-
     redirectToTasksPage();
     expect(window.location.href).toBe('../pages/tasks.html');
   });

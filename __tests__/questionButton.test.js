@@ -14,11 +14,6 @@ beforeEach(() => {
 
 describe('onClickQuestionButton', () => {
   test('redirectToInstructionsPage', () => {
-    document.body.innerHTML = `
-        <button id="questionButton">?</button>
-        `;
-    let questionButton = document.getElementById('questionButton');
-    questionButton.click();
     redirectToInstructionsPage();
     expect(window.location.href).toBe('../pages/instructions.html');
   });

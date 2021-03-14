@@ -5,20 +5,6 @@ _Daily Updates for Weekly Sprint - Friday, 02/05/2021_
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
-
--worked on the lab assignment and started to html.index file
-
-### What are your blockers?
-
-- had some blockers with choosing the font in html, but changed the font to Georgia
-
-### What will you work on today?
-
-- will finish up writing the index.html file
-
-### How close are we to hitting our sprint goals?
-=======
 -worked on the lab assignment and started to html.index file
 
 ### What are your blockers?
@@ -29,7 +15,6 @@ _Daily Updates for Weekly Sprint - Friday, 02/05/2021_
 
 ### How close are we to hitting our sprint goals?
 - Almost done with the index.html file.
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 - Almost done with the index.html file.
 
@@ -90,7 +75,6 @@ _[INSERT]_
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - Nothing
 
@@ -105,23 +89,10 @@ _[INSERT]_
 ### How close are we to hitting our sprint goals?
 
 - Very close.
-=======
-- Nothing
-
-### What are your blockers?
-- I was unsure about what clicking the ? button would lead to.
-
-### What will you work on today?
-- I did some of the code for the ? button. 
-
-### How close are we to hitting our sprint goals?
-- Very close. 
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - Not much coding
 
@@ -135,54 +106,30 @@ _[INSERT]_
 
 ### How close are we to hitting our sprint goals?
 
-=======
-- Not much coding
-
-### What are your blockers?
-- Other classes and work
-
-### What will you work on today?
-- Getting more details on button functionality
-
-### How close are we to hitting our sprint goals?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - Feasible
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - I did not manage to do much work yesterday
 
 ### What are your blockers?
 
-=======
-- I did not manage to do much work yesterday
-
-### What are your blockers?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - Assignments for other classes
 - Poor time management
 
 ### What will you work on today?
-<<<<<<< HEAD
 
 - Start and finish one of the break timer pages
 
 ### How close are we to hitting our sprint goals?
 
-=======
-- Start and finish one of the break timer pages
-
-### How close are we to hitting our sprint goals?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - It is still feasible but we may end up needing to readjust
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-<<<<<<< HEAD
 
 - finished my CSE 167 project
 
@@ -192,23 +139,11 @@ _[INSERT]_
 
 ### What will you work on today?
 
-=======
-- finished my CSE 167 project
-
-### What are your blockers?
-- a lot of stuff to do
-
-### What will you work on today?
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - take a test
 - do the lab
 - write up some code for classes including this one
 
 ### How close are we to hitting our sprint goals?
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a4aa13205e04067f91cdf41ecb1774d92f82275
 - should have it done before the meeting
 
 ## <span style="color: red;">Qingyuan Z.</span>
