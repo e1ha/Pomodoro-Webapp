@@ -1,4 +1,4 @@
-const redirectToTasksPage = require('../src/scripts/buttons/continueButton.js');
+const redirectToTasksPage = require('../src/scripts/instructions/instructions');
 
 beforeEach(() => {
   global.window = Object.create(window);

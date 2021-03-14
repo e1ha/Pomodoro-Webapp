@@ -1,6 +1,7 @@
-const workingTime = 5;
-const shortBreakTime = 2;
-const longBreakTime = 4;
+const MINUTESTOSECONDS = 60;
+const workingTime = 25 * MINUTESTOSECONDS;
+const shortBreakTime = 5 * MINUTESTOSECONDS;
+const longBreakTime = 20 * MINUTESTOSECONDS;
 const pomob4break = 4;
 let currTask = 0;
 let totalPomos = 0;
