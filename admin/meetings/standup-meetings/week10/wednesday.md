@@ -31,16 +31,18 @@
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Added done functionality
+- Updated some styling on timer page
+- Progress Bar
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Distraction button functionality
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Really close to hitting our sprint goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
