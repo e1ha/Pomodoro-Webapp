@@ -1,6 +1,9 @@
-const workingTime = 5;
-const shortBreakTime = 2;
-const longBreakTime = 4;
+// 1500 seconds = 25 minutes work session
+const workingTime = 1500;
+// 300 seconds = 5 minutes short break
+const shortBreakTime = 300;
+// 1200 seconds = 20 minutes long break
+const longBreakTime = 1200;
 const pomob4break = 4;
 let currTask = 0;
 let totalPomos = 0;
