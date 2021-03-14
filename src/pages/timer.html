@@ -16,6 +16,20 @@
     />
   </head>
   <body>
+    <div class="analysisContainer">
+      <div id="analysis">
+        <h1>Congrats, you finished!</h1>
+        <h2>Analysis</h2>
+        <p id="distractionsAnalysis">
+          You were distracted a total of 10 times.
+        </p>
+        <p id="pomosEst">
+          You estimated that you would take 20 pomos (250 mins).
+        </p>
+        <p id="pomosAnalysis">You actually took 14 pomos (140 mins)!</p>
+        <button id="finishButton">Finish</button>
+      </div>
+    </div>
     <div class="pomos">
       <p id="pomosleft">3 pomos to go</p>
     </div>
@@ -24,6 +38,11 @@
     </div>
     <div class="timerdescription">
       <p id="timerdescription">[timer/break]</p>
+    </div>
+    <div class="progressBarContainer">
+      <div class="progressBarWrapper">
+        <div id="progressBar"></div>
+      </div>
     </div>
     <div class="centerEndSessionButton">
       <button id="EndSessionButton">End Session</button>
@@ -42,6 +61,9 @@
       <div class="tasksContainer">
         <ul class="tasks" id="tasks"></ul>
       </div>
+    </div>
+    <div class="distractionButtonContainer">
+      <button id="distractionButton">Log Distraction</button>
     </div>
   </footer>
   <script src="../scripts/timer/timer.js"></script>
