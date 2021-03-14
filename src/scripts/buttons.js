@@ -10,7 +10,7 @@ window.onload = () => {
     localStorage.clear();
   }
   let storedTasks = JSON.parse(localStorage.getItem('tasks'));
-  if (storedTasks.length > 0) {
+  if (storedTasks && storedTasks.length > 0) {
     placeholders = false;
     document.getElementById('tasksList').innerHTML = '';
     document.getElementById('addTaskBtn').className = '';
