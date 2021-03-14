@@ -267,7 +267,8 @@ function showDone() {
     document.querySelector('.active-task').style.color = 'white';
     document.querySelector('.active-task').style.fontWeight = 'bold';
   } else {
-    document.querySelector('.active-task').innerHTML = 'Please wait till the break is over.';
+    document.querySelector('.active-task').innerHTML =
+      'Please wait till the break is over.';
     document.querySelector('.active-task').style.backgroundColor = '#f08686';
     document.querySelector('.active-task').style.color = 'white';
     document.querySelector('.active-task').style.fontWeight = 'bold';
