@@ -192,10 +192,6 @@ footer {
   line-height: 2.5em;
 }
 
-.active-task:hover {
-  background-color: #9bd89b;
-}
-
 .task-done {
   width: 100%;
   border: none;

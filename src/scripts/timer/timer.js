@@ -10,6 +10,7 @@ let progress = 0;
 let distractions = 0;
 let doneClicked = false;
 let skipAdd = false;
+let currDuration = '';
 
 /* Function to count down the current timer
  *
@@ -20,6 +21,7 @@ let skipAdd = false;
  * @param {array} the array containing all the task objects
  */
 function countDown(start, duration, timerID, taskIndex, TASKS) {
+  currDuration = duration;
   // get the timer HTML element
   let element = document.getElementById('timer');
   // calculate the difference between current time
@@ -27,7 +29,9 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
   let difference = duration - Math.floor((Date.now() - start) / 1000);
   if (doneClicked && duration == workingTime) {
     doneClicked = false;
-    difference = -1;
+    alert(
+      'Please continue reviewing your work until your current Pomodoro session ends.'
+    );
     TASKS[taskIndex].pomosLeft = 1;
   }
   // clearInterval and call sessionFinish once time is up
@@ -257,13 +261,22 @@ function updateProgressBar(list) {
 }
 
 function showDone() {
-  document.querySelector('.active-task').innerHTML = 'Done';
-  document.querySelector('.active-task').style.color = 'white';
-  document.querySelector('.active-task').style.fontWeight = 'bold';
+  if (currDuration == workingTime) {
+    document.querySelector('.active-task').innerHTML = 'Done';
+    document.querySelector('.active-task').style.backgroundColor = '#9bd89b';
+    document.querySelector('.active-task').style.color = 'white';
+    document.querySelector('.active-task').style.fontWeight = 'bold';
+  } else {
+    document.querySelector('.active-task').innerHTML = 'Please wait till the break is over.';
+    document.querySelector('.active-task').style.backgroundColor = '#f08686';
+    document.querySelector('.active-task').style.color = 'white';
+    document.querySelector('.active-task').style.fontWeight = 'bold';
+  }
 }
 
 function hideDone(name) {
   document.querySelector('.active-task').innerHTML = name;
+  document.querySelector('.active-task').style.backgroundColor = 'white';
   document.querySelector('.active-task').style.color = 'black';
   document.querySelector('.active-task').style.fontWeight = 'normal';
 }
@@ -324,8 +337,10 @@ function taskPeak() {
 }
 
 function doneTask() {
-  doneClicked = true;
-  skipAdd = true;
+  if (currDuration == workingTime) {
+    doneClicked = true;
+    skipAdd = true;
+  }
 }
 
 // eslint-disable-next-line no-unused-vars
