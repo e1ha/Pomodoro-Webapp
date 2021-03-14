@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-checked in with miguel to make sure blocker was cleared
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-attend lecture
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+-done
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Other courswork
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- N/A
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- More other coursework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Done.
 
 ## <span style="color: red;">Trevor T.</span>
 
@@ -116,13 +116,13 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- rework timer logic, and adding more tests
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- rework timer logic, and adding more tests
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- almost done

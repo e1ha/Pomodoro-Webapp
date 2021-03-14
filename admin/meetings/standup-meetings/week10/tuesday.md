@@ -4,17 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+-attendned lecture
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+-no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+-work with miguel to finish endbutton test
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
-
+- will be done by end of sprint
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
@@ -117,13 +116,13 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- close
