@@ -120,7 +120,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
         let addTime = '';
         do {
           addTime = window.prompt(
-            'Please enter additional SECONDS you need in whole numbers. ***For testing only***'
+            'Please enter additional minutes you need in whole numbers.'
           );
         } while (
           (addTime != null && isNaN(parseInt(addTime))) ||

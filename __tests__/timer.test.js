@@ -1,4 +1,7 @@
 const timer = require('../src/scripts/timer/timer');
+const workingTime = 25 * 60;
+const shortBreakTime = 5 * 60;
+const longBreakTime = 20 * 60;
 
 beforeEach(() => {
   global.window = Object.create(window);
@@ -42,8 +45,8 @@ describe('startTimer tests', () => {
     const timerUI = document.getElementById('timer');
     let workingHTML = '25:00';
     let shortHTML = '05:00';
-    let longHTML = '15:00';
-    let durationTests = [25 * 60, 5 * 60, 15 * 60];
+    let longHTML = '20:00';
+    let durationTests = [workingTime, shortBreakTime, longBreakTime];
     let durationString = [workingHTML, shortHTML, longHTML];
 
     for (let i = 0; i < durationString.length; i++) {
@@ -55,7 +58,6 @@ describe('startTimer tests', () => {
 
 describe('sessionFinish tests', () => {
   test('Check behavior of final task working session ends with break and no addtional time', () => {
-    const workingTime = 5;
     var TASKS = [];
     var task1 = {
       id: '01',
@@ -107,7 +109,6 @@ describe('sessionFinish tests', () => {
   });
 
   test('Check behavior of final task working session ends with long break and no addtional time', () => {
-    const workingTime = 5;
     var TASKS = [];
     var task1 = {
       id: '01',
@@ -154,8 +155,6 @@ describe('sessionFinish tests', () => {
   });
 
   test('Check break ends followed by working session', () => {
-    const shortBreakTime = 2;
-    const longBreakTime = 4;
     var TASKS = [];
     var task1 = {
       id: '01',
