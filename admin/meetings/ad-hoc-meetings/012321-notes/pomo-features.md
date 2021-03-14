@@ -39,4 +39,6 @@
   - Format: Activity Done | amount of cycles needed to complete it
 - Notification suppression
 - If have time stick to theme and add something to do with pokemon 
+- On Timer page, have "View Task" & "Hide Tasks" button to see tasks list
+- Use user's cookies to force them to read the instructions if they have not already, update their cookies as needed
 - Motivational quotes in the background during breaks and before start (not during the work time)
