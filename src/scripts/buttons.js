@@ -146,22 +146,22 @@ function deleteTask(id) {
     placeholders = true;
     document.getElementById('tasksList').innerHTML = `
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Study for exam..." disabled="true"> 
+        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="60" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Write down lecture notes..." disabled="true"> 
+        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="45" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Do math homework..." disabled="true"> 
+        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="20" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Start on group project..." disabled="true"> 
+        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="30" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>`;
