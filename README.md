@@ -1,4 +1,4 @@
-# Welcome to the Pomodoro Technique!
+# Welcome to the Pomodoro Technique
 
 ### Developers
 
