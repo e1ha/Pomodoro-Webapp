@@ -1,4 +1,4 @@
-const endSession = require('../src/scripts/buttons/endSession.js');
+const { endSession } = require('../src/scripts/timer/timer');
 
 beforeEach(() => {
   global.window = Object.create(window);

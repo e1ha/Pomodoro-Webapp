@@ -42,6 +42,7 @@ body {
   align-items: center;
   padding-top: 1.5em;
 }
+
 #continueButton {
   color: white;
   background-color: #ff6767;
@@ -50,12 +51,78 @@ body {
   border-style: solid;
   border-radius: 0.5em;
   border-width: 0.15em;
-  box-shadow: 1px 2px 2px #696969c5;
   width: 8.75em;
   height: 3.25em;
+  margin-bottom: 2em;
+  transition-duration: 0.5s;
+}
+
+#continueButton:hover {
+  box-shadow: 1px 2px 2px #696969c5;
 }
 
 .boxed:focus,
 #continueButton {
   outline: none;
+}
+
+.imageStepsContainer {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2em;
+}
+
+.imageWrapper {
+  text-align: center;
+  display: flex;
+  height: 70vh;
+  width: 125vh;
+  align-items: center;
+}
+
+#stepImage {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+}
+
+#stepLeft {
+  margin-right: 1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+  opacity: 0.7;
+  transition-duration: 0.5s;
+  outline: none;
+}
+
+#stepRight {
+  margin-left: 1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+  opacity: 0.7;
+  transition-duration: 0.5s;
+  outline: none;
+}
+
+#stepRight:hover,
+#stepLeft:hover {
+  opacity: 1;
+  color: white;
+  background-color: rgb(68, 68, 68);
+}
+
+.imageHeader {
+  text-align: center;
+  color: white;
+  margin-top: 3em;
 }

@@ -1,6 +1,7 @@
-const workingTime = 5;
-const shortBreakTime = 2;
-const longBreakTime = 4;
+const MINUTESTOSECONDS = 60;
+const workingTime = 25 * MINUTESTOSECONDS;
+const shortBreakTime = 5 * MINUTESTOSECONDS;
+const longBreakTime = 20 * MINUTESTOSECONDS;
 const pomob4break = 4;
 let currTask = 0;
 let totalPomos = 0;
@@ -119,7 +120,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
         let addTime = '';
         do {
           addTime = window.prompt(
-            'Please enter additional SECONDS you need in whole numbers. ***For testing only***'
+            'Please enter additional minutes you need in whole numbers.'
           );
         } while (
           (addTime != null && isNaN(parseInt(addTime))) ||
@@ -403,4 +404,4 @@ window.onload = () => {
   startTimer(workingTime, 0, TASKS);
 };
 
-module.exports = { startTimer, countDown, sessionFinish };
+module.exports = { startTimer, countDown, sessionFinish, endSession };
