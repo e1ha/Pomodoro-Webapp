@@ -61,8 +61,6 @@ body {
   box-shadow: 1px 2px 2px #696969c5;
 }
 
-
-
 .boxed:focus,
 #continueButton {
   outline: none;
@@ -128,5 +126,3 @@ body {
   color: white;
   margin-top: 3em;
 }
-
-
