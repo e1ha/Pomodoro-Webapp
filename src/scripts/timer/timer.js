@@ -404,4 +404,4 @@ window.onload = () => {
   startTimer(workingTime, 0, TASKS);
 };
 
-module.exports = { startTimer, countDown, sessionFinish };
+module.exports = { startTimer, countDown, sessionFinish, endSession };
