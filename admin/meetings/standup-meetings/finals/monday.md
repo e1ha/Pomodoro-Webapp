@@ -74,16 +74,16 @@
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- We met as a team and worked on the private video.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- FINALS & Life
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- The public video
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost there
 
 ## <span style="color: red;">Trevor T.</span>
 
