@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I attended our team meetings this weekend. I helped with some development and the private video.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- I am waiting for Ryan to complete his final exam tomorrow so that we can work on improving the code quality of our codebase.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- No plan to work today.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Pretty close!
 
 ## <span style="color: red;">Elaine H.</span>
 
