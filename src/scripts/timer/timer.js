@@ -147,8 +147,13 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
         } else {
           // add additional time and pomos to the timer
           let addedTime = parseInt(addTime);
-          let addPomos = Math.floor(addedTime / workingTime);
-          addPomos = addedTime % workingTime > 0 ? addPomos + 1 : addPomos;
+          let addPomos = Math.floor(
+            (addedTime * MINUTESTOSECONDS) / workingTime
+          );
+          addPomos =
+            (addedTime * MINUTESTOSECONDS) % workingTime > 0
+              ? addPomos + 1
+              : addPomos;
 
           // update min
           TASKS[taskIndex].min = parseInt(TASKS[taskIndex].min) + addedTime;
