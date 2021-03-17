@@ -46,16 +46,16 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Waiting on Ryan to complete his other finals so we can call to review the code quality together.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Will call Ryan to improve the code quality of our codebase.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost there!
 
 ## <span style="color: red;">Elaine H.</span>
 
