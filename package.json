@@ -16,7 +16,8 @@
     "lint": "eslint . --ext .js",
     "test": "jest --silent",
     "format": "prettier --write src/ __tests__/",
-    "docs": "jsdoc src/ -r -d docs"
+    "docs": "jsdoc src/ -r -d docs",
+    "start": "open src/pages/instructions.html"
   },
   "repository": {
     "type": "git",
