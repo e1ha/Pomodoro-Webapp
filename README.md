@@ -15,7 +15,7 @@ npm install -g prettier
 #### To start application on MacOS or Linux...
 
 ```
-npm open
+npm run open
 ```
 
 #### To start application on Windows...
