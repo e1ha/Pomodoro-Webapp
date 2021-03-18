@@ -46,16 +46,18 @@
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Review code quality of codebase with Ryan.
+- Create onboard.md for developers who want to contribute to our project.
+- Change landing page and allow developers to run application with npm.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Super close!
 
 ## <span style="color: red;">Elaine H.</span>
 
