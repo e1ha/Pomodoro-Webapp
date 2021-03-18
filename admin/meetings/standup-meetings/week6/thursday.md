@@ -7,13 +7,17 @@ _Daily Updates for Weekly Sprint - Thursday, 02/11/2021_
 ### What did you work on yesterday?
 
 - css for instructions page
+
 ### What are your blockers?
 
 - had trouble centering css block
+
 ### What will you work on today?
 
 - worked on html for timer page
+
 ### How close are we to hitting our sprint goals?
+
 - will be done by sprint deadline
 
 ## <span style="color: red;">Uposhanto B.</span>
@@ -55,29 +59,37 @@ _Daily Updates for Weekly Sprint - Thursday, 02/11/2021_
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
+
 - Nothing.
 
 ### What are your blockers?
+
 - No blockers.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
+
 - We have met our sprint goals for my task for this sprint.
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
+
 - Nothing.
 
 ### What are your blockers?
+
 - Busy with other courses.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
+
 - No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>

@@ -10,7 +10,7 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What are your blockers?
 
-- none 
+- none
 
 ### What will you work on today?
 
@@ -79,15 +79,19 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
+
 - Nothing.
 
 ### What are your blockers?
+
 - Busy with other courses.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
+
 - No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>

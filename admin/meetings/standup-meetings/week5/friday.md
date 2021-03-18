@@ -5,6 +5,7 @@ _Daily Updates for Weekly Sprint - Friday, 02/05/2021_
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
+
 - worked on the lab assignment and started to html.index file
 
 ### What are your blockers?
