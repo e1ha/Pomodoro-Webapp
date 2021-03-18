@@ -60,7 +60,7 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
 
   // Gets the timer HTML element
   let element = document.getElementById('timer');
-  
+
   // Calculates the difference between current time and start time in seconds
   let difference = duration - Math.floor((Date.now() - start) / 1000);
 
@@ -78,7 +78,6 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
 
   // Calls clearInterval and sessionFinish once time is up
   if (difference < 0) {
-
     if (timerID != null) {
       clearInterval(timerID);
     }
@@ -129,7 +128,7 @@ function startTimer(duration, taskIndex, TASKS) {
   }, 500);
 }
 
-/** 
+/**
  * Function to act as a callback when timer hits zero,
  * calculates pomos left and changes the html based off of current session
  *
@@ -148,7 +147,6 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
   // If no more working sessions left for current task
   if (TASKS[taskIndex].pomosLeft == 0) {
-
     // If the user has already had the final break move to next task, refresh the task list display as well
     if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
       nextTask = taskIndex + 1;
@@ -159,13 +157,11 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       currTask = TASKS[nextTask].id;
       refreshTasksList(TASKS);
     } else {
-
       // If the user just finishes the last working session
       if (
         !skipAdd &&
         window.confirm('Would you like to add addtional time for this task?')
       ) {
-
         // Ask the user to input valid addtional time
         let addTime = '';
         do {
@@ -239,7 +235,6 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       }
     }
   } else {
-
     // If there are more working sessions left for current task
     if (prevDuration == workingTime) {
       // Determine if it's a long break or a short break
@@ -305,10 +300,10 @@ function displayTasks() {
 }
 
 /**
- * Function calculates totalPomos and totalPomosLeft 
+ * Function calculates totalPomos and totalPomosLeft
  * to update the progress bar
- * 
- * @param {*} list list of all the task objects 
+ *
+ * @param {*} list list of all the task objects
  */
 function updateProgressBar(list) {
   totalPomos = 0;
@@ -355,7 +350,7 @@ function hideDone(name) {
 /**
  * Function updates the task list
  * based off of whether or not the task is done
- * 
+ *
  * @param {*} TASKS list of all the task objects
  */
 function refreshTasksList(TASKS) {
@@ -364,7 +359,6 @@ function refreshTasksList(TASKS) {
   if (tasksList) {
     document.getElementById('tasks').innerHTML = '';
     TASKS.forEach((task) => {
-
       if (!task.done) {
         let taskElement = `<li>
                             <p id="task-${task.id}" class="task">${task.taskName}</p>

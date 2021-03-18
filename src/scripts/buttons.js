@@ -51,7 +51,7 @@ window.onload = () => {
     (event) => {
       event.preventDefault();
       let inputValid = calculateTotalTime(TASKS);
-      
+
       if (inputValid) {
         startSession();
       }
@@ -66,7 +66,7 @@ window.onload = () => {
 
 /**
  * Generates a random unique int
- * 
+ *
  * @returns { int } from 1 to 10000
  */
 function uniqueInt() {
@@ -79,7 +79,7 @@ function uniqueInt() {
   }
 }
 
-/** 
+/**
  * Function to create a new li (task) element in html
  *
  * @param {int} id of the newly created task
@@ -137,9 +137,9 @@ function addTask(id) {
   return task;
 }
 
-/**  
+/**
  * Function to delete a li (task) element in html based off id
- * 
+ *
  * @param {int} id of the desired task element
  */
 function deleteTask(id) {
@@ -179,7 +179,7 @@ function deleteTask(id) {
   }
 }
 
-/** 
+/**
  * Function to convert minutes into pomos
  *
  * @param {int} min is the amount of minutes being converted
@@ -197,9 +197,9 @@ function minToPomos(min) {
 /**
  * Function loops through all the inputted tasks
  * and calculates the total time while valid checking
- * 
- * @param {*} Arr is the list of tasks  
- * @returns 
+ *
+ * @param {*} Arr is the list of tasks
+ * @returns
  */
 function calculateTotalTime(Arr) {
   if (Arr.length < 1) {
@@ -211,14 +211,18 @@ function calculateTotalTime(Arr) {
     let minutes = Arr[i].min;
 
     // Converts input to number
-    let minPerTask = parseFloat(minutes); 
+    let minPerTask = parseFloat(minutes);
 
     // Checks if the min inputs are valid
     if (isNaN(minutes) || isNaN(minPerTask)) {
       alert('Entry: [' + i + '] has an invalid time input');
       return false;
     } else if (minPerTask > 180) {
-      alert('Entry: [' + i + '] exceeds maximum limit. Please consider splitting this task up!');
+      alert(
+        'Entry: [' +
+          i +
+          '] exceeds maximum limit. Please consider splitting this task up!'
+      );
       return false;
     } else if (minPerTask < 1) {
       alert('Entry: [' + i + '] is under the minimum limit');
@@ -245,4 +249,10 @@ function redirectToInstructionsPage() {
   window.location.href = '../pages/instructions.html';
 }
 
-module.exports = { addTask, redirectToInstructionsPage, deleteTask, startSession, calculateTotalTime };
+module.exports = {
+  addTask,
+  redirectToInstructionsPage,
+  deleteTask,
+  startSession,
+  calculateTotalTime
+};
