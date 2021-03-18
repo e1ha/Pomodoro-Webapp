@@ -20,17 +20,17 @@ We would love for developers to contribute to our project. To make changes to th
 9. Write any unit tests following Jest as required.
    - Add the test file to ```./__tests__``` with the name "filename.test.js".
 10. After making your changes, utilize ESLint and Prettier to follow the code quality enforced in our codebase. 
-   - Run the following commands and ensure that you have no errors:
-   - ```npm run lint```
-   - ```npm run test```
-   - ```npm run format```
-   - ```npm run docs```
+    - Run the following commands and ensure that you have no errors:
+      - ```npm run lint```
+      - ```npm run test```
+      - ```npm run format```
+      - ```npm run docs```
 11. Commit & push to your branch on GitHub.
 12. Go to "Actions" and ensure you have a green checkmark.
-   - This checkmark indicates that all of the steps in our build pipeline have passed!
-   - If you have a red X instead of a green checkmark, click on your latest commit in "Actions". Review the steps of the build pipeline to find your error. Update your code as necessary and push again until you have a green checkmark.
+    - This checkmark indicates that all of the steps in our build pipeline have passed!
+    - If you have a red X instead of a green checkmark, click on your latest commit in "Actions". Review the steps of the build pipeline to find your error. Update your code as necessary and push again until you have a green checkmark.
 13. Create a pull request. 
-   - Change the request to merge your branch into master.
-   - Follow the format to write a thorough description of the changes you made.
-   - Close the issue you created in step 3 in your Pull Request using ```Closes #X``` where X is the issue number.
+    - Change the request to merge your branch into master.
+    - Follow the format to write a thorough description of the changes you made.
+    - Close the issue you created in step 3 in your Pull Request using ```Closes #X``` where X is the issue number.
 14. You are all set! Please wait for approving reviews on your Pull Request. Thank you for your contribution!
