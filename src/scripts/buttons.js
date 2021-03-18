@@ -77,8 +77,8 @@ function uniqueInt() {
  */
 function addTask(id) {
   let taskHTML = `<li id="task-${id}">
-                    <input id="name-${id}" type="text" name="task" class="task animation-create-task" placeholder="Enter Task..."> 
-                    <input id="min-${id}" type="text" name="time" class="taskTime animation-create-time" placeholder="min"> 
+                    <input id="name-${id}" type="text" name="task" class="task animationCreateTask" placeholder="Enter Task..."> 
+                    <input id="min-${id}" type="text" name="time" class="taskTime animationCreateTime" placeholder="min"> 
                     <button class="delete" id="${id}">X</button>
                   </li>`;
   document
@@ -142,27 +142,27 @@ function deleteTask(id) {
 
   // If taskList is empty, add back placeholders
   if (document.getElementById('tasksList').innerHTML === '') {
-    document.getElementById('addTaskBtn').className = 'animation-highlight';
+    document.getElementById('addTaskBtn').className = 'animationHighlight';
     placeholders = true;
     document.getElementById('tasksList').innerHTML = `
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
-        <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="60" disabled="true"> 
+        <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
+        <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="60" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
-        <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="45" disabled="true"> 
+        <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
+        <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="45" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
-        <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="20" disabled="true"> 
+        <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
+        <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="20" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>
       <li>
-        <input type="text" name="task" class="pTask animation-create-task" placeholder="Press Add Task..." disabled="true"> 
-        <input type="text" name="time" class="pTaskTime animation-create-time" placeholder="30" disabled="true"> 
+        <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
+        <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="30" disabled="true"> 
         <button class="delete" disabled="true">X</button>
       </li>`;
   }

@@ -214,20 +214,20 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
   let EndSessionButton = document.getElementById('EndSessionButton');
 
   if (newDuration == longBreakTime) {
-    document.getElementById('timerdescription').innerHTML = 'Long Break';
+    document.getElementById('timerDescription').innerHTML = 'Long Break';
     //long break timer background
     workTimerBackground.style.backgroundColor = '#adffd1';
     //long break page background
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
   } else if (newDuration == shortBreakTime) {
-    document.getElementById('timerdescription').innerHTML = 'Short Break';
+    document.getElementById('timerDescription').innerHTML = 'Short Break';
     //short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
   } else if (newDuration == workingTime) {
-    document.getElementById('timerdescription').innerHTML = 'Work Session';
+    document.getElementById('timerDescription').innerHTML = 'Work Session';
     //work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
@@ -404,7 +404,7 @@ window.onload = () => {
   ).innerHTML = `Active : ${TASKS[0].taskName}`;
   document.getElementById('pomosleft').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
-  document.getElementById('timerdescription').innerHTML = 'Work Session';
+  document.getElementById('timerDescription').innerHTML = 'Work Session';
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   startTimer(workingTime, 0, TASKS);
 };

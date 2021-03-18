@@ -6,8 +6,8 @@ test('Check if addTask adds to TASK list', () => {
   `;
 
   let taskHTML = `<li id="task-1">
-                    <input id="name-1" type="text" name="task" class="task animation-create-task" placeholder="Enter Task..."> 
-                    <input id="min-1" type="text" name="time" class="taskTime animation-create-time" placeholder="min"> 
+                    <input id="name-1" type="text" name="task" class="task animationCreateTask" placeholder="Enter Task..."> 
+                    <input id="min-1" type="text" name="time" class="taskTime animationCreateTime" placeholder="min"> 
                     <button class="delete" id="1">X</button>
                   </li>`;
   addTask(1);
