@@ -199,7 +199,7 @@ function minToPomos(min) {
  * and calculates the total time while valid checking
  *
  * @param {*} Arr is the list of tasks
- * @returns
+ * @returns {Boolean} True
  */
 function calculateTotalTime(Arr) {
   if (Arr.length < 1) {
