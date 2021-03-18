@@ -8,7 +8,7 @@ We would love for developers to contribute to our project. To make changes to th
    - Please name your ticket thoroughly for us to review your work!
 3. Create an issue for your change.
    - Follow the "Feature" issue template. Write a thorough description and attach images as desired.
-   - Assign the yourself to the issue!
+   - Assign yourself to the issue!
    - Assign the appropriate labels to the issue.
 4. Move your ticket on our GitHub Project to the "In Progress" section.
    - Link the issue you created in step 3 to the ticket.
