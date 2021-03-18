@@ -4,13 +4,13 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--attendned lecture
+- attendned lecture
 
 ### What are your blockers?
--no blockers
+- no blockers
 
 ### What will you work on today?
--work with miguel to finish endbutton test
+- work with miguel to finish endbutton test
 
 ### How close are we to hitting our sprint goals?
 - will be done by end of sprint
