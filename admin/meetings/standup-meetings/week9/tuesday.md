@@ -7,13 +7,13 @@
 - I did not work on anything yesterday other than attend live lecture
 
 ### What are your blockers?
--Not sure if the whole group needs to attend discussion this week. I messaged Sasya
+- Not sure if the whole group needs to attend discussion this week. I messaged Sasya
 
 ### What will you work on today?
--Created discussion slides for tomorrow
+- Created discussion slides for tomorrow
 
 ### How close are we to hitting our sprint goals?
--Close
+- Close
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
