@@ -149,17 +149,14 @@ _[INSERT]_
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-
-_[INSERT BULLETED LIST]_
+- review for finals
 
 ### What are your blockers?
-
-_[INSERT BULLETED LIST]_
+- nothing
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- record a demo video for our project
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- done
