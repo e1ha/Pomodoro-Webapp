@@ -180,7 +180,8 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
           // If the finished task is the final task redirect the user back to landing page
           if (nextTask >= TASKS.length) {
-            document.getElementById('pomosRemaining').innerHTML = '0 pomos to go';
+            document.getElementById('pomosRemaining').innerHTML =
+              '0 pomos to go';
             localStorage.setItem('done', '1');
             showAnalysis();
           }
