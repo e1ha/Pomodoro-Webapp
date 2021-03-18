@@ -41,7 +41,7 @@ window.onload = () => {
   ).innerHTML = `Active : ${TASKS[0].taskName}`;
   document.getElementById('pomosRemaining').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
-  document.getElementById('timerdescription').innerHTML = 'Work Session';
+  document.getElementById('timerDescription').innerHTML = 'Work Session';
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   startTimer(workingTime, 0, TASKS);
 };
@@ -439,7 +439,10 @@ function doneTask() {
  *  Function to redirect back to the tasks page
  */
 function endSession() {
-  window.location.href = '../pages/tasks.html';
+  let yesEnd = confirm('Are you sure you want to end the session?');
+  if (yesEnd) {
+    window.location.href = '../pages/tasks.html';
+  }
 }
 
 /**
