@@ -4,13 +4,13 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--created discussion slides
+- created discussion slides
 
 ### What are your blockers?
--not sure if group has to attend discussion, contacted sasya and she said no
+- not sure if group has to attend discussion, contacted sasya and she said no
 
 ### What will you work on today?
--Attended disucssion for group
+- Attended disucssion for group
 
 ### How close are we to hitting our sprint goals?
 - We need to write a lot more tests!
