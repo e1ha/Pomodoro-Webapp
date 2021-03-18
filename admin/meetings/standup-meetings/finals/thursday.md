@@ -60,20 +60,21 @@ _[INSERT]_
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-
-_[INSERT BULLETED LIST]_
+- Code quality review of codebase with Ryan
+- Set up npm commands
+- Wrote onboard.md
 
 ### What are your blockers?
-
-_[INSERT BULLETED LIST]_
+- No blockers
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- Troubleshoot GitHub pages
+- Update instructions on instructions page
+- Individual Retro
+- Team member evaluations
 
 ### How close are we to hitting our sprint goals?
-
-_[INSERT]_
+- Super super close!
 
 ## <span style="color: red;">Elaine H.</span>
 

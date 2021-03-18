@@ -41,20 +41,16 @@ _Daily Updates for Weekly Sprint - Thursday, 02/18/2021_
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-
-_[INSERT BULLETED LIST]_
+- Nothing.
 
 ### What are your blockers?
-
-_[INSERT BULLETED LIST]_
+- I have no blockers.
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- A bit busy today so nothing.
 
 ### How close are we to hitting our sprint goals?
-
-_[INSERT]_
+- We are close.
 
 ## <span style="color: red;">Anoushka D.</span>
 
