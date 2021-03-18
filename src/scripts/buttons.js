@@ -159,22 +159,18 @@ function deleteTask(id) {
       <li>
         <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="60" disabled="true"> 
-        <button class="delete" disabled="true">X</button>
       </li>
       <li>
         <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="45" disabled="true"> 
-        <button class="delete" disabled="true">X</button>
       </li>
       <li>
         <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="20" disabled="true"> 
-        <button class="delete" disabled="true">X</button>
       </li>
       <li>
         <input type="text" name="task" class="pTask animationCreateTask" placeholder="Press Add Task..." disabled="true"> 
         <input type="text" name="time" class="pTaskTime animationCreateTime" placeholder="30" disabled="true"> 
-        <button class="delete" disabled="true">X</button>
       </li>`;
   }
 }
