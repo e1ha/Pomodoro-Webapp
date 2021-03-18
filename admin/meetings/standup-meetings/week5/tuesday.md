@@ -27,7 +27,7 @@
 - Today I'll research creative VanillaJS coding design because we want to get a lot done without external frameworks.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- Almost there
 
 ## <span style="color: red;">Ryan B.</span>
 
