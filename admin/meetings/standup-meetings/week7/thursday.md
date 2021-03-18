@@ -4,29 +4,29 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-did not work on anything
+- did not work on anything
 
 ### What are your blockers?
-no blockers
+- no blockers
 
 ### What will you work on today?
-will not work on anything today
+- will not work on anything today
 ### How close are we to hitting our sprint goals?
-will finish by saturday
+- will finish by saturday
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-I wasn't able to work on anything.
+- I wasn't able to work on anything.
 
 ### What are your blockers?
-I have no blockers.
+- I have no blockers.
 
 ### What will you work on today?
-Today I'll work on talking to the TA and syncing up with PM.
+- Today I'll work on talking to the TA and syncing up with PM.
 
 ### How close are we to hitting our sprint goals?
-I think we can make it. We're pretty close.
+- I think we can make it. We're pretty close.
 
 ## <span style="color: red;">Ryan B.</span>
 
