@@ -39,7 +39,7 @@ window.onload = () => {
   document.getElementById(
     'showTasks'
   ).innerHTML = `Active : ${TASKS[0].taskName}`;
-  document.getElementById('pomosleft').innerHTML =
+  document.getElementById('pomosRemaining').innerHTML =
     TASKS[0].pomosLeft + ' pomos to go';
   document.getElementById('timerdescription').innerHTML = 'Work Session';
   localStorage.setItem('tasks', JSON.stringify(TASKS));
@@ -141,7 +141,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
   let newDuration = 0;
   if (prevDuration === workingTime) {
     TASKS[taskIndex].pomosLeft = parseInt(TASKS[taskIndex].pomosLeft) - 1;
-    document.getElementById('pomosleft').innerHTML =
+    document.getElementById('pomosRemaining').innerHTML =
       TASKS[nextTask].pomosLeft + ' pomos to go';
   }
 
@@ -180,7 +180,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
           // If the finished task is the final task redirect the user back to landing page
           if (nextTask >= TASKS.length) {
-            document.getElementById('pomosleft').innerHTML = '0 pomos to go';
+            document.getElementById('pomosRemaining').innerHTML = '0 pomos to go';
             localStorage.setItem('done', '1');
             showAnalysis();
           }
@@ -223,7 +223,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
         // If the finished task is the final task redirect the user back to landing page
         if (nextTask >= TASKS.length) {
-          document.getElementById('pomosleft').innerHTML = '0 pomos to go';
+          document.getElementById('pomosRemaining').innerHTML = '0 pomos to go';
           localStorage.setItem('done', '1');
           showAnalysis();
         }
@@ -248,7 +248,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
   // Update local storage
   localStorage.setItem('tasks', JSON.stringify(TASKS));
-  document.getElementById('pomosleft').innerHTML =
+  document.getElementById('pomosRemaining').innerHTML =
     TASKS[nextTask].pomosLeft + ' pomos to go';
 
   // Change the page background based on the next timer session type

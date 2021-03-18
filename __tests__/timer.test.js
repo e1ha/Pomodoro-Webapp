@@ -81,7 +81,7 @@ describe('sessionFinish tests', () => {
     document.body.innerHTML = `
     <body>
     <div class="pomos">
-      <p id="pomosleft">3 pomos to go</p>
+      <p id="pomosRemaining">3 pomos to go</p>
     </div>
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
@@ -94,7 +94,7 @@ describe('sessionFinish tests', () => {
     </div>
   </body>
     `;
-    const pomoUI = document.getElementById('pomosleft');
+    const pomoUI = document.getElementById('pomosRemaining');
     const desUI = document.getElementById('timerDescription');
     global.confirm = () => false;
     timer.sessionFinish(workingTime, 0, TASKS);
@@ -132,7 +132,7 @@ describe('sessionFinish tests', () => {
     document.body.innerHTML = `
     <body>
     <div class="pomos">
-      <p id="pomosleft">3 pomos to go</p>
+      <p id="pomosRemaining">3 pomos to go</p>
     </div>
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
@@ -146,7 +146,7 @@ describe('sessionFinish tests', () => {
   </body>
     `;
     global.confirm = () => false;
-    const pomoUI = document.getElementById('pomosleft');
+    const pomoUI = document.getElementById('pomosRemaining');
     const desUI = document.getElementById('timerDescription');
     timer.sessionFinish(workingTime, 0, TASKS);
     expect(pomoUI.innerHTML).toMatch('1 pomos to go');
@@ -178,7 +178,7 @@ describe('sessionFinish tests', () => {
     document.body.innerHTML = `
     <body>
     <div class="pomos">
-      <p id="pomosleft">3 pomos to go</p>
+      <p id="pomosRemaining">3 pomos to go</p>
     </div>
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
@@ -204,7 +204,7 @@ describe('sessionFinish tests', () => {
     </div>
   </body>
     `;
-    const pomoUI = document.getElementById('pomosleft');
+    const pomoUI = document.getElementById('pomosRemaining');
     const desUI = document.getElementById('timerDescription');
     timer.sessionFinish(shortBreakTime, 0, TASKS);
     expect(TASKS[0].pomosLeft.toString()).toMatch('1');
