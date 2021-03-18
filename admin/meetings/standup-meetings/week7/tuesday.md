@@ -4,30 +4,30 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-nothing, it was a holiday
+- nothing, it was a holiday
 
 ### What are your blockers?
-no
+- no
 
 ### What will you work on today?
-discuss with anoushka and elaine about splitting responsiblities
+- discuss with anoushka and elaine about splitting responsiblities
 
 ### How close are we to hitting our sprint goals?
-will finish in time
+- will finish in time
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-Nothing, because yesterday was a break
+- Nothing, because yesterday was a break
 
 ### What are your blockers?
-None.
+- None.
 
 ### What will you work on today?
-Today I'll work on cleaning up the repo even more so there's little less merge conflicts than we're having right now. *EVERYONE* pull from master / your super branch frequently
+- Today I'll work on cleaning up the repo even more so there's little less merge conflicts than we're having right now. *EVERYONE* pull from master / your super branch frequently
 
 ### How close are we to hitting our sprint goals?
-We'll probably make our goals because we're meeting again this week.
+- We'll probably make our goals because we're meeting again this week.
 
 ## <span style="color: red;">Ryan B.</span>
 
