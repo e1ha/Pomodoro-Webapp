@@ -6,19 +6,19 @@ _Daily Updates for Weekly Sprint - Friday, 02/12/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-did not work on anything
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+-no blockers
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+-will attend live lecture
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+-done!
 
 ## <span style="color: red;">Uposhanto B.</span>
 
