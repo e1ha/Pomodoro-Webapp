@@ -3,7 +3,7 @@ We would love for developers to contribute to our project. To make changes to th
 
 1. Get the Pomodoro Application running on your computer.
    - Follow the instructions on the README to clone this repository and run our application.
-   - Ensure that you have installed all the necessary Visual Studio Code extentions.
+   - Ensure that you have installed all the necessary Visual Studio Code extensions.
 2. Create a ticket on our GitHub Project in the "Backlog" section.
    - Please name your ticket thoroughly for us to review your work!
 3. Create an issue for your change.
