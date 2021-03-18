@@ -152,16 +152,15 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- recording a demo video
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- none
 
 ### What will you work on today?
-
-_[INSERT BULLETED LIST]_
+- review for the finals
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- done
