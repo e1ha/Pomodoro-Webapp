@@ -1,10 +1,15 @@
 let currStep = 1;
 
+/**
+ * Runs the following code on window load
+ */
 window.onload = () => {
   var continueButton = document.getElementById('continueButton');
   continueButton.addEventListener('click', redirectToTasksPage);
+
   var stepImage = document.getElementById('stepImage');
   stepImage.src = `../images/step${currStep}.svg`;
+
   var leftButton = document.getElementById('stepLeft');
   var rightButton = document.getElementById('stepRight');
 
@@ -23,6 +28,9 @@ window.onload = () => {
   });
 };
 
+/**
+ * Function redirects to the task page
+ */
 function redirectToTasksPage() {
   window.location.href = '../pages/tasks.html';
 }

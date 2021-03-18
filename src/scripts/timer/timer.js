@@ -13,21 +13,58 @@ let doneClicked = false;
 let skipAdd = false;
 let currDuration = '';
 
-/* Function to count down the current timer
+/**
+ * Runs the following code on window load
+ */
+window.onload = () => {
+  var finishButton = document.getElementById('finishButton');
+  finishButton.addEventListener('click', endSession);
+
+  var distractionButton = document.getElementById('distractionButton');
+  distractionButton.addEventListener('click', distractionButtonFunc);
+
+  var endButton = document.getElementById('EndSessionButton');
+  endButton.addEventListener('click', endSession);
+
+  var TASKS = JSON.parse(localStorage.getItem('tasks'));
+  TASKS.forEach((task) => {
+    task.pomosLeft = task.pomos;
+    task.done = false;
+  });
+
+  currTask = TASKS[0].id;
+
+  refreshTasksList(TASKS);
+  
+  document.getElementById(
+    'showTasks'
+  ).innerHTML = `Active : ${TASKS[0].taskName}`;
+  document.getElementById('pomosleft').innerHTML =
+    TASKS[0].pomosLeft + ' pomos to go';
+  document.getElementById('timerdescription').innerHTML = 'Work Session';
+  localStorage.setItem('tasks', JSON.stringify(TASKS));
+  startTimer(workingTime, 0, TASKS);
+};
+
+/**
+ * Function to count down the current timer
  *
  * @param {int} start time in milliseconds
  * @param {int} duration for this timer in milliseconds
- * @param {int} ID returned by setInterval, used by clearInterval
- * @param {int} the index of the current task in TASKS
- * @param {array} the array containing all the task objects
+ * @param {int} timerID returned by setInterval, used by clearInterval
+ * @param {int} taskIndex index of the current task in TASKS
+ * @param {array} TASKS array containing all the task objects
  */
 function countDown(start, duration, timerID, taskIndex, TASKS) {
   currDuration = duration;
-  // get the timer HTML element
+
+  // Gets the timer HTML element
   let element = document.getElementById('timer');
-  // calculate the difference between current time
-  // and start time in seconds
+  
+  // Calculates the difference between current time and start time in seconds
   let difference = duration - Math.floor((Date.now() - start) / 1000);
+
+  // Set the pomosLeft to 1 for the current session if the doneButton was clicked
   if (doneClicked && duration == workingTime) {
     doneClicked = false;
     alert(
@@ -35,26 +72,35 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
     );
     TASKS[taskIndex].pomosLeft = 1;
   }
-  // clearInterval and call sessionFinish once time is up
+
+  // Updates the progress bar every count
   updateProgressBar(TASKS);
+
+  // Calls clearInterval and sessionFinish once time is up
   if (difference < 0) {
+
     if (timerID != null) {
       clearInterval(timerID);
     }
+
     if (duration == workingTime) {
       pomosFinished = pomosFinished + 1;
     }
+
     element.innerHTML = '00:00';
     sessionFinish(duration, taskIndex, TASKS);
     return;
   }
-  // converts the differnece in seconds to minutes and seconds
+
+  // Converts the difference in seconds to minutes and seconds
   let minutes = Math.floor(difference / 60);
   let seconds = Math.floor(difference % 60);
-  // take the absolute value of minutes and seconds for safe measures
+
+  // Takes the absolute value of minutes and seconds
   minutes = minutes < 0 ? 0 : minutes;
   seconds = seconds < 0 ? 0 : seconds;
-  // formate the minutes and seconds to two digit string
+
+  // Formats the minutes and seconds to two digit string
   minutes = minutes.toLocaleString('en-US', {
     minimumIntegerDigits: 2
   });
@@ -64,30 +110,32 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
   element.innerHTML = minutes + ':' + seconds;
 }
 
-/* Function to start a new timer instance
+/**
+ * Function to start a new timer instance
  *
  * @param {int} duration for this timer in milliseconds
- * @param {numWork} number of work sessions done
- * @param {function} callback function to use when timer hits zero
- * @param {array} the array containing all the task objects
+ * @param {int} taskIndex index of the active task
+ * @param {*} TASKS array containing all the task objects
  */
 function startTimer(duration, taskIndex, TASKS) {
   const start = Date.now();
-  // call countDown first for initialization
+
+  // Calls countDown for initialization
   countDown(start, duration, null, taskIndex, TASKS);
-  // timer ID is used to clear the interval once the timer hits zero
-  // call countDown for every 500 milliseconds
+
+  // Call countDown every 500 milliseconds
   var timerID = setInterval(function () {
     countDown(start, duration, timerID, taskIndex, TASKS);
   }, 500);
 }
 
-/* Function to act as a callback when timer hits zero,
- * calculate pomos left and changing the background
+/** 
+ * Function to act as a callback when timer hits zero,
+ * calculates pomos left and changes the html based off of current session
  *
- * @param {int} the duration of the timer that hits zero
- * @param {numWork} number of work sessions done
- * @param {array} the array containing all the task objects
+ * @param {int} prevDuration duration of the timer that hits zero
+ * @param {int} taskIndex index of the active task
+ * @param {*} TASKS array containing all the task objects
  */
 function sessionFinish(prevDuration, taskIndex, TASKS) {
   let nextTask = taskIndex;
@@ -98,11 +146,11 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       TASKS[nextTask].pomosLeft + ' pomos to go';
   }
 
-  // if no more working sessions left for current task
+  // If no more working sessions left for current task
   if (TASKS[taskIndex].pomosLeft == 0) {
-    // if the user has already had the final break
+
+    // If the user has already had the final break move to next task, refresh the task list display as well
     if (prevDuration == shortBreakTime || prevDuration == longBreakTime) {
-      // move to next task, refresh the task list display as well
       nextTask = taskIndex + 1;
       newDuration = workingTime;
       document.getElementById(
@@ -111,12 +159,14 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       currTask = TASKS[nextTask].id;
       refreshTasksList(TASKS);
     } else {
-      // if the user just finishes the last working session
+
+      // If the user just finishes the last working session
       if (
         !skipAdd &&
         window.confirm('Would you like to add addtional time for this task?')
       ) {
-        // ask the user to input valid addtional time
+
+        // Ask the user to input valid addtional time
         let addTime = '';
         do {
           addTime = window.prompt(
@@ -127,25 +177,25 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
           (addTime != null && parseInt(addTime) < 0)
         );
 
-        // go to the final break if no additional time added
+        // Go to the final break if no additional time is added
         if (addTime == null || parseInt(addTime) == 0) {
           TASKS[taskIndex].done = true;
           nextTask = taskIndex + 1;
-          // if the finished task is the final task redirect the user back to landing page
+
+          // If the finished task is the final task redirect the user back to landing page
           if (nextTask >= TASKS.length) {
             document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-            //alert('Congratulations! You have finished all your tasks! Exiting timer.');
             localStorage.setItem('done', '1');
-            //window.location.href = './../pages/tasks.html';
             showAnalysis();
           }
-          // calculate the final break duration
+
+          // Calculate the final break duration
           nextTask -= 1;
           let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
           newDuration =
             pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
         } else {
-          // add additional time and pomos to the timer
+          // Add additional time and pomos to the timer
           let addedTime = parseInt(addTime);
           let addPomos = Math.floor(
             (addedTime * MINUTESTOSECONDS) / workingTime
@@ -155,14 +205,14 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
               ? addPomos + 1
               : addPomos;
 
-          // update min
+          // Update min
           TASKS[taskIndex].min = parseInt(TASKS[taskIndex].min) + addedTime;
-          // update pomos
+          // Update pomos
           TASKS[taskIndex].pomos = parseInt(TASKS[taskIndex].pomos) + addPomos;
-          // update pomos left
+          // Update pomos left
           TASKS[taskIndex].pomosLeft = addPomos;
 
-          // calculate whether the next break is a short break or long break
+          // Calculate whether the next break is a short break or long break
           let pomosDone =
             parseInt(TASKS[taskIndex].pomos) -
             parseInt(TASKS[taskIndex].pomosLeft);
@@ -170,18 +220,18 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
             pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
         }
       } else {
-        // if the user doesn't wish to add more time
+        // If the user doesn't wish to add more time
         skipAdd = false;
         TASKS[taskIndex].done = true;
         nextTask = taskIndex + 1;
-        // if the finished task is the final task redirect the user back to landing page
+
+        // If the finished task is the final task redirect the user back to landing page
         if (nextTask >= TASKS.length) {
           document.getElementById('pomosleft').innerHTML = '0 pomos to go';
-          //alert('Congratulations! You have finished all your tasks! Exiting timer.');
           localStorage.setItem('done', '1');
-          //window.location.href = './../pages/tasks.html';
           showAnalysis();
         }
+
         nextTask -= 1;
         let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
         newDuration =
@@ -189,9 +239,10 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
       }
     }
   } else {
-    // if there are more working sessions left for current task
+
+    // If there are more working sessions left for current task
     if (prevDuration == workingTime) {
-      // determine if it's a long break or a short break
+      // Determine if it's a long break or a short break
       let pomosDone = TASKS[taskIndex].pomos - TASKS[taskIndex].pomosLeft;
       newDuration =
         pomosDone % pomob4break == 0 ? longBreakTime : shortBreakTime;
@@ -200,12 +251,12 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     }
   }
 
-  // update local storage
+  // Update local storage
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   document.getElementById('pomosleft').innerHTML =
     TASKS[nextTask].pomosLeft + ' pomos to go';
 
-  // change the page background based on the next timer session type
+  // Change the page background based on the next timer session type
   let workTimerBackground = document.getElementsByClassName(
     'workTimerBackground'
   )[0];
@@ -217,30 +268,32 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     document.getElementById('timerdescription').innerHTML = 'Long Break';
     //long break timer background
     workTimerBackground.style.backgroundColor = '#adffd1';
-    //long break page background
+    // Long break page background
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
   } else if (newDuration == shortBreakTime) {
     document.getElementById('timerdescription').innerHTML = 'Short Break';
-    //short break timer background
+    // Short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
   } else if (newDuration == workingTime) {
     document.getElementById('timerdescription').innerHTML = 'Work Session';
-    //work break timer background
+    // Work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
     EndSessionButton.style.backgroundColor = '#ff6767';
   }
 
-  // start the next session timer
+  // Start the next session timer
   if (TASKS) {
     refreshTasksList(TASKS);
   }
   startTimer(newDuration, nextTask, TASKS);
 }
-
+/**
+ * Function to display the task list component
+ */
 // eslint-disable-next-line no-unused-vars
 function displayTasks() {
   let height = document.getElementById('tasks').style.height;
@@ -251,21 +304,33 @@ function displayTasks() {
   }
 }
 
+/**
+ * Function calculates totalPomos and totalPomosLeft 
+ * to update the progress bar
+ * 
+ * @param {*} list list of all the task objects 
+ */
 function updateProgressBar(list) {
   totalPomos = 0;
   totalPomosLeft = 0;
+
   if (list) {
     list.forEach((task) => {
       totalPomos = totalPomos + task.pomos;
       totalPomosLeft = totalPomosLeft + task.pomosLeft;
     });
   }
+
   progress = Math.round(100 * ((totalPomos - totalPomosLeft) / totalPomos));
+
   if (document.getElementById('progressBar')) {
     document.getElementById('progressBar').style.width = `${progress}%`;
   }
 }
 
+/**
+ * Animation and styling when hovering over the active task
+ */
 function showDone() {
   if (currDuration == workingTime) {
     document.querySelector('.active-task').innerHTML = 'Done';
@@ -280,7 +345,6 @@ function showDone() {
     document.querySelector('.active-task').style.fontWeight = 'bold';
   }
 }
-
 function hideDone(name) {
   document.querySelector('.active-task').innerHTML = name;
   document.querySelector('.active-task').style.backgroundColor = 'white';
@@ -288,23 +352,34 @@ function hideDone(name) {
   document.querySelector('.active-task').style.fontWeight = 'normal';
 }
 
+/**
+ * Function updates the task list
+ * based off of whether or not the task is done
+ * 
+ * @param {*} TASKS list of all the task objects
+ */
 function refreshTasksList(TASKS) {
   var tasksList = document.getElementById('tasks');
+
   if (tasksList) {
     document.getElementById('tasks').innerHTML = '';
     TASKS.forEach((task) => {
+
       if (!task.done) {
         let taskElement = `<li>
                             <p id="task-${task.id}" class="task">${task.taskName}</p>
                           </li>`;
+
         if (currTask == task.id) {
           taskElement = `<li>
           <p id="task-${task.id}" class="task active-task">${task.taskName}</p>
                           </li>`;
         }
+
         document
           .getElementById('tasks')
           .insertAdjacentHTML('beforeend', taskElement);
+
         if (currTask == task.id) {
           document
             .getElementById(`task-${task.id}`)
@@ -324,6 +399,7 @@ function refreshTasksList(TASKS) {
         }
       }
     });
+
     TASKS.forEach((task) => {
       if (task.done) {
         let taskElement = `<li><input type="text" name="task" class="task-done" value="${task.taskName}"/></li>`;
@@ -335,6 +411,9 @@ function refreshTasksList(TASKS) {
   }
 }
 
+/**
+ * Animation for task list hover
+ */
 // eslint-disable-next-line no-unused-vars
 function taskPeak() {
   let height = document.getElementById('tasks').style.height;
@@ -342,14 +421,6 @@ function taskPeak() {
     document.getElementById('tasks').style.height = '2vh';
   }
 }
-
-function doneTask() {
-  if (currDuration == workingTime) {
-    doneClicked = true;
-    skipAdd = true;
-  }
-}
-
 // eslint-disable-next-line no-unused-vars
 function taskUnpeak() {
   let height = document.getElementById('tasks').style.height;
@@ -358,15 +429,33 @@ function taskUnpeak() {
   }
 }
 
+/**
+ * Function for when doneButton is clicked
+ */
+function doneTask() {
+  if (currDuration == workingTime) {
+    doneClicked = true;
+    skipAdd = true;
+  }
+}
+
+/**
+ *  Function to redirect back to the tasks page
+ */
 function endSession() {
-  //alert('You have ended the session. Returning to the task page...');
   window.location.href = '../pages/tasks.html';
 }
 
+/**
+ *  Function adds 1 to distractions
+ */
 function distractionButtonFunc() {
   distractions = distractions + 1;
 }
 
+/**
+ * Function displays the analysis modal at the end of the session
+ */
 function showAnalysis() {
   var analysis = document.getElementById('analysis');
   if (analysis) {
@@ -383,30 +472,5 @@ function showAnalysis() {
     } mins)!`;
   }
 }
-
-// load the tasks and current active task, then start timer
-window.onload = () => {
-  var finishButton = document.getElementById('finishButton');
-  finishButton.addEventListener('click', endSession);
-  var distractionButton = document.getElementById('distractionButton');
-  distractionButton.addEventListener('click', distractionButtonFunc);
-  var endButton = document.getElementById('EndSessionButton');
-  endButton.addEventListener('click', endSession);
-  var TASKS = JSON.parse(localStorage.getItem('tasks'));
-  TASKS.forEach((task) => {
-    task.pomosLeft = task.pomos;
-    task.done = false;
-  });
-  currTask = TASKS[0].id;
-  refreshTasksList(TASKS);
-  document.getElementById(
-    'showTasks'
-  ).innerHTML = `Active : ${TASKS[0].taskName}`;
-  document.getElementById('pomosleft').innerHTML =
-    TASKS[0].pomosLeft + ' pomos to go';
-  document.getElementById('timerdescription').innerHTML = 'Work Session';
-  localStorage.setItem('tasks', JSON.stringify(TASKS));
-  startTimer(workingTime, 0, TASKS);
-};
 
 module.exports = { startTimer, countDown, sessionFinish, endSession };

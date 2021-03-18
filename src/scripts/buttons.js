@@ -2,13 +2,15 @@ let TASKS = [];
 let placeholders = true;
 
 /**
- * On page load, check if there are tasks in local storage
- * and add those tasks
+ * Runs the following code on window load
  */
 window.onload = () => {
+  // Clear local storage if the user has just completed an entire session
   if (localStorage.getItem('done')) {
     localStorage.clear();
   }
+
+  // If there are tasks in local storage add them to the task list
   let storedTasks = JSON.parse(localStorage.getItem('tasks'));
   if (storedTasks && storedTasks.length > 0) {
     placeholders = false;
@@ -21,6 +23,7 @@ window.onload = () => {
       document.getElementById(`min-${task.id}`).value = task.min;
     });
   }
+
   // Add click event for addTaskBtn
   document.getElementById('addTaskBtn').addEventListener('click', (event) => {
     event.preventDefault();
@@ -34,20 +37,21 @@ window.onload = () => {
 
     // Limit 1000 tasks
     if (TASKS.length >= 1000) {
-      confirm('You are unable to create any more tasks.');
+      alert('You are unable to create any more tasks.');
     } else {
       // Create new empty task and push it to TASKS
       TASKS.push(addTask(uniqueInt()));
     }
   });
 
-  /*****Start */
+  // Add click event for start button
   var startButton = document.getElementById('startButton');
   startButton.addEventListener(
     'click',
     (event) => {
       event.preventDefault();
       let inputValid = calculateTotalTime(TASKS);
+      
       if (inputValid) {
         startSession();
       }
@@ -55,14 +59,19 @@ window.onload = () => {
     false
   );
 
-  /*****Question */
+  // Add click event for question button
   var questionButton = document.getElementById('questionButton');
   questionButton.addEventListener('click', redirectToInstructionsPage);
 };
 
-// Unique random int generator (1-10000)
+/**
+ * Generates a random unique int
+ * 
+ * @returns { int } from 1 to 10000
+ */
 function uniqueInt() {
   let randInt = Math.floor(Math.random() * 10000) + 1;
+
   if (TASKS.filter((task) => task.id === randInt).length > 0) {
     return uniqueInt();
   } else {
@@ -70,7 +79,8 @@ function uniqueInt() {
   }
 }
 
-/* Function to create a new li (task) element in html
+/** 
+ * Function to create a new li (task) element in html
  *
  * @param {int} id of the newly created task
  * @return {object} task object is returned
@@ -93,7 +103,7 @@ function addTask(id) {
     done: false
   };
 
-  // Updates information in TASKS whenever a change is made
+  // Adds an event listener to tasks whenever a change is made and updates TASKS
   document
     .getElementById('name-' + task.id)
     .addEventListener('change', (event) => {
@@ -117,7 +127,7 @@ function addTask(id) {
       );
     });
 
-  // Add click event for delete button
+  // Add a click event for the delete button of the newly created task
   document.getElementById(task.id).addEventListener('click', (event) => {
     event.preventDefault();
 
@@ -127,8 +137,9 @@ function addTask(id) {
   return task;
 }
 
-/* Function to delete a li (task) element in html based off id
- *
+/**  
+ * Function to delete a li (task) element in html based off id
+ * 
  * @param {int} id of the desired task element
  */
 function deleteTask(id) {
@@ -168,7 +179,8 @@ function deleteTask(id) {
   }
 }
 
-/* Function to convert minutes into pomos
+/** 
+ * Function to convert minutes into pomos
  *
  * @param {int} min is the amount of minutes being converted
  */
@@ -182,56 +194,55 @@ function minToPomos(min) {
   return pomos;
 }
 
-//loops through task list and calculates total time
+/**
+ * Function loops through all the inputted tasks
+ * and calculates the total time while valid checking
+ * 
+ * @param {*} Arr is the list of tasks  
+ * @returns 
+ */
 function calculateTotalTime(Arr) {
   if (Arr.length < 1) {
-    alert('no tasks');
+    alert('Please add a task to start!');
     return false;
   }
 
   for (let i = 0; i < Arr.length; ++i) {
     let minutes = Arr[i].min;
 
-    let minPerTask = parseFloat(minutes); //covert input to number
+    // Converts input to number
+    let minPerTask = parseFloat(minutes); 
 
-    //check if input is number
+    // Checks if the min inputs are valid
     if (isNaN(minutes) || isNaN(minPerTask)) {
-      alert('entry ' + Arr[i].taskName + ' has invalid time input');
-      //   tasks = [];
+      alert('Entry: [' + i + '] has an invalid time input');
       return false;
     } else if (minPerTask > 180) {
-      alert('entry ' + Arr[i].taskName + ' exceeds maximum limit');
-      //   tasks = [];
+      alert('Entry: [' + i + '] exceeds maximum limit. Please consider splitting this task up!');
       return false;
     } else if (minPerTask < 1) {
-      alert('entry ' + Arr[i].taskName + ' under minimum limit');
-      //   tasks = [];
+      alert('Entry: [' + i + '] is under the minimum limit');
       return false;
     }
   }
+
   return true;
 }
 
-//starts timer and swithches to timer page
+/**
+ * Function stores task in local storage and redirects to timer page
+ */
 function startSession() {
-  //let inputValid = calculateTotalTime(Arr);
-
-  //if (inputValid) {
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   window.location.href = './../pages/timer.html';
-  //}
-  //e.preventDefault();
 }
 
+/**
+ * Function stores task in local storage and redirects to instructions page
+ */
 function redirectToInstructionsPage() {
   localStorage.setItem('tasks', JSON.stringify(TASKS));
   window.location.href = '../pages/instructions.html';
 }
 
-module.exports = {
-  addTask: addTask,
-  redirectToInstructionsPage: redirectToInstructionsPage,
-  deleteTask: deleteTask,
-  startSession: startSession,
-  calculateTotalTime: calculateTotalTime
-};
+module.exports = { addTask, redirectToInstructionsPage, deleteTask, startSession, calculateTotalTime };
