@@ -6,34 +6,33 @@ _Daily Updates for Weekly Sprint - Thursday, 02/11/2021_
 
 ### What did you work on yesterday?
 
--css for instructions page
+- css for instructions page
 ### What are your blockers?
 
--had trouble centering css block
+- had trouble centering css block
 ### What will you work on today?
 
--worked on html for timer page
+- worked on html for timer page
 ### How close are we to hitting our sprint goals?
--will be done by sprint deadline
-_[INSERT]_
+- will be done by sprint deadline
 
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
 
-Yesterday I configured our pipeline a little bit more.
+- Yesterday I configured our pipeline a little bit more.
 
 ### What are your blockers?
 
-Committments to other classes.
+- Committments to other classes.
 
 ### What will you work on today?
 
-If I have time, I'll be looking head and trying to come up with our project code design.
+- If I have time, I'll be looking head and trying to come up with our project code design.
 
 ### How close are we to hitting our sprint goals?
 
-We can probably finish.
+- We can probably finish.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -47,11 +46,11 @@ We can probably finish.
 
 ### What will you work on today?
 
-I will see if any one needs help.
+- I will see if any one needs help.
 
 ### How close are we to hitting our sprint goals?
 
-I hit my sprint goal.
+- I hit my sprint goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
