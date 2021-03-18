@@ -71,6 +71,7 @@ function countDown(start, duration, timerID, taskIndex, TASKS) {
       'Please continue reviewing your work until your current Pomodoro session ends.'
     );
     TASKS[taskIndex].pomosLeft = 1;
+    document.getElementById('pomosRemaining').innerHTML = '1 pomos to go'
   }
 
   // Updates the progress bar every count
