@@ -21,8 +21,10 @@ We would love for developers to contribute to our project. To make changes to th
    - Add the test file to ```./__tests__``` with the name "filename.test.js".
 10. After making your changes, utilize ESLint and Prettier to follow the code quality enforced in our codebase. 
    - Run the following commands and ensure that you have no errors:
-   - ```npm run format```
    - ```npm run lint```
+   - ```npm run test```
+   - ```npm run format```
+   - ```npm run docs```
 11. Commit & push to your branch on GitHub.
 12. Go to "Actions" and ensure you have a green checkmark.
    - This checkmark indicates that all of the steps in our build pipeline have passed!
