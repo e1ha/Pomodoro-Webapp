@@ -90,7 +90,7 @@ describe('sessionFinish tests', () => {
       <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
-      <button id="EndSessionButton">End Session</button>
+      <button id="endSessionButton">End Session</button>
     </div>
   </body>
     `;
@@ -141,7 +141,7 @@ describe('sessionFinish tests', () => {
       <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
-      <button id="EndSessionButton">End Session</button>
+      <button id="endSessionButton">End Session</button>
     </div>
   </body>
     `;
@@ -187,7 +187,7 @@ describe('sessionFinish tests', () => {
       <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
-      <button id="EndSessionButton">End Session</button>
+      <button id="endSessionButton">End Session</button>
     </div>
     <div class="tasksListContainer">
       <button

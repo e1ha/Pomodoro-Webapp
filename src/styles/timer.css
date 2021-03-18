@@ -93,7 +93,7 @@ body {
   padding-top: 5em;
 }
 
-#EndSessionButton {
+#endSessionButton {
   color: white;
   background-color: #ff6767;
   font-size: 20px;
@@ -108,7 +108,7 @@ body {
   opacity: 0.9;
 }
 
-#EndSessionButton:hover {
+#endSessionButton:hover {
   box-shadow: 2px 4px 4px #696969c5;
   opacity: 1;
 }

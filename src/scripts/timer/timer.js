@@ -23,7 +23,7 @@ window.onload = () => {
   var distractionButton = document.getElementById('distractionButton');
   distractionButton.addEventListener('click', distractionButtonFunc);
 
-  var endButton = document.getElementById('EndSessionButton');
+  var endButton = document.getElementById('endSessionButton');
   endButton.addEventListener('click', endSession);
 
   var TASKS = JSON.parse(localStorage.getItem('tasks'));
@@ -258,7 +258,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
   )[0];
   let pageBackground = document.getElementsByTagName('BODY')[0];
 
-  let EndSessionButton = document.getElementById('EndSessionButton');
+  let endSessionButton = document.getElementById('endSessionButton');
 
   if (newDuration == longBreakTime) {
     document.getElementById('timerDescription').innerHTML = 'Long Break';
@@ -266,19 +266,19 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
     workTimerBackground.style.backgroundColor = '#adffd1';
     // Long break page background
     pageBackground.style.backgroundColor = '#47de88';
-    EndSessionButton.style.backgroundColor = '#47de88';
+    endSessionButton.style.backgroundColor = '#47de88';
   } else if (newDuration == shortBreakTime) {
     document.getElementById('timerDescription').innerHTML = 'Short Break';
     // Short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
-    EndSessionButton.style.backgroundColor = '#36a1ff';
+    endSessionButton.style.backgroundColor = '#36a1ff';
   } else if (newDuration == workingTime) {
     document.getElementById('timerDescription').innerHTML = 'Work Session';
     // Work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';
-    EndSessionButton.style.backgroundColor = '#ff6767';
+    endSessionButton.style.backgroundColor = '#ff6767';
   }
 
   // Start the next session timer

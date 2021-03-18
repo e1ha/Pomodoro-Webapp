@@ -13,7 +13,7 @@ beforeEach(() => {
 describe('onClickEndSessionButton', () => {
   test('redirectToTasksPage', () => {
     document.body.innerHTML = `
-        <button id="EndSessionButton">End Session</button>
+        <button id="endSessionButton">End Session</button>
     `;
 
     endSession();
