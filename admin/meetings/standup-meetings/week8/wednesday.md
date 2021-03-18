@@ -4,17 +4,17 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--organized all videos into one file
+- organized all videos into one file
 
 ### What are your blockers?
--the videos together exceeded 5 min
--to solve the issues I speeded up the whole video by 1.3x
+- the videos together exceeded 5 min
+- to solve the issues I speeded up the whole video by 1.3x
 
 ### What will you work on today?
--stiched together the status video
+- stiched together the status video
 
 ### How close are we to hitting our sprint goals?
--done!
+- done!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
