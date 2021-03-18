@@ -35,7 +35,7 @@ window.onload = () => {
   currTask = TASKS[0].id;
 
   refreshTasksList(TASKS);
-  
+
   document.getElementById(
     'showTasks'
   ).innerHTML = `Active : ${TASKS[0].taskName}`;
@@ -265,20 +265,20 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
   let EndSessionButton = document.getElementById('EndSessionButton');
 
   if (newDuration == longBreakTime) {
-    document.getElementById('timerdescription').innerHTML = 'Long Break';
+    document.getElementById('timerDescription').innerHTML = 'Long Break';
     //long break timer background
     workTimerBackground.style.backgroundColor = '#adffd1';
     // Long break page background
     pageBackground.style.backgroundColor = '#47de88';
     EndSessionButton.style.backgroundColor = '#47de88';
   } else if (newDuration == shortBreakTime) {
-    document.getElementById('timerdescription').innerHTML = 'Short Break';
+    document.getElementById('timerDescription').innerHTML = 'Short Break';
     // Short break timer background
     workTimerBackground.style.backgroundColor = '#6ea3ff';
     pageBackground.style.backgroundColor = '#36a1ff';
     EndSessionButton.style.backgroundColor = '#36a1ff';
   } else if (newDuration == workingTime) {
-    document.getElementById('timerdescription').innerHTML = 'Work Session';
+    document.getElementById('timerDescription').innerHTML = 'Work Session';
     // Work break timer background
     workTimerBackground.style.backgroundColor = '#ffb5b5';
     pageBackground.style.backgroundColor = '#ff6767';

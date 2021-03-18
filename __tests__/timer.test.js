@@ -86,8 +86,8 @@ describe('sessionFinish tests', () => {
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
     </div>
-    <div class="timerdescription">
-      <p id="timerdescription">[timer/break]</p>
+    <div class="timerDescription">
+      <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
       <button id="EndSessionButton">End Session</button>
@@ -95,7 +95,7 @@ describe('sessionFinish tests', () => {
   </body>
     `;
     const pomoUI = document.getElementById('pomosleft');
-    const desUI = document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerDescription');
     global.confirm = () => false;
     timer.sessionFinish(workingTime, 0, TASKS);
     expect(pomoUI.innerHTML).toMatch('0 pomos to go');
@@ -137,8 +137,8 @@ describe('sessionFinish tests', () => {
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
     </div>
-    <div class="timerdescription">
-      <p id="timerdescription">[timer/break]</p>
+    <div class="timerDescription">
+      <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
       <button id="EndSessionButton">End Session</button>
@@ -147,7 +147,7 @@ describe('sessionFinish tests', () => {
     `;
     global.confirm = () => false;
     const pomoUI = document.getElementById('pomosleft');
-    const desUI = document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerDescription');
     timer.sessionFinish(workingTime, 0, TASKS);
     expect(pomoUI.innerHTML).toMatch('1 pomos to go');
     expect(desUI.innerHTML).toMatch('Long Break');
@@ -183,8 +183,8 @@ describe('sessionFinish tests', () => {
     <div class="workTimerBackground">
       <p id="timer">25:00</p>
     </div>
-    <div class="timerdescription">
-      <p id="timerdescription">[timer/break]</p>
+    <div class="timerDescription">
+      <p id="timerDescription">[timer/break]</p>
     </div>
     <div class="centerEndSessionButton">
       <button id="EndSessionButton">End Session</button>
@@ -205,7 +205,7 @@ describe('sessionFinish tests', () => {
   </body>
     `;
     const pomoUI = document.getElementById('pomosleft');
-    const desUI = document.getElementById('timerdescription');
+    const desUI = document.getElementById('timerDescription');
     timer.sessionFinish(shortBreakTime, 0, TASKS);
     expect(TASKS[0].pomosLeft.toString()).toMatch('1');
     expect(pomoUI.innerHTML).toMatch('1 pomos to go');
