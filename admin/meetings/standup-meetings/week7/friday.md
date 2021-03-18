@@ -4,30 +4,30 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
-nothing
+- nothing
 
 ### What are your blockers?
-none
+- none
 
 ### What will you work on today?
-worked on css for timer page for end button and background. Also created pull request for instructions page
+- worked on css for timer page for end button and background. Also created pull request for instructions page
 
 ### How close are we to hitting our sprint goals?
-done!
+- done!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-Nothing.
+- Nothing.
 
 ### What are your blockers?
-I have none because I finished early this week.
+- I have none because I finished early this week.
 
 ### What will you work on today?
-Nothing in particular but I'll try to help others catch up if they're behind.
+- Nothing in particular but I'll try to help others catch up if they're behind.
 
 ### How close are we to hitting our sprint goals?
-We're close enough.
+- We're close enough.
 
 ## <span style="color: red;">Ryan B.</span>
 
