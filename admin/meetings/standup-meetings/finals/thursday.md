@@ -120,19 +120,20 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Finalizing the videos for this class
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Double finals today
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Final assignments for this class
+- Tying up loose ends
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We finally did it
 
 ## <span style="color: red;">Yueqi W.</span>
 

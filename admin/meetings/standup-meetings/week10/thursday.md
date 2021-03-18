@@ -114,19 +114,19 @@ _Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Nothing related to this class
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Finals are coming up
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Figuring out what to do for the last week
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We can do it
 
 ## <span style="color: red;">Yueqi W.</span>
 
