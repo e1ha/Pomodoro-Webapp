@@ -62,16 +62,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I attended the meeting and we created the video.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- finals
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- I will film my part for the public video today.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- we are nearly done with the project.
 
 ## <span style="color: red;">Miguel S.</span>
 

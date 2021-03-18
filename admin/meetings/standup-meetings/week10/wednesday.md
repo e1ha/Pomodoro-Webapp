@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--finished end button test with miguel
+- finished end button test with miguel
 
 ### What are your blockers?
--build error, but fixed it by pushing end button js to test branch
+- build error, but fixed it by pushing end button js to test branch
 
 ### What will you work on today?
--attend lecture
+- attend lecture
 
 ### How close are we to hitting our sprint goals?
--done
+- done
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?

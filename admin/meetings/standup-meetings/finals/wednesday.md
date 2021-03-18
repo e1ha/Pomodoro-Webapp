@@ -62,16 +62,16 @@
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- finals
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- nothing
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- nearly done with project
 
 ## <span style="color: red;">Miguel S.</span>
 
