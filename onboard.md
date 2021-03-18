@@ -18,7 +18,7 @@ We would love for developers to contribute to our project. To make changes to th
 7. Make your change. This is your chance to be creative!
 8. Thoroughly document your code with comments for us to follow your work.
 9. Write any unit tests following Jest as required.
-   - Add the test file to ./__tests__ with the name "filename.test.js".
+   - Add the test file to ```./__tests__``` with the name "filename.test.js".
 10. After making your changes, utilize ESLint and Prettier to follow the code quality enforced in our codebase. 
    - Run the following commands and ensure that you have no errors:
    - ```npm run format```
@@ -29,6 +29,6 @@ We would love for developers to contribute to our project. To make changes to th
    - If you have a red X instead of a green checkmark, click on your latest commit in "Actions". Review the steps of the build pipeline to find your error. Update your code as necessary and push again until you have a green checkmark.
 13. Create a pull request. 
    - Change the request to merge your branch into master.
-   - Follow the format to write a thorough descriptions of the changes you made.
-   - Link the issue you created in step 3 to your Pull Request.
+   - Follow the format to write a thorough description of the changes you made.
+   - Close the issue you created in step 3 in your Pull Request using ```Closes #X``` where X is the issue number.
 14. You are all set! Please wait for approving reviews on your Pull Request. Thank you for your contribution!
