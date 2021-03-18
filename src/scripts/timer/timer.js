@@ -290,7 +290,6 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 /**
  * Function to display the task list component
  */
-// eslint-disable-next-line no-unused-vars
 function displayTasks() {
   let height = document.getElementById('tasks').style.height;
   if (height != '30vh') {
@@ -409,14 +408,16 @@ function refreshTasksList(TASKS) {
 /**
  * Animation for task list hover
  */
-// eslint-disable-next-line no-unused-vars
 function taskPeak() {
   let height = document.getElementById('tasks').style.height;
   if (height == '0vh' || height == '') {
     document.getElementById('tasks').style.height = '2vh';
   }
 }
-// eslint-disable-next-line no-unused-vars
+
+/**
+ * Animation for task list hover
+ */
 function taskUnpeak() {
   let height = document.getElementById('tasks').style.height;
   if (height == '2vh') {
@@ -468,4 +469,12 @@ function showAnalysis() {
   }
 }
 
-module.exports = { startTimer, countDown, sessionFinish, endSession };
+module.exports = {
+  startTimer,
+  countDown,
+  sessionFinish,
+  endSession,
+  displayTasks,
+  taskPeak,
+  taskUnpeak
+};
