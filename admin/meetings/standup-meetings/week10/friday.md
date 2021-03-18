@@ -102,16 +102,17 @@
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- write unit tests
+- take midterm
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- unit tests aren't working
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- write unit tests
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- hopefully I'll finish it today
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
