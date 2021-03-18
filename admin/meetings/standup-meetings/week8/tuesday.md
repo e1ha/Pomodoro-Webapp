@@ -4,13 +4,13 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--did not work on anything
+- did not work on anything
 
 ### What are your blockers?
--none
+- none
 
 ### What will you work on today?
--to make sure all videos are submitted to me in time for the status video
+- to make sure all videos are submitted to me in time for the status video
 
 ### How close are we to hitting our sprint goals?
 - will be done before thursday
