@@ -5,19 +5,19 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/03/2021_
 
 ### What did you work on yesterday?
 
--Busy with other class did not start on index.html file yet
+- Busy with other class did not start on index.html file yet
 
 ### What are your blockers?
 
--no blockers
+- no blockers
 
 ### What will you work on today?
 
--wont be working on anything today. Will start tomorrow
+- wont be working on anything today. Will start tomorrow
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Almost there!
 
 <h1><span style="color: red;">Uposhanto B.</span></h1>
 
@@ -35,25 +35,25 @@ _[INSERT]_
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Close!
 
 <h1><span style="color: red;">Ryan B.</span></h1>
 
 ### What did you work on yesterday?
 
-I was a bit busy yesterday, I set up a basic html layout for my task component.
+- I was a bit busy yesterday, I set up a basic html layout for my task component.
 
 ### What are your blockers?
 
-I had no blockers.
+- I had no blockers.
 
 ### What will you work on today?
 
-Start adding html and css to complete my component.
+- Start adding html and css to complete my component.
 
 ### How close are we to hitting our sprint goals?
 
-I should be able to finish my task by tomorrow, so we're still on track.
+- I should be able to finish my task by tomorrow, so we're still on track.
 
 <h1><span style="color: red;">Anoushka D.</span></h1>
 
