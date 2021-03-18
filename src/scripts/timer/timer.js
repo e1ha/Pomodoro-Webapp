@@ -262,7 +262,7 @@ function sessionFinish(prevDuration, taskIndex, TASKS) {
 
   if (newDuration == longBreakTime) {
     document.getElementById('timerDescription').innerHTML = 'Long Break';
-    //long break timer background
+    // Long break timer background
     workTimerBackground.style.backgroundColor = '#adffd1';
     // Long break page background
     pageBackground.style.backgroundColor = '#47de88';
