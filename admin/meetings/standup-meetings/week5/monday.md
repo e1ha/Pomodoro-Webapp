@@ -4,13 +4,13 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--Brainstormed how I would write the html file for instructions
+- Brainstormed how I would write the html file for instructions
 
 ### What are your blockers?
--no blockers so far
+- no blockers so far
 
 ### What will you work on today?
--I wont have time to work on the hmtl today, but will get started tomorrow
+- I wont have time to work on the hmtl today, but will get started tomorrow
 
 ### How close are we to hitting our sprint goals?
 - I'll get this finished by the end of the sprint!
@@ -121,13 +121,13 @@
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*I looked into how to create a timer.
+- I looked into how to create a timer.
 
 ### What are your blockers?
-*Nothing yet.
+- Nothing yet.
 
 ### What will you work on today?
-*Continue researching the timer.
+- Continue researching the timer.
 
 ### How close are we to hitting our sprint goals?
-*I think I can finish it on Thursday.
+- I think I can finish it on Thursday.
