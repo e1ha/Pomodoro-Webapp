@@ -18,17 +18,16 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- I worked with our developers to get the tasks page done.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- Need to figure out how to change the GH pages.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Today I'll work on making adjustments to the important unit tests.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
-
+- We might not be able to meet our sprint goals this week. Depends on a few things like time put into working.
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
