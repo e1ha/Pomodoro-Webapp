@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--checked in with miguel to make sure blocker was cleared
+- checked in with miguel to make sure blocker was cleared
 
 ### What are your blockers?
--none
+- none
 
 ### What will you work on today?
--attend lecture
+- attend lecture
 
 ### How close are we to hitting our sprint goals?
--done
+- done
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
