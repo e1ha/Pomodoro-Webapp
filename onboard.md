@@ -1,5 +1,9 @@
 # Contribute to our application!
-We would love for developers to contribute to our project. To make changes to this codebase, please follow the following steps.
+We would love for developers to contribute to our project.
+First, please take a look at these videos:  
+[Application Overview](https://drive.google.com/file/d/1v4FIdNjE-KDlYQnyji33VdTUm6sEqi7r/view?usp=sharing)  
+[Detailed Project Insights](https://drive.google.com/file/d/11qAZvBWJUX_FI7eec09BYv4RDNXCP96G/view?usp=sharing)  
+To make changes to this codebase, please follow the following steps.
 
 1. Get the Pomodoro Application running on your computer.
    - Follow the instructions on the README to clone this repository and run our application.
