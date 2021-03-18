@@ -6,19 +6,18 @@ _Daily Updates for Weekly Sprint - Tuesday, 03/16/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-did not work on anything due to finals
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+-waiting for all intro videos to be sent to me
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+-will not work on anything today
 
 ### How close are we to hitting our sprint goals?
-
-_[INSERT]_
+-will finish videos by thursday
 
 ## <span style="color: red;">Uposhanto B.</span>
 
