@@ -4,16 +4,16 @@
 ## <span style="color: red;">Farheen A.</span> 
 
 ### What did you work on yesterday?
--nothing
+- nothing
 
 ### What are your blockers?
--I have no blockers
+- I have no blockers
 
 ### What will you work on today?
 - Attend live lecture
 
 ### How close are we to hitting our sprint goals?
--Close!
+- Close!
 
 ## <span style="color: red;">Uposhanto B.</span> 
 
