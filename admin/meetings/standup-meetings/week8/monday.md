@@ -18,16 +18,16 @@
 ## <span style="color: red;">Uposhanto B.</span> 
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+- Nothing, because yesterday was a break
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+- Today I'll work on cleaning up the repo even more so there's little less merge conflicts than we're having right now. *EVERYONE* pull from master / your super branch frequently
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+- We'll probably make our goals because we're meeting again this week.
 
 ## <span style="color: red;">Ryan B.</span>
 
