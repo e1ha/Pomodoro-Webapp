@@ -24,19 +24,19 @@ _[INSERT]_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- I worked on coordinating the importance of all the tasks. Triaging.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Currently have nothing in my way except time and studying for other finals.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Today I'll work on making adjustments to the important unit tests.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- We aren't really in an official sprint, more like tying things together. We'll make it!
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -60,20 +60,24 @@ _[INSERT]_
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
+
 - Code quality review of codebase with Ryan
 - Set up npm commands
 - Wrote onboard.md
 
 ### What are your blockers?
+
 - No blockers
 
 ### What will you work on today?
+
 - Troubleshoot GitHub pages
 - Update instructions on instructions page
 - Individual Retro
 - Team member evaluations
 
 ### How close are we to hitting our sprint goals?
+
 - Super super close!
 
 ## <span style="color: red;">Elaine H.</span>
