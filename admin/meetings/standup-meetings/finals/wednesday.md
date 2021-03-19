@@ -98,19 +98,19 @@ _Daily Updates for Weekly Sprint - Wednesday, 03/17/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Finals
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Finals and burnout
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- More finals!
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Done
 
 ## <span style="color: red;">Trevor T.</span>
 
