@@ -6,18 +6,18 @@ _Daily Updates for Weekly Sprint - Tuesday, 03/16/2021_
 
 ### What did you work on yesterday?
 
--did not work on anything due to finals
+- did not work on anything due to finals
 
 ### What are your blockers?
 
--waiting for all intro videos to be sent to me
+- waiting for all intro videos to be sent to me
 
 ### What will you work on today?
 
--will not work on anything today
+- will not work on anything today
 
 ### How close are we to hitting our sprint goals?
--will finish videos by thursday
+- will finish videos by thursday
 
 ## <span style="color: red;">Uposhanto B.</span>
 
