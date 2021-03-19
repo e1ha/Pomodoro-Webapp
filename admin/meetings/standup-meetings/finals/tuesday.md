@@ -95,19 +95,19 @@ _Daily Updates for Weekly Sprint - Tuesday, 03/16/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- The final video
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Finals
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Finals
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Done
 
 ## <span style="color: red;">Trevor T.</span>
 
