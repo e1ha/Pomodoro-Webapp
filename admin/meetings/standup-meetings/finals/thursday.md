@@ -114,7 +114,7 @@ _Daily Updates for Weekly Sprint - Thursday, 03/18/2021_
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Done
 
 ## <span style="color: red;">Trevor T.</span>
 
