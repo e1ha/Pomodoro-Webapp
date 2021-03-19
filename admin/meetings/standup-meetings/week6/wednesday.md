@@ -96,19 +96,19 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/10/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Other coursework
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- School and life
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Other classes
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 
