@@ -24,19 +24,19 @@ _Daily Updates for Weekly Sprint - Friday, 02/12/2021_
 
 ### What did you work on yesterday?
 
-Yesterday I didn't get to work on much, but I helped a teammate with a cool feature.
+- Yesterday I didn't get to work on much, but I helped a teammate with a cool feature.
 
 ### What are your blockers?
 
-I have no blockers right now except other coursework.
+- I have no blockers right now except other coursework.
 
 ### What will you work on today?
 
-Today I will help my team with some of their tasks.
+- Today I will help my team with some of their tasks.
 
 ### How close are we to hitting our sprint goals?
 
-We are pretty close, I think we will make it!
+- We are pretty close, I think we will make it!
 
 ## <span style="color: red;">Ryan B.</span>
 
