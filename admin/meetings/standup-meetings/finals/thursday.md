@@ -6,19 +6,19 @@ _Daily Updates for Weekly Sprint - Thursday, 03/18/2021_
 
 ### What did you work on yesterday?
 
--finished editing private video and most of public
+- finished editing private video and most of public
 
 ### What are your blockers?
 
--waiting for a few more videos 
+- waiting for a few more videos 
 
 ### What will you work on today?
 
--finish the public video, submit the videos, and finish individual retro and evals
+- finish the public video, submit the videos, and finish individual retro and evals
 
 ### How close are we to hitting our sprint goals?
 
--done!
+- done!
 
 ## <span style="color: red;">Uposhanto B.</span>
 
