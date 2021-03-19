@@ -1,128 +1,167 @@
 # Standup Notes
-*Daily Updates for Weekly Sprint - Thursday, 03/04/2021*
 
-## <span style="color: red;">Farheen A.</span> 
+_Daily Updates for Weekly Sprint - Thursday, 03/04/2021_
 
-### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
-
-### What are your blockers?
-*[INSERT BULLETED LIST]*
-
-### What will you work on today?
-*[INSERT BULLETED LIST]*
-
-### How close are we to hitting our sprint goals?
-*[INSERT]*
-
-## <span style="color: red;">Uposhanto B.</span> 
+## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- attended discussion
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will not work on anything today
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- We just need to keep writing more tests as a group. That is our main goal that we need to achieve
+
+## <span style="color: red;">Uposhanto B.</span>
+
+### What did you work on yesterday?
+
+- I worked with our developers to get the tasks page done.
+
+### What are your blockers?
+
+- None.
+
+### What will you work on today?
+
+- Today I'll work on making adjustments to the important unit tests.
+
+### How close are we to hitting our sprint goals?
+
+- We'll probably make our goals because we're meeting again this week.
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Begin updating the tasks list on the timer page.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- We are close to reaching our spring goals.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Still really sick; waiting for test results.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing, unfortunately.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Hopefully really close!
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Other courses.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Almost done.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Page redirection
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Again, the big 3: school, work, and life
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Other coursework & quiz prep
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Almost
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Lot of due dates for big projects coming up
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- We will have to push
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- research
+- homework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- other responsibilities
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- homework
+- research
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- will do the work later
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- adding tests for timer
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- will be done in time

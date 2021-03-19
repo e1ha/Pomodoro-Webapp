@@ -6,7 +6,7 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/10/2021_
 
 ### What did you work on yesterday?
 
--nothing
+- nothing
 
 ### What are your blockers?
 
@@ -20,25 +20,23 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/10/2021_
 
 - will be done by end of sprint
 
-_[INSERT]_
-
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
 
-Yesterday I worked to configure the pipeline
+- Yesterday I worked to configure the pipeline
 
 ### What are your blockers?
 
-Don't have any right now
+- Don't have any right now
 
 ### What will you work on today?
 
-Today I'll be making adjustments to the pipeline.
+- Today I'll be making adjustments to the pipeline.
 
 ### How close are we to hitting our sprint goals?
 
-I'll finish my sprint goal and I think others also will.
+- I'll finish my sprint goal and I think others also will.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -56,7 +54,7 @@ I'll finish my sprint goal and I think others also will.
 
 ### How close are we to hitting our sprint goals?
 
-I have achieved my spring goal.
+- I have achieved my spring goal.
 
 ## <span style="color: red;">Anoushka D.</span>
 
@@ -79,34 +77,38 @@ I have achieved my spring goal.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
+
 - Nothing.
 
 ### What are your blockers?
+
 - Busy with other courses.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
+
 - No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+- Other coursework
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- School and life
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Other classes
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 

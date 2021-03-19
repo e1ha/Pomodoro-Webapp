@@ -5,30 +5,38 @@ _Daily Updates for Weekly Sprint - Monday, 02/08/2021_
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
--did not work 
+
+- did not work
 
 ### What are your blockers?
--none
+
+- none
 
 ### What will you work on today?
--discussed with Qingyuan about splitting tasks for timer page
+
+- discussed with Qingyuan about splitting tasks for timer page
 
 ### How close are we to hitting our sprint goals?
--will be done by the end of the sprint
+
+- will be done by the end of the sprint
 
 ## <span style="color: red;">Uposhanto B.</span>
 
 ### What did you work on yesterday?
-I researched the code tools.
+
+- I researched the code tools.
 
 ### What are your blockers?
-My committments for other classes right now.
+
+- My committments for other classes right now.
 
 ### What will you work on today?
-Today I'll work on trying to set up a few configurations.
+
+- Today I'll work on trying to set up a few configurations.
 
 ### How close are we to hitting our sprint goals?
-We may or may not be able to finish our sprint goals.
+
+- We may or may not be able to finish our sprint goals.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -62,16 +70,20 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-- I finished setting up the event handling for the ? button. 
+
+- I finished setting up the event handling for the ? button.
 
 ### What are your blockers?
+
 - No blockers.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
-- No progress has been made for this sprint. 
+
+- No progress has been made for this sprint.
 
 ## <span style="color: red;">Miguel S.</span>
 
@@ -90,29 +102,37 @@ We may or may not be able to finish our sprint goals.
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
+
 - Did not work on anything related to CSE 110
 
 ### What are your blockers?
+
 - Exams, assignments for other classes
 
 ### What will you work on today?
+
 - Assignments for other classes
 
 ### How close are we to hitting our sprint goals?
+
 - It is still within the realm of possibility
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
+
 - other work
 
 ### What are your blockers?
+
 - nothing as of yet
 
 ### What will you work on today?
+
 - other homework
 
 ### How close are we to hitting our sprint goals?
+
 - decently close
 
 ## <span style="color: red;">Qingyuan Z.</span>

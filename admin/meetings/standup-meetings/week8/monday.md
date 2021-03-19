@@ -1,128 +1,166 @@
 # Standup Notes
-*Daily Updates for Weekly Sprint - Monday, 02/22/2021*
 
-## <span style="color: red;">Farheen A.</span> 
+_Daily Updates for Weekly Sprint - Monday, 02/22/2021_
 
-### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
-
-### What are your blockers?
-*[INSERT BULLETED LIST]*
-
-### What will you work on today?
-*[INSERT BULLETED LIST]*
-
-### How close are we to hitting our sprint goals?
-*[INSERT]*
-
-## <span style="color: red;">Uposhanto B.</span> 
+## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- n/a
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- no blockers
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- will not be working on anything today
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- will complete sprint goal
+
+## <span style="color: red;">Uposhanto B.</span>
+
+### What did you work on yesterday?
+
+- Nothing, because yesterday was a break
+
+### What are your blockers?
+
+- None.
+
+### What will you work on today?
+
+- Today I'll work on cleaning up the repo even more so there's little less merge conflicts than we're having right now. _EVERYONE_ pull from master / your super branch frequently
+
+### How close are we to hitting our sprint goals?
+
+- We'll probably make our goals because we're meeting again this week.
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- None.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Get my video clip to Fahreen for the status video.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Looking good.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will submit my part of our Team Status video to Farheen.
+- I will complete my work for other classes so that I can complete my current task for this project either tomorrow or Wednesday.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- I definitely think we will hit our sprint goals for my task because I will complete my work in the coming days.
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- No blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will meet up with Qingyuan to discuss when we will meet our part.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- No progess has been made yet.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Apple taking forever to fix my laptop
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing - no laptop
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- It will happen if Apple can fix my laptop and have it ready
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- CSE 167 PA due tomorrow that I need to start today, oof
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Looks good so far
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- I tried to to resolve some of the merge conflicts
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- merge conflicts
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- making my branch viable for being merged to main
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- 25% there
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- None
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Homework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- On time

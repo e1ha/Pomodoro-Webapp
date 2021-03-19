@@ -1,24 +1,24 @@
 # Standup Notes
 
-_Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
+_Daily Updates for Weekly Sprint - Wednesday, 03/17/2021_
 
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
 
-- attended lecture
+- did not work on anything
 
 ### What are your blockers?
 
-- none
+- some videos are too long and need to be cut
 
 ### What will you work on today?
 
-- check in with miguel to make sure testing is complete
+- worked on editing public and private video. Stiching and putting them together
 
 ### How close are we to hitting our sprint goals?
 
-- done
+- will be done by tomorrow
 
 ## <span style="color: red;">Uposhanto B.</span>
 
@@ -42,19 +42,19 @@ _Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
 
 ### What did you work on yesterday?
 
-- Added distraction logger and updated done button styling
+- Nothing.
 
 ### What are your blockers?
 
-- I had no blockers.
+- I have no blockers.
 
 ### What will you work on today?
 
-- Nothing.
+- Meeting up with Anoushka to update the code quality of the entire repo.
 
 ### How close are we to hitting our sprint goals?
 
-- We are really close.
+- We are pretty much done.
 
 ## <span style="color: red;">Anoushka D.</span>
 
@@ -68,47 +68,49 @@ _Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
 
 ### What will you work on today?
 
-- Nothing.
+- Review code quality of codebase with Ryan.
+- Create onboard.md for developers who want to contribute to our project.
+- Change landing page and allow developers to run application with npm.
 
 ### How close are we to hitting our sprint goals?
 
-- We are close!
+- Super close!
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
 
-- Nothing.
+- nothing
 
 ### What are your blockers?
 
-- None.
+- finals
 
 ### What will you work on today?
 
-- Nothing.
+- nothing
 
 ### How close are we to hitting our sprint goals?
 
-- Already completed.
+- nearly done with project
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
 
-- Other coursework
+- Finals
 
 ### What are your blockers?
 
-- Other things
+- Finals and burnout
 
 ### What will you work on today?
 
-- Other stuff
+- More finals!
 
 ### How close are we to hitting our sprint goals?
 
-- Done.
+- Done
 
 ## <span style="color: red;">Trevor T.</span>
 
@@ -118,11 +120,11 @@ _Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
 
 ### What are your blockers?
 
-- Finals are coming up
+- Finals
 
 ### What will you work on today?
 
-- Figuring out what to do for the last week
+- Finalize outline for public and private final videos
 
 ### How close are we to hitting our sprint goals?
 
@@ -132,35 +134,33 @@ _Daily Updates for Weekly Sprint - Thursday, 03/11/2021_
 
 ### What did you work on yesterday?
 
-- homework
-- looked into writing unit tests
+- projects
 
 ### What are your blockers?
 
-- unit tests are not working
+- projects
 
 ### What will you work on today?
 
-- writing unit tests
+- projects
 
 ### How close are we to hitting our sprint goals?
 
-just started
+- done
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
 
-- nothing
+- recording a demo video
 
 ### What are your blockers?
 
 - none
 
 ### What will you work on today?
-
-- rework timer logic, and adding more tests
+- review for the finals
 
 ### How close are we to hitting our sprint goals?
 
-- close
+- done

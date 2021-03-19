@@ -6,15 +6,15 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What did you work on yesterday?
 
--met with Qingyuan and discussed tasks for timer page
+- met with Qingyuan and discussed tasks for timer page
 
 ### What are your blockers?
 
--none 
+- none
 
 ### What will you work on today?
 
--Wont have time to start working today
+- Wont have time to start working today
 
 ### How close are we to hitting our sprint goals?
 
@@ -24,19 +24,19 @@ _Daily Updates for Weekly Sprint - Tuesday, 02/09/2021_
 
 ### What did you work on yesterday?
 
-Yesterday I figured out how to write detailed unit tests and use npx to write our own packages.
+- Yesterday I figured out how to write detailed unit tests and use npx to write our own packages.
 
 ### What are your blockers?
 
-Other school committments, but it shouldn't be too bad.
+- Other school committments, but it shouldn't be too bad.
 
 ### What will you work on today?
 
-Today I'll work on getting the build pipeline set up.
+- Today I'll work on getting the build pipeline set up.
 
 ### How close are we to hitting our sprint goals?
 
-We're ahead of schedule.
+- We're ahead of schedule.
 
 ## <span style="color: red;">Ryan B.</span>
 
@@ -79,15 +79,19 @@ We're ahead of schedule.
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
+
 - Nothing.
 
 ### What are your blockers?
+
 - Busy with other courses.
 
 ### What will you work on today?
+
 - Nothing.
 
 ### How close are we to hitting our sprint goals?
+
 - No progess has been made.
 
 ## <span style="color: red;">Miguel S.</span>

@@ -1,128 +1,165 @@
 # Standup Notes
-*Daily Updates for Weekly Sprint - Tuesday, 03/02/2021*
 
-## <span style="color: red;">Farheen A.</span> 
+_Daily Updates for Weekly Sprint - Tuesday, 03/02/2021_
 
-### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
-
-### What are your blockers?
-*[INSERT BULLETED LIST]*
-
-### What will you work on today?
-*[INSERT BULLETED LIST]*
-
-### How close are we to hitting our sprint goals?
-*[INSERT]*
-
-## <span style="color: red;">Uposhanto B.</span> 
+## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- I did not work on anything yesterday other than attend live lecture
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Not sure if the whole group needs to attend discussion this week. I messaged Sasya
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Created discussion slides for tomorrow
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Close
+
+## <span style="color: red;">Uposhanto B.</span>
+
+### What did you work on yesterday?
+
+- I worked with our developers to get the tasks page done.
+
+### What are your blockers?
+
+- None.
+
+### What will you work on today?
+
+- Today I'll work on making adjustments to the important unit tests.
+
+### How close are we to hitting our sprint goals?
+
+- We'll probably make our goals because we're meeting again this week.
 
 ## <span style="color: red;">Ryan B.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Met up with fellow group members and for the most part finished up the pomo app.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- I had no blockers.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I am going to be busy all day today.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Looking good.
 
 ## <span style="color: red;">Anoushka D.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Updated some ADRs & pushed them from my local computer to our repository.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- I am still slightly sick which made me fall behind in other classes as well. I hope to recover and get back on it!
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will update a few more ADRs & push them to our repository.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- We are super close!
 
 ## <span style="color: red;">Elaine H.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- I got on a Zoom call with Upo to discuss who will be doing the I'm Done button.
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- We're uncertain about how to format the task bar when the user is done with the task.
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- I will work on the I'm Done button.
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- I should get a big chunk of it done today.
 
 ## <span style="color: red;">Miguel S.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Other school work
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- All outside forces
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- More other coursework
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- Will be done
 
 ## <span style="color: red;">Trevor T.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- Work for other classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- Nothing related to this class
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- It is still possible
 
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- doing homework
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- have a lot of stuff for multiple classes
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- other work
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- will need to push work back
 
 ## <span style="color: red;">Qingyuan Z.</span>
 
 ### What did you work on yesterday?
-*[INSERT BULLETED LIST]*
+
+- nothing
 
 ### What are your blockers?
-*[INSERT BULLETED LIST]*
+
+- none
 
 ### What will you work on today?
-*[INSERT BULLETED LIST]*
+
+- none so far
 
 ### How close are we to hitting our sprint goals?
-*[INSERT]*
+
+- will be done in time
