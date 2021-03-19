@@ -5,18 +5,16 @@ _Daily Updates for Weekly Sprint - Friday, 02/05/2021_
 ## <span style="color: red;">Farheen A.</span>
 
 ### What did you work on yesterday?
-
-- worked on the lab assignment and started to html.index file
+-worked on the lab assignment and started to html.index file
 
 ### What are your blockers?
-
 - had some blockers with choosing the font in html, but changed the font to Georgia
 
 ### What will you work on today?
-
 - will finish up writing the index.html file
 
 ### How close are we to hitting our sprint goals?
+- Almost done with the index.html file.
 
 - Almost done with the index.html file.
 
@@ -146,7 +144,6 @@ _Daily Updates for Weekly Sprint - Friday, 02/05/2021_
 - write up some code for classes including this one
 
 ### How close are we to hitting our sprint goals?
-
 - should have it done before the meeting
 
 ## <span style="color: red;">Qingyuan Z.</span>

@@ -8,14 +8,17 @@ _Daily Updates for Weekly Sprint - Thursday, 02/11/2021_
 
 - css for instructions page
 
+-css for instructions page
 ### What are your blockers?
 
 - had trouble centering css block
 
+-had trouble centering css block
 ### What will you work on today?
 
 - worked on html for timer page
 
+-worked on html for timer page
 ### How close are we to hitting our sprint goals?
 
 - will be done by sprint deadline

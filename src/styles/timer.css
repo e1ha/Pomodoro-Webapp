@@ -1,0 +1,298 @@
+* {
+  font-family: 'Comfortaa', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ff6767;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.workTimerBackground {
+  background-color: #ffb5b5;
+  margin: auto;
+  height: 13em;
+  width: 31em;
+  border-style: solid;
+  text-align: center;
+  border-color: white;
+  border-width: 0.25cm;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerDescription {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  border-style: dotted;
+  height: 3em;
+  width: 18em;
+  border-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timerDescription {
+  color: white;
+  font-size: 25px;
+}
+
+#pomosRemaining {
+  font-size: 22px;
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.progressBarContainer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.progressBarWrapper {
+  width: 60%;
+  border: 1px solid #cccaca;
+  height: 5vh;
+  padding: 0;
+  background-color: #f0eeee86;
+  border-radius: 15px;
+}
+
+#progressBar {
+  background: linear-gradient(to right, #e43a15, #e65245);
+  height: 100%;
+  width: 0%;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+.centerEndSessionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+#endSessionButton {
+  color: white;
+  background-color: #ff6767;
+  font-size: 20px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0.5em;
+  border-width: 0.15em;
+  width: 8.75em;
+  height: 3.25em;
+  outline: none;
+  transition-duration: 0.5s;
+  opacity: 0.9;
+}
+
+#endSessionButton:hover {
+  box-shadow: 2px 4px 4px #696969c5;
+  opacity: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.tasksListContainer {
+  position: sticky;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+}
+
+#showTasks {
+  width: 50%;
+  text-decoration: none;
+  border: none;
+  background-color: #82df89;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 5vh;
+  font-style: bold;
+  font-size: 20px;
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+
+#showTasks:focus {
+  outline: none;
+}
+
+.tasks {
+  list-style-type: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 0vh;
+  padding: 0;
+  margin: auto;
+  background-color: white;
+  transition-duration: 1s;
+  transition-property: height;
+  width: 50%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tasks::-webkit-scrollbar {
+  display: none;
+}
+
+.task {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 5vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+  transition-duration: 0.5s;
+  line-height: 2.5em;
+}
+
+.task li {
+  background-color: white;
+}
+
+.task-done {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: auto;
+  border-bottom: 1px solid black;
+  height: 5vh;
+  text-align: center;
+  text-decoration: line-through;
+  background-color: #e0bba9;
+}
+
+.task,
+.task-done {
+  outline: none;
+}
+
+.pomos {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.distractionButtonContainer {
+  margin-right: 3em;
+  position: absolute;
+  bottom: 3em;
+  right: 0;
+}
+
+#distractionButton {
+  border: 2px white solid;
+  background-color: #65c5e2;
+  outline: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+#distractionButton:hover {
+  opacity: 1;
+  box-shadow: 1px 2px 2px #696969c5;
+}
+
+.analysisContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+}
+
+#analysis {
+  display: none;
+  text-align: center;
+  background-color: white;
+  padding: 4em;
+  padding-top: 3em;
+  border-radius: 15px;
+  height: auto;
+  box-shadow: 0 0 0 1600px rgba(0, 0, 0, 0.65);
+  width: auto;
+  color: #e65d5d;
+  animation: displayUp 1s ease;
+}
+
+#analysis h1 {
+  margin-bottom: 0.5em;
+}
+
+#analysis h2 {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+#distractionsAnalysis {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#pomosEst {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#pomosAnalysis {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+#finishButton {
+  border: none;
+  background-color: #ec5d5d;
+  outline: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+#finishButton:hover {
+  background-color: red;
+}
+
+@keyframes displayUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

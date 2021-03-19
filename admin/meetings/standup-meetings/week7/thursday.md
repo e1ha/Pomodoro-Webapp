@@ -131,7 +131,6 @@ _Daily Updates for Weekly Sprint - Thursday, 02/18/2021_
 ## <span style="color: red;">Yueqi W.</span>
 
 ### What did you work on yesterday?
-
 - lab
 - looking into some functions
 

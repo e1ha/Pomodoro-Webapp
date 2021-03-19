@@ -145,7 +145,6 @@ _Daily Updates for Weekly Sprint - Wednesday, 02/17/2021_
 - lab
 
 ### How close are we to hitting our sprint goals?
-
 - I will do most of my work in the coming days
 
 ## <span style="color: red;">Qingyuan Z.</span>
