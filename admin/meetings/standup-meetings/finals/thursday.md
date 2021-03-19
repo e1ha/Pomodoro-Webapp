@@ -102,7 +102,7 @@ _Daily Updates for Weekly Sprint - Thursday, 03/18/2021_
 
 ### What did you work on yesterday?
 
--Nothing
+- Nothing
 
 ### What are your blockers?
 
