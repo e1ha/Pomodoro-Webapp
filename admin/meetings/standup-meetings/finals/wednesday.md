@@ -6,19 +6,19 @@ _Daily Updates for Weekly Sprint - Wednesday, 03/17/2021_
 
 ### What did you work on yesterday?
 
--did not work on anything
+- did not work on anything
 
 ### What are your blockers?
 
--some videos are too long and need to be cut
+- some videos are too long and need to be cut
 
 ### What will you work on today?
 
--worked on editing public and private video. Stiching and putting them together
+- worked on editing public and private video. Stiching and putting them together
 
 ### How close are we to hitting our sprint goals?
 
--will be done by tomorrow
+- will be done by tomorrow
 
 ## <span style="color: red;">Uposhanto B.</span>
 
