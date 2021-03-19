@@ -24,19 +24,19 @@ _Daily Updates for Weekly Sprint - Friday, 02/12/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+Yesterday I didn't get to work on much, but I helped a teammate with a cool feature.
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+I have no blockers right now except other coursework.
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+Today I will help my team with some of their tasks.
 
 ### How close are we to hitting our sprint goals?
 
-_[INSERT]_
+We are pretty close, I think we will make it!
 
 ## <span style="color: red;">Ryan B.</span>
 
