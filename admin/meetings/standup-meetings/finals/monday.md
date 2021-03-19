@@ -6,19 +6,19 @@ _Daily Updates for Weekly Sprint - Monday, 03/15/2021_
 
 ### What did you work on yesterday?
 
--met with group to create final video
+- met with group to create final video
 
 ### What are your blockers?
 
--no blockers
+- no blockers
 
 ### What will you work on today?
 
--nothing
+- nothing
 
 ### How close are we to hitting our sprint goals?
 
--will be done with project by the end of the week
+- will be done with project by the end of the week
 
 ## <span style="color: red;">Uposhanto B.</span>
 
