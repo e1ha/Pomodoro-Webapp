@@ -102,15 +102,15 @@ _Daily Updates for Weekly Sprint - Thursday, 03/18/2021_
 
 ### What did you work on yesterday?
 
-_[INSERT BULLETED LIST]_
+-Nothing
 
 ### What are your blockers?
 
-_[INSERT BULLETED LIST]_
+- Burnout
 
 ### What will you work on today?
 
-_[INSERT BULLETED LIST]_
+- Final assignments
 
 ### How close are we to hitting our sprint goals?
 
